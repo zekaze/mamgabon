@@ -1,29 +1,27 @@
 @keyframes navSlideDown {
   from {
     opacity: 0;
-    -webkit-transform: translate(0, -20px);
+    @include transform(translate(0, -20px));
   }
   to {
     opacity: 1;
-    -webkit-transform: translate(0, 0);
+    @include transform(translate(0, 0));
   }
 }
 
 @keyframes float{
   from{
     opacity: 0;
-    transform: translate(0, 100px);
+    @include transform(translate(0, 100px));
   }
   to{
     opacity: 1;
-    transform: translate(0, 0);
+    @include transform(translate(0, 0));
   }
 }
 .slideUp{
   opacity: 0;
 }
 .animated{
-  animation-name: float;
-  animation-duration: 1s;
-  animation-count: 1;
+  @include animation(float 1s 1);
 }
