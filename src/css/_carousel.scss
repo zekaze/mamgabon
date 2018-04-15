@@ -7,12 +7,14 @@
     overflow: hidden;
     img{
       width: 100%;
+      @include transition(0.3s);
     }
     .slide-description{
       position: absolute;
       left: 0;
       bottom: 0;
       width: 100%;
+      z-index: 2;
       height: 100px;
       text-align: center;
       color: #fff;
@@ -30,6 +32,11 @@
         top: 50%;
         @include transform(translate(-50%,-50%));
       }
+    }
+  }
+  .slide:hover{
+    img{
+      @include transform(scale(1.1));
     }
   }
   .slide:nth-of-type(odd){

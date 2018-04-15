@@ -61,3 +61,26 @@ $('.slick').slick({
         }
     ]
 });
+
+
+function isScrolledIntoView(elem)
+{
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
+$(window).scroll(function(){
+    $(".slideUp").each(function(){
+        var self = $(this);
+
+        if(isScrolledIntoView(self)){
+            self.removeClass("slideUp");
+            self.addClass("animated");
+        }
+    });
+});

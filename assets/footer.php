@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <div class="footer_logo">
+                <div class="footer_logo slideUp">
                     <a href="#">
                         <img src="src/img/footer-logo.png" class="img-responsive" alt="Logo Mommy and Me Gabon">
                     </a>

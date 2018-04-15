@@ -12,7 +12,7 @@
             <?php endfor; ?>
         </div>
 </div>
-<div class="section-title">
+<div class="section-title slideUp">
     <h2>focus</h2>
     <small>la sélection de mam gabon</small>
 </div>
