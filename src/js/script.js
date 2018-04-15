@@ -33,14 +33,23 @@ allSubMenus.each(function () {
 
 $('.slick').slick({
     centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    autoplay: true,
+    centerPadding: '500px',
+    slidesToShow: 1,
+    autoplay: false,
     infinite: true,
     draggable: false,
     pauseOnFocus: false,
     pauseOnHover: false,
     responsive: [
+        {
+            breakpoint: 1441,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '300px',
+                slidesToShow: 1
+            }
+        },
         {
             breakpoint: 991,
             settings: {

@@ -96,4 +96,25 @@
       margin:  0 auto 20px;
     }
   }
+
+  .slick{
+    .slide{
+      margin: 0 10px;
+      .slide-description{
+        height: 80px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .slick{
+    .slide{
+      margin: 0 4px;
+      .slide-description{
+        font-size: 15px;
+      }
+    }
+  }
 }
