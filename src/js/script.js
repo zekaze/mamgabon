@@ -35,7 +35,7 @@ $('.slick').slick({
     centerMode: true,
     centerPadding: '500px',
     slidesToShow: 1,
-    autoplay: false,
+    autoplay: true,
     infinite: true,
     draggable: false,
     pauseOnFocus: false,
