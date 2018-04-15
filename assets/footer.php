@@ -20,9 +20,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-9 col-lg-8 col-lg-push-1 hidden-sm">
+            <div class="col-md-9 col-lg-8 col-lg-push-1 hidden-xs">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-4">
                         <ul class="footer_link_list">
                             <li><h6>Education</h6></li>
                             <li><a href="#">Annuaire des établissements</a></li>
@@ -31,7 +31,7 @@
                             <li><a href="#">Articles</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-4">
                         <ul class="footer_link_list">
                             <li><h6>SANTE</h6></li>
                             <li><a href="#">Annuaire pédiatres </a></li>
@@ -42,14 +42,14 @@
                             <li><a href="#">Articles</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-4">
                         <ul class="footer_link_list">
                             <li><h6>ALIMENTATION</h6></li>
                             <li><a href="#">Nos petites recettes</a></li>
                             <li><a href="#">Articles</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-4">
                         <ul class="footer_link_list">
                             <li><h6>LOISIRS</h6></li>
                             <li><a href="#">Calendrier des activites mensuel</a></li>
@@ -61,7 +61,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-4">
                         <ul class="footer_link_list">
                             <li><h6>PARENTS</h6></li>
                             <li><a href="#">For mommy</a></li>
@@ -70,7 +70,7 @@
                             <li><a href="#">Articles</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-4">
                         <ul class="footer_link_list">
                             <li><h6>OEUVRES CARITATIVES</h6></li>
                             <li><a href="#">Places to donate</a></li>
@@ -88,7 +88,7 @@
             <div class="copyright">
                 COPYRIGHT &copy; 2018 MOMMY & ME
             </div>
-            <ul class="bottom_menu">
+            <ul class="bottom_menu hidden-xs">
                 <li><a href="#">ESPACE ANNONCEURS</a></li>
                 <li><a href="#">PLAN DU SITE</a></li>
                 <li><a href="#">INSCRIPTION À LA NEWSLETTER </a></li>

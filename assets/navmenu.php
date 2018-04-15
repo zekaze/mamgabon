@@ -28,6 +28,8 @@
 
 
 <header>
+
+
     <div id="logo_bar">
         <div class="container">
             <a href="#">
@@ -37,7 +39,7 @@
         </div>
     </div>
 
-    <button id="navToggle">Menu</button>
+    <button id="navToggle" class="fa fa-bars fa-2x"></button>
 
     <nav id="main-menu" class="nav-menu">
         <div class="container">
@@ -93,87 +95,5 @@
                 </li>
             </ul>
         </div>
-
-        <!--
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="button-text">Menu</span>
-                    <span class="icon-bars">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </span>
-                </button>
-            </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">
-                            <img src="src/img/home.png" alt="Accueil, Mommy and Me Gabon">
-                            <span class="link-label">ACCUEIL</span></a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <img src="src/img/education.png" alt="Accueil, Mommy and Me Gabon">
-                            <span class="link-label">EDUCATION</span> <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <img src="src/img/sante.png" alt="Accueil, Mommy and Me Gabon">
-                            <span class="link-label">SANTE <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <img src="src/img/cuisine.png" alt="Accueil, Mommy and Me Gabon">
-                            <span class="link-label">ALIMENTATION</span> <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <img src="src/img/loisirs.png" alt="Accueil, Mommy and Me Gabon">
-                            <span class="link-label">LOISIRS</span> <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <img src="src/img/parents.png" alt="Accueil, Mommy and Me Gabon">
-                            <span class="link-label">PARENTS</span> <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <img src="src/img/charitatives.png" alt="Accueil, Mommy and Me Gabon">
-                            <span class="link-label">CARITATIVES</span> <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>-->
     </nav>
 </header>

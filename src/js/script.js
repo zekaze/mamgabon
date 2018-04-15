@@ -7,7 +7,9 @@ $('ul.nav li.dropdown').hover(function() {
 //NavToggle
 var navToggle = $("#navToggle");
 navToggle.click(function () {
-   $("#main-menu").addClass("visible");
+   $("#main-menu").toggleClass("visible");
+   $(this).toggleClass("fa-bars");
+   $(this).toggleClass("fa-close");
 });
 
 //Accordion
@@ -23,7 +25,7 @@ $(".sub-menu").each(function () {
             self.innerHeight(43);
         }
         else{
-            self.innerHeight(maxHeight + 55);
+            self.innerHeight(maxHeight + 70);
         }
     });
 });
