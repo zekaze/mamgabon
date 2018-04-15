@@ -13,7 +13,8 @@ navToggle.click(function () {
 });
 
 //Accordion
-$(".sub-menu").each(function () {
+var allSubMenus = $(".sub-menu");
+allSubMenus.each(function () {
     var self = $(this),
         button = self.find(".menu-item"),
         collapse = self.find("ul"),
@@ -28,4 +29,26 @@ $(".sub-menu").each(function () {
             self.innerHeight(maxHeight + 70);
         }
     });
+});
+
+$('.slick').slick({
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    autoplay: true,
+    infinite: true,
+    draggable: false,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+        }
+    ]
 });

@@ -1,0 +1,103 @@
+//footer
+
+footer{
+  background-color: #f8f8f8;
+  padding-top: 25px;
+}
+#footer_bottom{
+  margin-top: 30px;
+  background-color: #ccc;
+  overflow: hidden;
+  padding: 20px 0;
+  font-size: 12px;
+
+  .copyright{
+    color: $gray;
+    display: inline-block;
+  }
+
+  .bottom_menu{
+    float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li{
+      float: left;
+      margin-right: 30px;
+
+      a{
+        color: $gray;
+        text-transform: uppercase;
+      }
+    }
+    li:last-of-type{
+      margin: 0;
+    }
+  }
+}
+
+.footer_logo{
+  font-size: 12px;
+  font-family: $fontMain;
+  padding: 20px 0;
+
+  img{
+    margin-bottom: 20px;
+  }
+}
+
+.footer_social_menu{
+  margin: 15px 0;
+  padding: 0;
+  list-style: none;
+
+  li{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 25px;
+
+    a{
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: $orange;
+      color: #fff;
+      font-size: 23px;
+      position: relative;
+
+      .fa{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
+.footer_link_list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  h6{
+    text-transform: uppercase;
+    color: $orange;
+    font-size: 18px;
+    font-family: $fontTitle;
+    margin-bottom: 15px;
+  }
+
+  a{
+    color: $gray;
+    font-size: 12px;
+    margin-bottom: 8px;
+    display: block;
+  }
+}

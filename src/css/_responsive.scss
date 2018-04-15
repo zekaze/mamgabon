@@ -3,6 +3,20 @@
     width: 100%;
     overflow-x: hidden;
   }
+  //navbar ovveride
+  .navbar-nav{
+    float: none;
+    text-align: center;
+
+    li{
+      float: none;
+      display: inline-block;
+    }
+  }
+
+  .mobile-only{
+    display: block !important;
+  }
 
   #top_header{
     display: none;

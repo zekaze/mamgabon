@@ -1,0 +1,149 @@
+header{
+  margin-bottom: 30px;
+}
+
+#top_header{
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: $fontMain;
+  font-weight: 300;
+  color: $gray;
+  padding: 10px 0;
+  border-bottom: solid 2px $light_gray;
+
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li{
+      display: inline-block;
+    }
+  }
+}
+
+#top_nav_bar{
+  text-align: center;
+
+  .link_space{
+    width: 30px;
+  }
+  a{
+    padding: 15px;
+    color: $gray;
+  }
+}
+
+#logo_bar{
+  padding: 80px 0 15px;
+  text-align: center;
+
+  img{
+    height: 280px;
+  }
+  .slogan{
+    color: $gray;
+    letter-spacing: 8px;
+    margin-top: 20px;
+    font-size: 13px;
+  }
+}
+.nav-menu{
+  border-top: solid 2px $light_gray;
+  border-bottom: solid 2px $light_gray;
+  text-align: center;
+  margin-top: 80px;
+
+  .container{
+    width: auto;
+  }
+
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li{
+      text-align: left;
+    }
+  }
+
+  .main-menu{
+    li{
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 10px;
+    }
+  }
+
+  .menu-item{
+    text-transform: uppercase;
+    color: $gray;
+    font-family: $fontTitle;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    @include transition(0.2s);
+    position: relative;
+
+    img{
+      position: absolute;
+      left: 50%;
+      top: -70px;
+      @include transform(translate(-50%,0));
+    }
+  }
+
+  .menu-item:hover,
+  .menu-item.active,
+  .sub-menu:hover > .menu-item{
+    box-shadow:inset 0 -3px 0 $orange;
+  }
+  .sub-menu{
+    position: relative;
+    ul{
+      display: none;
+      position: absolute;
+      z-index: 10;
+      left: 0;
+      padding: 10px 0 15px;
+      background-color: #fff;
+    }
+    li{
+      display: block;
+
+      a{
+        display: block;
+        padding: 6px 0 5px;
+        color: $gray;
+        font-family: $fontMain;
+        min-width: 250px;
+        border-bottom: solid 1px transparent;
+        @include transition(0.3s);
+      }
+      a:hover{
+        border-color: $orange;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    .sub-menu:hover > ul{
+      display: block;
+      animation: navSlideDown 0.3s 1;
+    }
+  }
+}
+
+#navToggle{
+  display: none;
+  position: fixed;
+  z-index: 101;
+  top: 5px;
+  right: 5px;
+  background: $blue;
+  border: none;
+  color: #fff;
+  padding: 5px 15px;
+}

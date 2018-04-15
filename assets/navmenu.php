@@ -93,6 +93,8 @@
                         <li><a href="#">Déposez votre don</a></li>
                     </ul>
                 </li>
+                <li class="sub-menu mobile-only"><span class="menu-item">EN</span></li>
+                <li class="sub-menu mobile-only"><span class="menu-item">FR</span></li>
             </ul>
         </div>
     </nav>
