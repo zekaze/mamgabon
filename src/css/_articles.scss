@@ -1,0 +1,36 @@
+.articles{
+  .article{
+    display: inline-block;
+    padding: 15px 15px 50px;
+    border-bottom: solid 6px $orange;
+    margin-bottom: 50px;
+    box-shadow: 0 0 8px #e5e5e5;
+    position: relative;
+    .img-frame{
+      position: relative;
+      overflow: hidden;
+      height: 250px;
+      width: 100%;
+      img{
+        position: absolute;
+        left: 50%;
+        width: 100%;
+        top: 0;
+        @include transform(translate(-50%,0));
+        @include transition(0.3s);
+      }
+    }
+
+    .title{
+      font-family: $fontTitle;
+      margin:  30px 0;
+      font-size: 20px;
+      line-height: 28px;
+      color: $gray;
+    }
+    .abstract{
+      font-family: $fontMain;
+      color: $gray;
+    }
+  }
+}
