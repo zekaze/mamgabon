@@ -23,5 +23,5 @@
   opacity: 0;
 }
 .animated{
-  @include animation(float 1s 1);
+  @include animation(float 1s ease 1);
 }

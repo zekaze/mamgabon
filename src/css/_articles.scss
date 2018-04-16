@@ -33,4 +33,18 @@
       color: $gray;
     }
   }
+  .row:nth-of-type(even){
+    .col-sm-6:first-of-type{
+      .article{
+        border-color: $blue;
+      }
+    }
+  }
+  .row:nth-of-type(odd){
+    .col-sm-6:nth-of-type(odd){
+      .article{
+        border-color: $blue;
+      }
+    }
+  }
 }
