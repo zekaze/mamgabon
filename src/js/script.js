@@ -33,8 +33,8 @@ allSubMenus.each(function () {
 
 $('.slick').slick({
     centerMode: true,
-    centerPadding: '500px',
-    slidesToShow: 1,
+    centerPadding: '0px',
+    slidesToShow: 3,
     autoplay: true,
     infinite: true,
     draggable: false,
@@ -46,50 +46,57 @@ $('.slick').slick({
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: '300px',
+                centerPadding: '0px',
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 1240,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '200px',
                 slidesToShow: 1
             }
         },
         {
-            breakpoint: 991,
+            breakpoint: 860,
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: '40px',
+                centerPadding: '100px',
+                slidesToShow: 1
+            }
+        },
+        {
+            breakpoint: 580,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '50px',
+                slidesToShow: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '20px',
                 slidesToShow: 1
             }
         }
     ]
 });
 
-
-function isScrolledIntoView(elem)
-{
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
-
-    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-}
-
-$(window).scroll(function(){
-    $(".slideUp").each(function(){
-        var self = $(this);
-
-        if(isScrolledIntoView(self)){
-            self.removeClass("slideUp");
-            self.addClass("animated");
-        }
-    });
-});
-
-/*
 var $animation_elements = jQuery('*[data-animate]'),
     $window = jQuery(window);
 
-$window.on('scroll',check_if_in_view);
+$window.on('scroll',function () {
+    check_if_in_view();
+    minimizeNavMenu();
+});
+
 function check_if_in_view() {
     var window_height = $window.height();
     var window_top_position = $window.scrollTop();
@@ -110,4 +117,20 @@ function check_if_in_view() {
             $element.addClass('animated data-animated '+$animation);
         }
     });
-}*/
+}
+
+function minimizeNavMenu() {
+    var $navMenu = $("#main-menu"),
+        $height = $navMenu.height(),
+        $header = $("#main-header"),
+        $top = $window.scrollTop(),
+        $width = $window.width();
+
+    if(($top > 540) && ($width > 991)){
+       $header.addClass("fixed");
+    }
+    else {
+        $header.removeClass("fixed");
+    }
+
+}

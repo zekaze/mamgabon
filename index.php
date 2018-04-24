@@ -12,7 +12,7 @@
             <?php endfor; ?>
         </div>
 </div>
-<div class="section-title slideUp">
+<div class="section-title" data-animate="fadeInUp">
     <h2>focus</h2>
     <small>la sélection de mam gabon</small>
 </div>
@@ -27,7 +27,7 @@
                         <?php //cette boucle duplique la colonne "article";?>
                         <?php for ($j = 0; $j < 2; $j++): ?>
                             <div class="col-sm-6">
-                                <a href="#" class="article slideUp">
+                                <a href="#" class="article" data-animate="fadeInUp">
                                     <div class="img-frame">
                                         <img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8aa38437c9b977558f5b430d68773742&auto=format&fit=crop&w=1352&q=80"
                                              alt="image">

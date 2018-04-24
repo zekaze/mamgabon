@@ -2,7 +2,7 @@
 <div id="top_header">
     <div class="container">
         <div id="top_search_bar"></div>
-        <ul id="top_nav_bar">
+        <ul class="top_nav_bar">
             <li><ul id="lang_menu">
                     <li><a href="#">EN</a></li>
                     <li><span class="slash">/</span></li>
@@ -27,9 +27,7 @@
 </div>
 
 
-<header>
-
-
+<header id="main-header">
     <div id="logo_bar">
         <div class="container">
             <a href="#">
@@ -42,7 +40,7 @@
     <button id="navToggle" class="fa fa-bars fa-2x"></button>
 
     <nav id="main-menu" class="nav-menu">
-        <div class="container">
+        <div class="container-fluid">
             <ul class="main-menu">
                 <li><a href="#"><span class="menu-item active">ACCUEIL <img src="src/img/home.png" alt="Accueil"></span></a></li>
                 <li class="sub-menu"><span class="menu-item">EDUCATION <img src="src/img/education.png" alt="Education"></span>
@@ -93,8 +91,18 @@
                         <li><a href="#">Déposez votre don</a></li>
                     </ul>
                 </li>
-                <li class="sub-menu mobile-only"><span class="menu-item">EN</span></li>
-                <li class="sub-menu mobile-only"><span class="menu-item">FR</span></li>
+            </ul>
+            <ul class="top_nav_bar mobile-only">
+                <li><ul id="lang_menu">
+                        <li><a href="#">EN</a></li>
+                        <li><a href="#">FR</a></li>
+                    </ul>
+                </li>
+                <li class="link_space"></li>
+                <li><a href="#" class="search">Rechercher</a></li>
+                <li class="link_space"></li>
+                <li><a href="#">Espace annonceurs</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
     </nav>
