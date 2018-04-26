@@ -1,15 +1,34 @@
 <?php include "assets/header.php";?>
     <div class="carousel">
         <div class="slick">
-            <?php for ($i = 0; $i < 6; $i++): ?>
-                <a href="#" class="slide">
+                <a href="article.php" class="slide">
                     <div class="slide-description">
                         <p>Nonummy nibh euismod tincidunt ut
                             laoreet dolore magna aliquam</p>
                     </div>
-                    <img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8aa38437c9b977558f5b430d68773742&auto=format&fit=crop&w=1352&q=80" alt="img">
+                    <img src="https://cdn-images-1.medium.com/max/2000/1*K90Ud3lDPs-NSwFWqmDDrg.jpeg" alt="img">
                 </a>
-            <?php endfor; ?>
+                <a href="article.php" class="slide">
+                    <div class="slide-description">
+                        <p>Nonummy nibh euismod tincidunt ut
+                            laoreet dolore magna aliquam</p>
+                    </div>
+                    <img src="http://www.livescience.com/images/i/000/073/436/original/kids-pizza-150119.jpg" alt="img">
+                </a>
+                <a href="article.php" class="slide">
+                    <div class="slide-description">
+                        <p>Nonummy nibh euismod tincidunt ut
+                            laoreet dolore magna aliquam</p>
+                    </div>
+                    <img src="http://www.impactlab.net/wp-content/uploads/2016/11/kids.jpg" alt="img">
+                </a>
+                <a href="article.php" class="slide">
+                    <div class="slide-description">
+                        <p>Nonummy nibh euismod tincidunt ut
+                            laoreet dolore magna aliquam</p>
+                    </div>
+                    <img src="https://cbssacramento.files.wordpress.com/2012/03/sacramento-theatre-kids-camp.jpg" alt="img">
+                </a>
         </div>
 </div>
 <div class="section-title" data-animate="fadeInUp">
@@ -27,9 +46,9 @@
                         <?php //cette boucle duplique la colonne "article";?>
                         <?php for ($j = 0; $j < 2; $j++): ?>
                             <div class="col-sm-6">
-                                <a href="#" class="article" data-animate="fadeInUp">
+                                <a href="article.php" class="article" data-animate="fadeInUp">
                                     <div class="img-frame">
-                                        <img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8aa38437c9b977558f5b430d68773742&auto=format&fit=crop&w=1352&q=80"
+                                        <img src="http://www.livescience.com/images/i/000/073/436/original/kids-pizza-150119.jpg"
                                              alt="image">
                                     </div>
                                     <h4 class="title">Lorem ipsum dolor sit amet,
@@ -47,14 +66,7 @@
                 <?php endfor; ?>
             </div>
         </div>
-        <div class="col-md-3">
-            <div class="sidebar">
-                <div class="calendar">calendar</div>
-                <a href="#" class="advert"><img src="#" alt="publicité"></a>
-                <a href="#" class="advert"><img src="#" alt="publicité"></a>
-                <a href="#" class="advert"><img src="#" alt="publicité"></a>
-            </div>
-        </div>
+        <?php include "assets/aside.php";?>
     </div>
 </div>
 <?php include "assets/footer.php";?>

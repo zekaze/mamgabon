@@ -128,6 +128,64 @@
   #top_header{
     margin-bottom: 400px;
   }
+
+  .article-title{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .hero-image{
+    height: auto;
+    overflow: visible;
+    position: relative;
+    margin-bottom: 30px;
+
+    img{
+      width: 100%;
+      position: relative;
+      top: 0;
+      @include transform(translate(0,0));
+    }
+  }
+
+  .suggestion-list{
+    display: block;
+
+    li{
+      display: block;
+      margin: 15px 0;
+      width: 100%;
+
+      .list-item{
+        display: inline-block;
+        width: 100%;
+        padding: 10px 10px 30px;
+        border-bottom: solid 3px $orange;
+        font-family: $fontTitle;
+        color: $gray;
+
+        .abstract{
+          padding: 10px 0;
+        }
+
+        .image-frame{
+          position: relative;
+          height: auto;
+          overflow: visible;
+
+          img{
+            position: relative;
+            top: 0;
+          }
+        }
+      }
+      .list-item:hover{
+        img{
+          @include transform(scale(1));
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 640px){

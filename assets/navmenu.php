@@ -30,7 +30,7 @@
 <header id="main-header">
     <div id="logo_bar">
         <div class="container">
-            <a href="#">
+            <a href="index.php">
                 <img src="src/img/logo.png" alt="Logo Mommy and Me Gabon">
                 <div class="slogan">Lorem ipsum dolor sit amet, consectetuer</div>
             </a>
@@ -42,7 +42,7 @@
     <nav id="main-menu" class="nav-menu">
         <div class="container-fluid">
             <ul class="main-menu">
-                <li><a href="#"><span class="menu-item active">ACCUEIL <img src="src/img/home.png" alt="Accueil"></span></a></li>
+                <li><a href="index.php"><span class="menu-item active">ACCUEIL <img src="src/img/home.png" alt="Accueil"></span></a></li>
                 <li class="sub-menu"><span class="menu-item">EDUCATION <img src="src/img/education.png" alt="Education"></span>
                     <ul>
                         <li><a href="#">Annuaire des établissements</a></li>

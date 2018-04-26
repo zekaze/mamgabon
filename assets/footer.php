@@ -101,6 +101,7 @@
 <script src="src/js/jquery.min.js"></script>
 <script src="src/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="src/plugins/slick/slick.min.js"></script>
+<script src="src/plugins/zabuto-calendar/zabuto_calendar.js"></script>
 <script src="src/js/script.js"></script>
 </body>
 </html>

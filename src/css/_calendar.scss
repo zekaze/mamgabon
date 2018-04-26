@@ -1,0 +1,17 @@
+div.zabuto_calendar {
+  .badge-today{
+    background-color: $gray;
+  }
+  .table{
+    tr{
+      td.event{
+        div.day{
+          background-color: $orange;
+        }
+      }
+    }
+  }
+  .badge-event{
+    background-color: $blue;
+  }
+}
