@@ -91,9 +91,13 @@
 *:focus {
   outline: none; }
 
+body {
+  color: #50585C; }
+
 a:hover,
 a:focus {
-  text-decoration: none; }
+  text-decoration: none;
+  outline: none; }
 
 .mobile-only {
   display: none !important; }
@@ -116,6 +120,12 @@ a:focus {
   .section-title small {
     font-family: "Open Sans", sans-serif;
     display: block; }
+
+.section-title.left {
+  text-align: left;
+  margin: 0 0 20px; }
+  .section-title.left h2 {
+    padding: 0 10px 0 0; }
 
 .section-title:after {
   content: '';
@@ -150,6 +160,11 @@ a:focus {
   .breadcrumbs li:last-of-type:after {
     content: '';
     display: none; }
+
+.breadcrumbs.left {
+  text-align: left;
+  border: none;
+  padding: 20px 0 0; }
 
 header {
   margin-bottom: 30px;
@@ -583,6 +598,45 @@ div.zabuto_calendar .badge-event {
   .sidebar .advert img {
     width: 100%; }
 
+#filtre-localite label {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif; }
+#filtre-localite .filtre#localite {
+  font-weight: 700;
+  color: #5c6468;
+  border: none;
+  text-transform: uppercase; }
+
+.liste-etablissements .etablissement {
+  margin-bottom: 25px;
+  padding: 30px 20px;
+  box-shadow: 0 0 5px rgba(92, 100, 104, 0.2), 0 5px 5px #f2f2f2; }
+  .liste-etablissements .etablissement h4 {
+    font-family: "deliusregular", sans-serif;
+    color: #fb7660;
+    font-size: 20px;
+    margin-bottom: 15px; }
+  .liste-etablissements .etablissement .adresse {
+    margin-bottom: 10px; }
+  .liste-etablissements .etablissement .prestations h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5c6468; }
+  .liste-etablissements .etablissement .prestations ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 70px;
+    color: #5c6468; }
+    .liste-etablissements .etablissement .prestations ul li:before {
+      content: '\2043';
+      display: inline-block;
+      margin-right: 15px; }
+
 @media (max-width: 991px) {
   html {
     width: 100%;
@@ -732,13 +786,19 @@ div.zabuto_calendar .badge-event {
         -moz-transform: scale(1);
         -o-transform: scale(1);
         -ms-transform: scale(1);
-        transform: scale(1); } }
+        transform: scale(1); }
+
+  .liste-etablissements .etablissement .prestations ul {
+    height: 100px; } }
 @media (max-width: 640px) {
   #top_header {
     margin-bottom: 350px; } }
 @media (max-width: 560px) {
   #top_header {
-    margin-bottom: 320px; } }
+    margin-bottom: 320px; }
+
+  .section-title.left h2 {
+    font-size: 25px; } }
 @media (max-width: 480px) {
   .slick .slide {
     margin: 0 4px; }
@@ -746,7 +806,14 @@ div.zabuto_calendar .badge-event {
       font-size: 15px; }
 
   #top_header {
-    margin-bottom: 300px; } }
+    margin-bottom: 300px; }
+
+  .liste-etablissements .etablissement .photos .col-xs-6 {
+    width: 100%;
+    float: none;
+    margin-bottom: 15px; }
+  .liste-etablissements .etablissement .photos .col-xs-6:last-child {
+    margin-bottom: 0; } }
 @media (max-width: 380px) {
   #top_header {
     margin-bottom: 230px; } }

@@ -163,5 +163,19 @@ $(document).ready(function () {
             modal: true
         }
     });
+
+    /*
+        Magnific Popup
+    */
+
+    $('.popup-link').magnificPopup({
+        type: 'image'
+        // other options
+    });
+
+    $('.popup-galery').magnificPopup({
+        delegate: 'a',
+        type: 'image'
+    });
 });
 

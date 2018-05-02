@@ -45,7 +45,7 @@
                 <li><a href="index.php"><span class="menu-item active">ACCUEIL <img src="src/img/home.png" alt="Accueil"></span></a></li>
                 <li class="sub-menu"><span class="menu-item">EDUCATION <img src="src/img/education.png" alt="Education"></span>
                     <ul>
-                        <li><a href="#">Annuaire des établissements</a></li>
+                        <li><a href="annuaire.php">Annuaire des établissements</a></li>
                         <li><a href="#">Calendrier scolaire</a></li>
                         <li><a href="#">Soutien scolaire</a></li>
                         <li><a href="#">Articles</a></li>

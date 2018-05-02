@@ -186,6 +186,18 @@
       }
     }
   }
+
+  .liste-etablissements{
+    .etablissement{
+
+      .prestations{
+        ul{
+          height: 100px;
+        }
+      }
+
+    }
+  }
 }
 
 @media (max-width: 640px){
@@ -197,6 +209,12 @@
 @media (max-width: 560px){
   #top_header{
     margin-bottom: 320px;
+  }
+
+  .section-title.left{
+    h2{
+      font-size: 25px;
+    }
   }
 }
 
@@ -212,6 +230,22 @@
 
   #top_header{
     margin-bottom: 300px;
+  }
+
+  .liste-etablissements{
+    .etablissement{
+      .photos{
+        .col-xs-6{
+          width: 100%;
+          float: none;
+          margin-bottom: 15px;
+        }
+        .col-xs-6:last-child{
+          margin-bottom: 0;
+        }
+      }
+
+    }
   }
 }
 

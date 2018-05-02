@@ -1,0 +1,55 @@
+#filtre-localite{
+  label{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: $fontMain;
+  }
+
+  .filtre#localite{
+    font-weight: 700;
+    color: $gray;
+    border: none;
+    text-transform: uppercase;
+  }
+}
+.liste-etablissements{
+  .etablissement{
+    margin-bottom: 25px;
+    padding: 30px 20px;
+    box-shadow: 0 0 5px rgba($gray,0.2),0 5px 5px $light_gray;
+
+    h4{
+      font-family: $fontTitle;
+      color: $orange;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .adresse{
+      margin-bottom: 10px;
+    }
+
+    .prestations{
+      h5{
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $gray;
+      }
+      ul{
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 70px;
+        color: $gray;
+
+        li:before{
+          content: '\2043';
+          display: inline-block;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}

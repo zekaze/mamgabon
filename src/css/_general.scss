@@ -2,9 +2,13 @@
 *:focus{
   outline: none;
 }
+body{
+  color: #50585C;
+}
 a:hover,
 a:focus{
   text-decoration: none;
+  outline: none;
 }
 
 .mobile-only{
@@ -31,6 +35,15 @@ a:focus{
   small{
     font-family: $fontMain;
     display: block;
+  }
+}
+
+.section-title.left{
+  text-align: left;
+  margin: 0 0 20px;
+
+  h2{
+    padding: 0 10px 0 0;
   }
 }
 .section-title:after{
@@ -75,4 +88,9 @@ a:focus{
     content: '';
     display: none;
   }
+}
+.breadcrumbs.left{
+  text-align: left;
+  border: none;
+  padding: 20px 0 0;
 }
