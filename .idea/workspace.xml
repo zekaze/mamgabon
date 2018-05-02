@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe2e6229-1e41-46e8-b865-31130c8a9b2d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/annuaire.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/css/_annuaire.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/plugins/magnific-popup/jquery.magnific-popup.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/plugins/magnific-popup/magnific-popup.css" />
+    <list default="true" id="fe2e6229-1e41-46e8-b865-31130c8a9b2d" name="Default" comment="Updates:&#10;- Annuaire&#10;- Updates articles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/footer.php" afterPath="$PROJECT_DIR$/assets/footer.php" />
-      <change beforePath="$PROJECT_DIR$/assets/header.php" afterPath="$PROJECT_DIR$/assets/header.php" />
-      <change beforePath="$PROJECT_DIR$/assets/navmenu.php" afterPath="$PROJECT_DIR$/assets/navmenu.php" />
-      <change beforePath="$PROJECT_DIR$/src/css/_general.scss" afterPath="$PROJECT_DIR$/src/css/_general.scss" />
-      <change beforePath="$PROJECT_DIR$/src/css/_responsive.scss" afterPath="$PROJECT_DIR$/src/css/_responsive.scss" />
+      <change beforePath="$PROJECT_DIR$/src/css/_annuaire.scss" afterPath="$PROJECT_DIR$/src/css/_annuaire.scss" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css.map" afterPath="$PROJECT_DIR$/src/css/style.css.map" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.scss" afterPath="$PROJECT_DIR$/src/css/style.scss" />
-      <change beforePath="$PROJECT_DIR$/src/js/script.js" afterPath="$PROJECT_DIR$/src/js/script.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="annuaire.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="annuaire.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/annuaire.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+            <state relative-caret-position="1002">
+              <caret line="82" column="4" lean-forward="false" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
               <folding>
                 <element signature="e#1216#1515#0#HTML" expanded="false" />
                 <element signature="e#1544#2640#0#HTML" expanded="false" />
@@ -93,13 +83,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_annuaire.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_annuaire.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/_annuaire.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="400">
+              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding>
-                <element signature="e#587#1004#0" expanded="false" />
+                <element signature="e#636#1053#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -168,10 +158,10 @@
         <option value="$PROJECT_DIR$/assets/header.php" />
         <option value="$PROJECT_DIR$/assets/footer.php" />
         <option value="$PROJECT_DIR$/src/css/_general.scss" />
-        <option value="$PROJECT_DIR$/src/css/_annuaire.scss" />
         <option value="$PROJECT_DIR$/src/css/_responsive.scss" />
         <option value="$PROJECT_DIR$/src/js/script.js" />
         <option value="$PROJECT_DIR$/annuaire.php" />
+        <option value="$PROJECT_DIR$/src/css/_annuaire.scss" />
       </list>
     </option>
   </component>
@@ -383,7 +373,7 @@
       <workItem from="1524773098414" duration="5689000" />
       <workItem from="1525120756881" duration="3471000" />
       <workItem from="1525294856854" duration="49000" />
-      <workItem from="1525296288935" duration="6724000" />
+      <workItem from="1525296288935" duration="7079000" />
     </task>
     <task id="LOCAL-00001" summary="Updates nav menu et footer">
       <created>1523825851311</created>
@@ -455,11 +445,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524777546430</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updates:&#10;- Annuaire&#10;- Updates articles">
+      <created>1525303102280</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1525303102280</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97787000" />
+    <option name="totallyTimeSpent" value="98142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -470,6 +467,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -480,7 +478,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -521,7 +518,8 @@
     <MESSAGE value="Bug fix Slide up animation" />
     <MESSAGE value="Updates:&#10;- Couleur orange&#10;- Nav menu fixed pour desktop&#10;- Couleur de fond du nav menu" />
     <MESSAGE value="Updates:&#10;- Articles&#10;- Calendrier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates:&#10;- Articles&#10;- Calendrier" />
+    <MESSAGE value="Updates:&#10;- Annuaire&#10;- Updates articles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates:&#10;- Annuaire&#10;- Updates articles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -863,16 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/_annuaire.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="e#587#1004#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/_responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -895,11 +883,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/annuaire.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="77" column="22" lean-forward="true" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+        <state relative-caret-position="1002">
+          <caret line="82" column="4" lean-forward="false" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
           <folding>
             <element signature="e#1216#1515#0#HTML" expanded="false" />
             <element signature="e#1544#2640#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_annuaire.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#636#1053#0" expanded="false" />
           </folding>
         </state>
       </provider>
