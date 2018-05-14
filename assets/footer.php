@@ -97,6 +97,7 @@
         </div>
     </div>
 </footer>
+<span class="back-to-top"><i class="fa fa-chevron-up"></i></span>
 
 <script src="src/js/jquery.min.js"></script>
 <script src="src/plugins/bootstrap/js/bootstrap.min.js"></script>

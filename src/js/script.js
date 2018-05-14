@@ -40,6 +40,10 @@ $(document).ready(function () {
     Slick carousel
     */
 
+    var slickControls = $(".controls"),
+        slickPrev = slickControls.find(".prev"),
+        slickNext = slickControls.find(".next");
+
     $('.slick').slick({
         centerMode: true,
         centerPadding: '0px',
@@ -49,6 +53,8 @@ $(document).ready(function () {
         draggable: false,
         pauseOnFocus: false,
         pauseOnHover: false,
+        nextArrow: slickNext,
+        prevArrow: slickPrev,
         responsive: [
             {
                 breakpoint: 1441,
@@ -104,6 +110,7 @@ $(document).ready(function () {
     $window.on('scroll',function () {
         check_if_in_view();
         minimizeNavMenu();
+        showBackToTopButton();
     });
 
     /*
@@ -151,6 +158,15 @@ $(document).ready(function () {
     }
 
     /*
+    * Show Back to top button
+    * */
+    function showBackToTopButton() {
+        if($window.scrollTop() > 300){
+            $(".back-to-top").addClass("visible");
+        }
+    }
+
+    /*
     Zabuto calendar
     */
 
@@ -177,5 +193,34 @@ $(document).ready(function () {
         delegate: 'a',
         type: 'image'
     });
+
+
+    /*
+    Back to top button
+    */
+
+    var btt = $('.back-to-top');
+
+    btt.on('click', function () {
+
+        $('html, body').animate({
+
+            scrollTop: 0
+
+        }, 800, function () {
+
+            btt.removeClass("visible");
+
+        });
+    });
+
+
+    /*
+    * Search toggle
+    * */
+    $(".search-toggle").click(function () {
+        $(".top_search_bar").toggleClass("visible");
+        $(this).preventDefault();
+    })
 });
 

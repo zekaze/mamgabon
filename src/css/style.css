@@ -87,12 +87,45 @@
     -o-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     transform: translate(0, 0); } }
+@keyframes showLeftSliderControl {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(-20px, -50%);
+    -moz-transform: translate(-20px, -50%);
+    -o-transform: translate(-20px, -50%);
+    -ms-transform: translate(-20px, -50%);
+    transform: translate(-20px, -50%); }
+  to {
+    opacity: 0.7;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%); } }
+@keyframes showRightSliderControl {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(20px, -50%);
+    -moz-transform: translate(20px, -50%);
+    -o-transform: translate(20px, -50%);
+    -ms-transform: translate(20px, -50%);
+    transform: translate(20px, -50%); }
+  to {
+    opacity: 0.7;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%); } }
 *,
 *:focus {
   outline: none; }
 
 body {
   color: #50585C; }
+
+.rel {
+  position: relative; }
 
 a:hover,
 a:focus {
@@ -138,6 +171,25 @@ a:focus {
   height: 2px;
   background-color: #f2f2f2; }
 
+.back-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 13px;
+  display: inline-block;
+  visibility: hidden;
+  opacity: 0.8;
+  padding: 12px 15px;
+  cursor: pointer;
+  background-color: #fb7660;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.back-to-top.visible {
+  visibility: visible; }
+
 .breadcrumbs {
   list-style: none;
   padding: 0 0 20px;
@@ -165,6 +217,33 @@ a:focus {
   text-align: left;
   border: none;
   padding: 20px 0 0; }
+
+.banner-image {
+  background-size: cover;
+  background-position: center center;
+  padding: 80px 0;
+  position: relative; }
+
+.page-title {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: "deliusregular", sans-serif;
+  position: relative;
+  z-index: 1; }
+
+.banner-image:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.4;
+  left: 0;
+  top: 0;
+  z-index: 0; }
 
 header {
   margin-bottom: 30px;
@@ -350,6 +429,56 @@ header.fixed {
   color: #fff;
   padding: 5px 15px; }
 
+.top_search_bar {
+  position: absolute;
+  padding: 5px 0;
+  background-color: #fff;
+  border-bottom: solid 2px #f2f2f2;
+  left: 50%;
+  width: 100%;
+  opacity: 0;
+  z-index: -100;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  top: 20px; }
+  .top_search_bar .container {
+    position: relative; }
+  .top_search_bar form {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%; }
+  .top_search_bar input {
+    display: inline-block;
+    flex-grow: 1;
+    border: none; }
+  .top_search_bar button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+    background-color: #c0c0c0;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  .top_search_bar button:hover {
+    background-color: #89b1d5; }
+
+.top_search_bar.visible {
+  top: 40px;
+  opacity: 1;
+  z-index: 0; }
+
 footer {
   background-color: #f8f8f8;
   padding-top: 25px; }
@@ -473,6 +602,48 @@ footer {
     transform: scale(1.1); }
   .slick .slide:nth-of-type(odd) .slide-description {
     background-color: rgba(137, 177, 213, 0.85); }
+
+.carousel {
+  position: relative; }
+  .carousel .controls span {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    font-size: 30px;
+    width: 60px;
+    display: inline-block;
+    border-radius: 100%;
+    padding: 7px 0;
+    text-align: center;
+    background-color: #fb7660;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+  .carousel .controls .prev {
+    left: 25px; }
+  .carousel .controls .next {
+    right: 25px; }
+
+.carousel:hover .controls span {
+  opacity: 0.7; }
+.carousel:hover .controls .prev {
+  -webkit-animation: showLeftSliderControl 0.8s ease 1;
+  -o-animation: showLeftSliderControl 0.8s ease 1;
+  animation: showLeftSliderControl 0.8s ease 1; }
+.carousel:hover .controls .next {
+  -webkit-animation: showRightSliderControl 0.8s ease 1;
+  -o-animation: showRightSliderControl 0.8s ease 1;
+  animation: showRightSliderControl 0.8s ease 1; }
+.carousel:hover .controls span:hover {
+  opacity: 1; }
 
 .articles .article {
   display: inline-block;
@@ -791,7 +962,25 @@ div.zabuto_calendar .badge-event {
         transform: scale(1); }
 
   .liste-etablissements .etablissement .prestations ul {
-    height: 100px; } }
+    height: 100px; }
+
+  .carousel .controls span {
+    width: 50px;
+    display: inline-block;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #fb7660;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.5;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+  .carousel .controls .prev {
+    left: 5px; }
+  .carousel .controls .next {
+    right: 5px; } }
 @media (max-width: 640px) {
   #top_header {
     margin-bottom: 350px; } }

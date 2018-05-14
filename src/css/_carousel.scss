@@ -43,3 +43,50 @@
     .slide-description{background-color:  rgba($blue, 0.85)}
   }
 }
+.carousel{
+  position: relative;
+  .controls{
+    span{
+      position: absolute;
+      top: 50%;
+      @include transform(translate(0,-50%));
+      font-size: 30px;
+      width: 60px;
+      display: inline-block;
+      border-radius: 100%;
+      padding: 7px 0;
+      text-align: center;
+      background-color: $orange;
+      color: #fff;
+      cursor: pointer;
+      opacity: 0;
+      @include transition(0.5s);
+    }
+    .prev{
+      left: 25px;
+    }
+    .next{
+      right: 25px;
+    }
+  }
+}
+.carousel:hover{
+  .controls{
+    span{
+      opacity: 0.7;
+    }
+    .prev{
+      -webkit-animation: showLeftSliderControl 0.8s ease 1;
+      -o-animation: showLeftSliderControl 0.8s ease 1;
+      animation: showLeftSliderControl 0.8s ease 1;
+    }
+    .next{
+      -webkit-animation: showRightSliderControl 0.8s ease 1;
+      -o-animation: showRightSliderControl 0.8s ease 1;
+      animation: showRightSliderControl 0.8s ease 1;
+    }
+    span:hover{
+      opacity: 1;
+    }
+  }
+}

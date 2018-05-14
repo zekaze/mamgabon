@@ -198,6 +198,28 @@
 
     }
   }
+
+  .carousel{
+    .controls{
+      span{
+        width: 50px;
+        display: inline-block;
+        padding: 5px 0;
+        text-align: center;
+        background-color: $orange;
+        color: #fff;
+        cursor: pointer;
+        opacity: 0.5;
+        @include transition(0.5s);
+      }
+      .prev{
+        left: 5px;
+      }
+      .next{
+        right: 5px;
+      }
+    }
+  }
 }
 
 @media (max-width: 640px){

@@ -30,6 +30,10 @@
                     <img src="https://cbssacramento.files.wordpress.com/2012/03/sacramento-theatre-kids-camp.jpg" alt="img">
                 </a>
         </div>
+        <div class="controls">
+            <span class="prev"><i class="fa fa-angle-left"></i></span>
+            <span class="next"><i class="fa fa-angle-right"></i></span>
+        </div>
 </div>
 <div class="section-title" data-animate="fadeInUp">
     <h2>focus</h2>

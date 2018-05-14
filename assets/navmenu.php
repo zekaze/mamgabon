@@ -1,7 +1,14 @@
 <!--top nav-->
 <div id="top_header">
+    <div class="top_search_bar">
+        <div class="container">
+            <form method="get" action="">
+                <input type="text" placeholder="Que recherchez-vous sur MamGabon?" name="q" autocomplete="off" required>
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
     <div class="container">
-        <div id="top_search_bar"></div>
         <ul class="top_nav_bar">
             <li><ul id="lang_menu">
                     <li><a href="#">EN</a></li>
@@ -10,10 +17,10 @@
                 </ul>
             </li>
             <li class="link_space"></li>
-            <li><a href="#">Rechercher &nbsp; <i class="fa fa-search"></i></a></li>
+            <li><a href="#" class="search-toggle">Rechercher &nbsp; <i class="fa fa-search"></i></a></li>
             <li class="link_space"></li>
             <li><a href="#">Espace annonceurs</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
             <li class="link_space"></li>
             <li>
                 <ul class="social_menu">
@@ -99,10 +106,10 @@
                     </ul>
                 </li>
                 <li class="link_space"></li>
-                <li><a href="#" class="search">Rechercher</a></li>
+                <li><a href="#" class="search-toggle">Rechercher</a></li>
                 <li class="link_space"></li>
                 <li><a href="#">Espace annonceurs</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </div>
     </nav>
