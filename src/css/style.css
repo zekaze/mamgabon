@@ -222,7 +222,8 @@ a:focus {
   background-size: cover;
   background-position: center center;
   padding: 80px 0;
-  position: relative; }
+  position: relative;
+  margin-bottom: 40px; }
 
 .page-title {
   color: #fff;
@@ -244,6 +245,9 @@ a:focus {
   left: 0;
   top: 0;
   z-index: 0; }
+
+.sharethis-inline-share-buttons {
+  margin-bottom: 10px; }
 
 header {
   margin-bottom: 30px;
@@ -697,7 +701,7 @@ footer {
   height: 500px;
   overflow: hidden;
   position: relative;
-  margin-bottom: 30px; }
+  margin-bottom: 10px; }
   .hero-image img {
     width: 100%;
     position: absolute;
@@ -708,7 +712,7 @@ footer {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%); }
 
-.article-suggestions .section-title {
+.section-title.small {
   margin-bottom: 30px !important; }
 
 .suggestion-list {
@@ -755,6 +759,46 @@ footer {
       -o-transform: scale(1.2);
       -ms-transform: scale(1.2);
       transform: scale(1.2); }
+
+#slick-forms {
+  margin: 20px 0;
+  background-color: #f8f8f8; }
+  #slick-forms .slide.img {
+    background-size: cover;
+    background-position: center top;
+    height: 250px;
+    width: 100%; }
+  #slick-forms #login-form,
+  #slick-forms #registration-form {
+    padding: 20px;
+    height: 250px; }
+    #slick-forms #login-form h3,
+    #slick-forms #registration-form h3 {
+      font-family: "deliusregular", sans-serif;
+      margin-top: 0; }
+    #slick-forms #login-form label,
+    #slick-forms #registration-form label {
+      display: block;
+      font-weight: normal; }
+    #slick-forms #login-form .form-input,
+    #slick-forms #registration-form .form-input {
+      display: block;
+      width: 100%;
+      height: 40px;
+      padding: 0 10px;
+      border: none; }
+    #slick-forms #login-form button,
+    #slick-forms #registration-form button {
+      display: block;
+      width: 100%;
+      height: 40px;
+      font-family: "deliusregular", sans-serif;
+      color: #fff;
+      border: none; }
+  #slick-forms #login-form button {
+    background-color: #fb7660; }
+  #slick-forms #registration-form button {
+    background-color: #89b1d5; }
 
 div.zabuto_calendar .badge-today {
   background-color: #5c6468; }
@@ -919,9 +963,7 @@ div.zabuto_calendar .badge-event {
 
   .hero-image {
     height: auto;
-    overflow: visible;
-    position: relative;
-    margin-bottom: 30px; }
+    overflow: visible; }
     .hero-image img {
       width: 100%;
       position: relative;

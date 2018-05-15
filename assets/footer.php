@@ -104,6 +104,7 @@
 <script src="src/plugins/slick/slick.min.js"></script>
 <script src="src/plugins/zabuto-calendar/zabuto_calendar.js"></script>
 <script src="src/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5afa2b570a23d40011096916&product=inline-share-buttons' async='async'></script>
 <script src="src/js/script.js"></script>
 </body>
 </html>

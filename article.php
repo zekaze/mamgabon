@@ -10,6 +10,9 @@
         <div class="hero-image">
             <img src="https://teddibearswimschool.com/wp-content/uploads/2013/12/031.jpg" alt="titre de l'article">
         </div>
+
+        <div class="sharethis-inline-share-buttons"></div>
+
         <div class="row">
             <div class="col-md-9">
                 <div class="article-body">
@@ -39,7 +42,7 @@
                 </div>
 
                 <div class="article-suggestions">
-                    <div class="section-title" data-animate="fadeInUp">
+                    <div class="section-title small" data-animate="fadeInUp">
                         <h3>Dans la même catégorie</h3>
                     </div>
 
@@ -58,7 +61,67 @@
                         <?php endfor;?>
                     </ul>
                 </div>
+                <div class="comments-section">
+                    <h3>Laissez un commentaire</h3>
+
+
+
+                    <div class="inscription">
+                        Veuillez vous inscrire  pour pouvoir laisser un commentaire. <button id="loginFormButton">S'inscrire</button>
+                        Déjà inscrit? Veuillez vous identifier <button id="regFormButton">S'identifier</button>
+                    </div>
+                    
+                    <div id="slick-forms">
+                        <div class="slide">
+                            <form method="get" action="" id="login-form">
+                                <h3>S'identifier</h3>
+                                <div class="form-row">
+                                    <label>
+                                        <input class="form-input" type="email" placeholder="Adresse mail" required>
+                                    </label>
+                                </div>
+                                <div class="form-row">
+                                    <label>
+                                        <input class="form-input" type="password" placeholder="Mot de passe" required>
+                                    </label>
+                                </div>
+                                <button type="submit">S'identifier</button>
+                            </form>
+                        </div>
+                        <div class="slide img" style="background-image: url('https://thumbs.dreamstime.com/b/surprised-african-kid-hands-face-close-up-portrait-hand-little-girl-open-mouth-isolated-white-background-71111084.jpg')">
+                            <div class="img">
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <form method="get" action="" id="registration-form">
+                                <h3>S'inscrire</h3>
+                                <div class="form-row">
+                                    <label>
+                                        <input class="form-input" type="email" name="" placeholder="Adresse mail" required>
+                                    </label>
+                                </div>
+                                <div class="form-row">
+                                    <label>
+                                        <input class="form-input" type="password" name="" placeholder="Mot de passe" required>
+                                    </label>
+                                </div>
+                                <div class="form-row">
+                                    <label>
+                                        <input type="checkbox" name="">
+                                        En cochant cette case vous acceptez de recevoir notre newsletter à cette adresse
+                                    </label>
+
+                                </div>
+                                <button type="submit">S'inscrire</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
+
             <?php include "assets/aside.php"; ?>
         </div>
     </div>

@@ -120,6 +120,7 @@ a:focus{
   background-position: center center;
   padding: 80px 0;
   position: relative;
+  margin-bottom: 40px;
 }
 .page-title{
   color: #fff;
@@ -142,4 +143,7 @@ a:focus{
   left: 0;
   top: 0;
   z-index: 0;
+}
+.sharethis-inline-share-buttons{
+  margin-bottom: 10px;
 }

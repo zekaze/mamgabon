@@ -219,8 +219,37 @@ $(document).ready(function () {
     * Search toggle
     * */
     $(".search-toggle").click(function () {
-        $(".top_search_bar").toggleClass("visible");
+        $(".top_search_bar").toggleClass("visible").find(".search-input");
+        $(".top_search_bar.visible").find(".search-input").focus();
         $(this).preventDefault();
     })
+
+    /*
+    * Slick forms
+    * */
+    var regFormButton = $("#regFormButton"),
+    loginFormButton = $("#loginFormButton");
+    $('#slick-forms').slick({
+        slidesToShow: 2,
+        autoplay: false,
+        infinite: false,
+        draggable: false,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        variableWidth: false,
+        nextArrow: loginFormButton,
+        prevArrow: regFormButton,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 2,
+                    fade: true
+                }
+            }
+        ]
+    });
+
 });
 
