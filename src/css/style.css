@@ -803,9 +803,50 @@ footer {
 div.zabuto_calendar .badge-today {
   background-color: #5c6468; }
 div.zabuto_calendar .table tr td.event div.day {
-  background-color: #fb7660; }
+  background-color: #fb7660;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+div.zabuto_calendar .table tr td.event div.day:hover {
+  background-color: #89b1d5; }
 div.zabuto_calendar .badge-event {
   background-color: #89b1d5; }
+
+.modal-content {
+  border-radius: 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); }
+  .modal-content .modal-header {
+    background-color: #fb7660;
+    color: #fff;
+    font-family: "deliusregular", sans-serif;
+    font-size: 25px; }
+  .modal-content .modal-footer {
+    border: none;
+    background: #f2f2f2; }
+    .modal-content .modal-footer .btn {
+      background: #fb7660;
+      color: #fff;
+      border-radius: 0;
+      border: none;
+      font-family: "Open Sans", sans-serif; }
+  .modal-content .event {
+    padding-bottom: 25px;
+    border-bottom: solid 2px #fb7660;
+    margin-bottom: 15px; }
+  .modal-content .event:last-child {
+    margin: 0; }
+  .modal-content .event_title {
+    font-family: "deliusregular", sans-serif;
+    font-size: 20px; }
+  .modal-content .event_picture_frame {
+    margin-bottom: 10px; }
+  .modal-content .event_location,
+  .modal-content .annonceur {
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 13px; }
 
 .sidebar .advert {
   display: block;

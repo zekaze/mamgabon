@@ -251,5 +251,9 @@ $(document).ready(function () {
         ]
     });
 
+    /*
+    * Slick within Modal
+    * */
+    $(".owl-carousel.owl-theme").css("background-color", "#000");
 });
 

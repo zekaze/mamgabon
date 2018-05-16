@@ -7,11 +7,61 @@ div.zabuto_calendar {
       td.event{
         div.day{
           background-color: $orange;
+          color: #fff;
+          @include transition(0.3s);
+        }
+        div.day:hover{
+          background-color: $blue;
         }
       }
     }
   }
   .badge-event{
     background-color: $blue;
+  }
+}
+
+.modal-content{
+  border-radius: 0;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+
+  .modal-header{
+    background-color: $orange;
+    color: #fff;
+    font-family: $fontTitle;
+    font-size: 25px;
+  }
+  .modal-footer{
+    border: none;
+    background: $light_gray;
+    .btn{
+      background: $orange;
+      color: #fff;
+      border-radius: 0;
+      border: none;
+      font-family: $fontMain;
+    }
+  }
+
+  .event{
+    padding-bottom: 25px;
+    border-bottom: solid 2px $orange;
+    margin-bottom: 15px;
+  }
+  .event:last-child{
+    margin: 0;
+  }
+  .event_title{
+    font-family: $fontTitle;
+    font-size: 20px;
+  }
+  .event_picture_frame{
+    margin-bottom: 10px;
+  }
+  .event_location,
+  .annonceur{
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 13px;
   }
 }
