@@ -723,7 +723,8 @@ footer {
   flex-wrap: wrap;
   align-items: flex-start;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 40px; }
   .suggestion-list li {
     display: inline-block;
     margin-right: 15px;
@@ -759,6 +760,19 @@ footer {
       -o-transform: scale(1.2);
       -ms-transform: scale(1.2);
       transform: scale(1.2); }
+
+.comments-section .header {
+  background-color: #f2f2f2;
+  padding: 15px;
+  margin-bottom: 20px; }
+  .comments-section .header .section-title {
+    font-family: "deliusregular", sans-serif;
+    font-size: 35px; }
+  .comments-section .header #loginFormButton,
+  .comments-section .header #regFormButton {
+    background: none;
+    border: none;
+    color: #fb7660; }
 
 #slick-forms {
   margin: 20px 0;

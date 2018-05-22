@@ -66,77 +66,81 @@
                     </ul>
                 </div>
                 <div class="comments-section">
-                    <h3>Laissez un commentaire</h3>
+                    <div class="header">
+                        <h3 class="title">Laissez un commentaire</h3>
 
 
 
-                    <div class="inscription">
-                        Veuillez vous inscrire  pour pouvoir laisser un commentaire. <button id="loginFormButton">S'inscrire</button>
-                        Déjà inscrit? Veuillez vous identifier <button id="regFormButton">S'identifier</button>
+                        <div class="inscription">
+                            Veuillez vous inscrire  pour pouvoir laisser un commentaire. Cliquez<button id="loginFormButton">ici pour vous inscrire.</button>
+                            <br>
+                            Déjà inscrit? Cliquez<button id="regFormButton">ici pour vous identifier.</button>
 
-                        <div id="slick-forms">
-                            <div class="slide">
-                                <form method="get" action="" id="login-form">
-                                    <h3>S'identifier</h3>
-                                    <div class="form-row">
-                                        <label>
-                                            <input class="form-input" type="email" placeholder="Adresse mail" required>
-                                        </label>
+                            <div id="slick-forms">
+                                <div class="slide">
+                                    <form method="get" action="" id="login-form">
+                                        <h3>S'identifier</h3>
+                                        <div class="form-row">
+                                            <label>
+                                                <input class="form-input" type="email" placeholder="Adresse mail" required>
+                                            </label>
+                                        </div>
+                                        <div class="form-row">
+                                            <label>
+                                                <input class="form-input" type="password" placeholder="Mot de passe" required>
+                                            </label>
+                                        </div>
+                                        <button type="submit">S'identifier</button>
+
+                                        <div style="padding: 15px 0">Mot de passe oublié? <a href="forgotten-password.php">Cliquez ici</a></div>
+                                    </form>
+                                </div>
+                                <div class="slide img" style="background-image: url('https://thumbs.dreamstime.com/b/surprised-african-kid-hands-face-close-up-portrait-hand-little-girl-open-mouth-isolated-white-background-71111084.jpg')">
+                                    <div class="img">
                                     </div>
-                                    <div class="form-row">
-                                        <label>
-                                            <input class="form-input" type="password" placeholder="Mot de passe" required>
-                                        </label>
-                                    </div>
-                                    <button type="submit">S'identifier</button>
+                                </div>
 
-                                    <div style="padding: 15px 0">Mot de passe oublié? <a href="forgotten-password.php">Cliquez ici</a></div>
-                                </form>
-                            </div>
-                            <div class="slide img" style="background-image: url('https://thumbs.dreamstime.com/b/surprised-african-kid-hands-face-close-up-portrait-hand-little-girl-open-mouth-isolated-white-background-71111084.jpg')">
-                                <div class="img">
+                                <div class="slide">
+                                    <form method="get" action="" id="registration-form">
+                                        <h3>S'inscrire</h3>
+                                        <div class="form-row">
+                                            <label>
+                                                <input class="form-input" type="text" name="" placeholder="Nom" required>
+                                            </label>
+                                        </div>
+                                        <div class="form-row">
+                                            <label>
+                                                <input class="form-input" type="email" name="" placeholder="Adresse mail" required>
+                                            </label>
+                                        </div>
+                                        <div class="form-row">
+                                            <label>
+                                                <input class="form-input" type="password" name="" placeholder="Mot de passe" required>
+                                            </label>
+                                        </div>
+                                        <div class="form-row">
+                                            <label>
+                                                <input type="checkbox" name="">
+                                                En cochant cette case vous acceptez de recevoir notre newsletter à cette adresse
+                                            </label>
+
+                                        </div>
+                                        <button type="submit">S'inscrire</button>
+                                    </form>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="slide">
-                                <form method="get" action="" id="registration-form">
-                                    <h3>S'inscrire</h3>
-                                    <div class="form-row">
-                                        <label>
-                                            <input class="form-input" type="text" name="" placeholder="Nom" required>
-                                        </label>
-                                    </div>
-                                    <div class="form-row">
-                                        <label>
-                                            <input class="form-input" type="email" name="" placeholder="Adresse mail" required>
-                                        </label>
-                                    </div>
-                                    <div class="form-row">
-                                        <label>
-                                            <input class="form-input" type="password" name="" placeholder="Mot de passe" required>
-                                        </label>
-                                    </div>
-                                    <div class="form-row">
-                                        <label>
-                                            <input type="checkbox" name="">
-                                            En cochant cette case vous acceptez de recevoir notre newsletter à cette adresse
-                                        </label>
 
-                                    </div>
-                                    <button type="submit">S'inscrire</button>
-                                </form>
-                            </div>
+
+                        <div class="comment-form">
+                            <form action="" method="">
+                                <label for="comment-field" class="hidden">Saisissez votre commentaire</label>
+                                <input type="text" name="commentaire" class="form-input" id="comment-field" required placeholder="Saisissez votre commentaire...">
+                            </form>
                         </div>
                     </div>
-                    
 
-                    
-                    <div class="comment-form">
-                        <form action="" method="">
-                            <label for="comment-field" class="hidden">Saisissez votre commentaire</label>
-                            <input type="text" name="commentaire" class="form-input" id="comment-field" required placeholder="Saisissez votre commentaire...">
-                        </form>
-                    </div>
 
                     <div class="comment-list">
                         <?php for($k = 0; $k < 10; $k++):;?>
