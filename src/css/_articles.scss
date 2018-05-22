@@ -136,14 +136,14 @@
   .slide.img{
     background-size: cover;
     background-position: center top;
-    height: 250px;
+    height: 300px;
     width: 100%;
   }
 
   #login-form,
   #registration-form{
     padding: 20px;
-    height: 250px;
+    height: 300px;
     h3{
       font-family: $fontTitle;
       margin-top: 0;
@@ -177,6 +177,134 @@
   #registration-form{
     button{
       background-color: $blue;
+    }
+  }
+}
+
+.comment-form,
+.reply-form{
+  margin: 10px 0;
+  border-top: solid 1px $light_gray;
+  padding: 15px 0;
+
+  label{
+    display: none;
+  }
+  .form-input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: solid 1px $light_gray;
+  }
+  .form-input::placeholder{
+    color: #878787;
+  }
+}
+.reply-form{
+
+  .form-input{
+    border-radius: 20px;
+  }
+}
+
+.comment-list{
+  background-color: $light_gray;
+
+  .comment-container{
+    margin-bottom: 15px;
+    padding: 15px;
+    position: relative;
+
+    .author-name{
+      font-weight: 700;
+      font-size: 14px;
+      color: $orange;
+      margin-bottom: 10px;
+    }
+
+    .comment{
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 10px;
+      margin-bottom: 5px;
+      position: relative;
+    }
+    .publication-date{
+      position: absolute;
+      right: 10px;
+      bottom: -20px;
+      font-style: italic;
+      font-size: 12px;
+      text-align: right;
+      color: #878787;
+    }
+
+    .likes-count{
+      position: absolute;
+      left: 0;
+      bottom: -15px;
+      z-index: 2000;
+
+      .like-button{
+        background-color: #fff;
+        display: inline-block;
+        position: relative;
+        padding: 8px;
+        border-radius: 12px;
+        cursor: pointer;
+        margin: 0;
+        font-weight: normal;
+        font-size: 12px;
+        box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+      }
+      .like-button:before{
+        content: "\f004";
+        font-family: FontAwesome, sans-serif;
+        margin-right: 5px;
+      }
+      .like-button.liked:before{
+        color: #FF0500;
+      }
+      input[type="checkbox"]{
+        display: none;
+      }
+    }
+  }
+  .comment-container:last-child{
+    margin-bottom: 0;
+  }
+
+  .reply-button{
+    display: inline-block;
+    color: $gray;
+    border: none;
+    background: none;
+    padding: 8px 5px;
+    font-size: 13px;
+  }
+  .reply-button:hover{
+    color: $orange;
+    text-decoration: underline;
+  }
+}
+
+.replies-list{
+  .comment-container{
+    margin-bottom: 5px;
+    padding: 5px 0 5px 40px;
+
+    .author-name{
+      font-weight: 700;
+      font-size: 14px;
+      color: $orange;
+      margin-bottom: 5px;
+    }
+
+    .comment{
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 10px;
+      margin-bottom: 5px;
     }
   }
 }

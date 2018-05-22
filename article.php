@@ -11,6 +11,10 @@
             <img src="https://teddibearswimschool.com/wp-content/uploads/2013/12/031.jpg" alt="titre de l'article">
         </div>
 
+        <div class="publication-date">
+            15 mai 2018
+        </div>
+
         <div class="sharethis-inline-share-buttons"></div>
 
         <div class="row">
@@ -69,53 +73,185 @@
                     <div class="inscription">
                         Veuillez vous inscrire  pour pouvoir laisser un commentaire. <button id="loginFormButton">S'inscrire</button>
                         Déjà inscrit? Veuillez vous identifier <button id="regFormButton">S'identifier</button>
-                    </div>
-                    
-                    <div id="slick-forms">
-                        <div class="slide">
-                            <form method="get" action="" id="login-form">
-                                <h3>S'identifier</h3>
-                                <div class="form-row">
-                                    <label>
-                                        <input class="form-input" type="email" placeholder="Adresse mail" required>
-                                    </label>
+
+                        <div id="slick-forms">
+                            <div class="slide">
+                                <form method="get" action="" id="login-form">
+                                    <h3>S'identifier</h3>
+                                    <div class="form-row">
+                                        <label>
+                                            <input class="form-input" type="email" placeholder="Adresse mail" required>
+                                        </label>
+                                    </div>
+                                    <div class="form-row">
+                                        <label>
+                                            <input class="form-input" type="password" placeholder="Mot de passe" required>
+                                        </label>
+                                    </div>
+                                    <button type="submit">S'identifier</button>
+
+                                    <div style="padding: 15px 0">Mot de passe oublié? <a href="forgotten-password.php">Cliquez ici</a></div>
+                                </form>
+                            </div>
+                            <div class="slide img" style="background-image: url('https://thumbs.dreamstime.com/b/surprised-african-kid-hands-face-close-up-portrait-hand-little-girl-open-mouth-isolated-white-background-71111084.jpg')">
+                                <div class="img">
                                 </div>
-                                <div class="form-row">
-                                    <label>
-                                        <input class="form-input" type="password" placeholder="Mot de passe" required>
-                                    </label>
-                                </div>
-                                <button type="submit">S'identifier</button>
-                            </form>
-                        </div>
-                        <div class="slide img" style="background-image: url('https://thumbs.dreamstime.com/b/surprised-african-kid-hands-face-close-up-portrait-hand-little-girl-open-mouth-isolated-white-background-71111084.jpg')">
-                            <div class="img">
+                            </div>
+
+                            <div class="slide">
+                                <form method="get" action="" id="registration-form">
+                                    <h3>S'inscrire</h3>
+                                    <div class="form-row">
+                                        <label>
+                                            <input class="form-input" type="text" name="" placeholder="Nom" required>
+                                        </label>
+                                    </div>
+                                    <div class="form-row">
+                                        <label>
+                                            <input class="form-input" type="email" name="" placeholder="Adresse mail" required>
+                                        </label>
+                                    </div>
+                                    <div class="form-row">
+                                        <label>
+                                            <input class="form-input" type="password" name="" placeholder="Mot de passe" required>
+                                        </label>
+                                    </div>
+                                    <div class="form-row">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            En cochant cette case vous acceptez de recevoir notre newsletter à cette adresse
+                                        </label>
+
+                                    </div>
+                                    <button type="submit">S'inscrire</button>
+                                </form>
                             </div>
                         </div>
+                    </div>
+                    
 
-                        <div class="slide">
-                            <form method="get" action="" id="registration-form">
-                                <h3>S'inscrire</h3>
-                                <div class="form-row">
-                                    <label>
-                                        <input class="form-input" type="email" name="" placeholder="Adresse mail" required>
-                                    </label>
-                                </div>
-                                <div class="form-row">
-                                    <label>
-                                        <input class="form-input" type="password" name="" placeholder="Mot de passe" required>
-                                    </label>
-                                </div>
-                                <div class="form-row">
-                                    <label>
-                                        <input type="checkbox" name="">
-                                        En cochant cette case vous acceptez de recevoir notre newsletter à cette adresse
-                                    </label>
+                    
+                    <div class="comment-form">
+                        <form action="" method="">
+                            <label for="comment-field" class="hidden">Saisissez votre commentaire</label>
+                            <input type="text" name="commentaire" class="form-input" id="comment-field" required placeholder="Saisissez votre commentaire...">
+                        </form>
+                    </div>
 
+                    <div class="comment-list">
+                        <?php for($k = 0; $k < 10; $k++):;?>
+                        <div class="comment-container">
+                            <div class="author-name">Simone</div>
+                            <div class="comment">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequuntur dolore illo inventore magni minima necessitatibus odit quibusdam rem temporibus! Exercitationem molestias praesentium reiciendis repudiandae velit. Doloribus eum omnis vero!
+                                <br>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cumque ducimus obcaecati qui? Accusamus asperiores cumque distinctio exercitationem, facere fugit mollitia necessitatibus, nihil placeat quae quod repellendus reprehenderit totam, voluptatibus.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eligendi minima natus non officiis placeat praesentium quaerat reiciendis vitae. Cupiditate natus nihil perspiciatis qui quidem sed veniam veritatis voluptas, voluptatibus.
+
+                                <div class="likes-count">
+                                    <form action="">
+                                        <label class="like-button liked">150
+                                            <input type="checkbox" name="comment-<?php echo $k;?>" value="like">
+                                        </label>
+                                    </form>
                                 </div>
-                                <button type="submit">S'inscrire</button>
-                            </form>
+                                <div class="publication-date">
+                                    10h43
+                                </div>
+                            </div>
+                            <div class="reply-form">
+                                <button data-toggle="collapse" class="reply-button" data-target="#reply_form-<?php echo $k;?>">Répondre</button>
+
+                                <form action="" id="reply_form-<?php echo $k;?>" class="collapse">
+                                    <label for="comment-field" class="hidden">Saisissez votre commentaire</label>
+                                    <input type="text" name="commentaire" class="form-input" id="comment-field" required placeholder="Saisissez votre commentaire...">
+                                </form>
+                            </div>
+
+                            <div class="replies-list">
+                                <div class="comment-container">
+                                    <div class="author-name">Angèle</div>
+                                    <div class="comment">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequuntur dolore illo inventore magni minima necessitatibus odit quibusdam rem temporibus! Exercitationem molestias praesentium reiciendis repudiandae velit. Doloribus eum omnis vero!
+
+                                        <div class="likes-count">
+                                            <form action="">
+                                                <label class="like-button">29
+                                                    <input type="checkbox" name="comment-<?php echo $k;?>a" value="like">
+                                                </label>
+                                            </form>
+                                        </div>
+                                        <div class="publication-date">
+                                            10h43
+                                        </div>
+                                    </div>
+
+                                    <div class="reply-form">
+                                        <button data-toggle="collapse" class="reply-button" data-target="#reply_form-<?php echo $k;?>a">Répondre</button>
+
+                                        <form action="" id="reply_form-<?php echo $k;?>a" class="collapse">
+                                            <label for="comment-field" class="hidden">Saisissez votre commentaire</label>
+                                            <input type="text" name="commentaire" class="form-input" id="comment-field" required placeholder="Saisissez votre commentaire...">
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="comment-container">
+                                    <div class="author-name">Simone</div>
+                                    <div class="comment">
+                                        Doloribus eligendi minima natus non officiis placeat praesentium quaerat reiciendis vitae. Cupiditate natus nihil perspiciatis
+
+                                        <div class="likes-count">
+                                            <form action="">
+                                                <label class="like-button">12
+                                                    <input type="checkbox" name="comment-<?php echo $k;?>b" value="like">
+                                                </label>
+                                            </form>
+                                        </div>
+                                        <div class="publication-date">
+                                            10h43
+                                        </div>
+                                    </div>
+
+                                    <div class="reply-form">
+                                        <button data-toggle="collapse" class="reply-button" data-target="#reply_form-<?php echo $k;?>b">Répondre</button>
+
+                                        <form action="" id="reply_form-<?php echo $k;?>b" class="collapse">
+                                            <label for="comment-field" class="hidden">Saisissez votre commentaire</label>
+                                            <input type="text" name="commentaire" class="form-input" id="comment-field" required placeholder="Saisissez votre commentaire...">
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="comment-container">
+                                    <div class="author-name">Mathilde</div>
+                                    <div class="comment">
+                                        Accusamus asperiores cumque distinctio exercitationem, facere fugit mollitia necessitatibus
+
+                                        <div class="likes-count">
+                                            <form action="">
+                                                <label class="like-button">9
+                                                    <input type="checkbox" name="comment-<?php echo $k;?>c" value="like">
+                                                </label>
+                                            </form>
+                                        </div>
+                                        <div class="publication-date">
+                                            10h43
+                                        </div>
+                                    </div>
+
+                                    <div class="reply-form">
+                                        <button data-toggle="collapse" class="reply-button" data-target="#reply_form-<?php echo $k;?>c">Répondre</button>
+
+                                        <form action="" id="reply_form-<?php echo $k;?>c" class="collapse">
+                                            <label for="comment-field" class="hidden">Saisissez votre commentaire</label>
+                                            <input type="text" name="commentaire" class="form-input" id="comment-field" required placeholder="Saisissez votre commentaire...">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <?php endfor;?>
                     </div>
                 </div>
 

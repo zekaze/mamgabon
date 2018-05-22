@@ -252,8 +252,21 @@ $(document).ready(function () {
     });
 
     /*
-    * Slick within Modal
+    * Likes toggle
     * */
-    $(".owl-carousel.owl-theme").css("background-color", "#000");
+    $(".likes-count").each(function () {
+        var self = $(this),
+            checkBox = self.find("input"),
+            likeButton = self.find(".like-button");
+
+        likeButton.click(function () {
+            if(checkBox.is(':checked')){
+                likeButton.addClass("liked");
+            }
+            else {
+                likeButton.removeClass("liked");
+            }
+        })
+    })
 });
 
