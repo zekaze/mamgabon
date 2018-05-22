@@ -121,7 +121,7 @@
                                         <div class="form-row">
                                             <label>
                                                 <input type="checkbox" name="">
-                                                En cochant cette case vous acceptez de recevoir notre newsletter à cette adresse
+                                                Cochez sur cette case si vous souhaitez recevoir notre newsletter à cette adresse
                                             </label>
 
                                         </div>
