@@ -212,8 +212,7 @@ header.fixed{
 .top_search_bar{
   position: absolute;
   padding: 5px 0;
-  background-color: #fff;
-  border-bottom: solid 2px $light_gray;
+  background-color: rgba($blue,0.2);
   left: 50%;
   width: 100%;
   opacity: 0;
@@ -234,15 +233,16 @@ header.fixed{
   input{
     display: inline-block;
     flex-grow: 1;
+    padding: 10px;
     border: none;
+    background: none;
   }
   button{
     width: 50px;
     height: 50px;
-    border-radius: 100%;
     border: none;
-    background-color: #c0c0c0;
-    color: #fff;
+    background: none;
+    color: $gray;
     cursor: pointer;
     @include transition(0.3s);
   }

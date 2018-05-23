@@ -2,9 +2,9 @@
 <div id="top_header">
     <div class="top_search_bar">
         <div class="container">
-            <form method="get" action="">
+            <form method="get" action="search.php">
                 <input type="text" class="search-input" placeholder="Que recherchez-vous sur MamGabon?" name="q" autocomplete="off" required>
-                <button type="submit"><i class="fa fa-search"></i></button>
+                <button type="button" class="search-toggle"><i class="fa fa-close"></i></button>
             </form>
         </div>
     </div>

@@ -7,7 +7,7 @@
 
             <div class="row">
                 <div class="col-lg-10 col-sm-8">
-                    <form method="get" action="">
+                    <form method="get" action="search.php">
                         <input type="text" class="search-input" placeholder="Que recherchez-vous sur MamGabon?" name="q"
                                autocomplete="off" required>
                         <button type="submit"><i class="fa fa-search"></i></button>
