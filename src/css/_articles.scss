@@ -303,9 +303,13 @@
     padding: 8px 5px;
     font-size: 13px;
   }
+  .reply-button:after{
+    content: "\f0d7";
+    font-family: FontAwesome, sans-serif;
+    margin-left: 5px;
+  }
   .reply-button:hover{
     color: $orange;
-    text-decoration: underline;
   }
 }
 

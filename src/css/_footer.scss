@@ -2,7 +2,10 @@
 
 footer{
   background-color: #f8f8f8;
-  padding-top: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 #footer_bottom{
   margin-top: 30px;
@@ -55,7 +58,7 @@ footer{
   li{
     display: inline-block;
     vertical-align: top;
-    margin-right: 25px;
+    margin-right: 5px;
 
     a{
       display: inline-block;

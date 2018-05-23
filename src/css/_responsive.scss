@@ -1,7 +1,16 @@
+@media (max-width: 1366px) {
+  .error404 {
+    background: $blue;
+  }
+}
 @media (max-width: 991px) {
   html{
     width: 100%;
     overflow-x: hidden;
+  }
+
+  body{
+    padding-bottom: 830px;
   }
   //navbar ovveride
   .navbar-nav{
@@ -125,6 +134,11 @@
 }
 
 @media (max-width: 768px){
+
+  body{
+    padding-bottom: 430px;
+  }
+
   #top_header{
     margin-bottom: 400px;
   }

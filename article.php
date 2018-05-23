@@ -69,8 +69,6 @@
                     <div class="header">
                         <h3 class="title">Laissez un commentaire</h3>
 
-
-
                         <div class="inscription">
                             Veuillez vous inscrire  pour pouvoir laisser un commentaire. Cliquez<button id="loginFormButton">ici pour vous inscrire.</button>
                             <br>
@@ -130,8 +128,6 @@
                                 </div>
                             </div>
                         </div>
-
-
 
                         <div class="comment-form">
                             <form action="" method="">
