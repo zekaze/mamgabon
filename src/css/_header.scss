@@ -8,6 +8,7 @@ header{
   @include transition(1s);
 }
 
+
 header.fixed{
   position: fixed;
   left: 0;
@@ -77,6 +78,10 @@ header.fixed{
   a{
     padding: 15px;
     color: $gray;
+  }
+
+  .slash{
+    margin-right: 15px;
   }
 }
 .top_nav_bar.mobile-only{
@@ -201,7 +206,7 @@ header.fixed{
   display: none;
   position: fixed;
   z-index: 101;
-  top: 5px;
+  top: 15px;
   right: 5px;
   background: $blue;
   border: none;
@@ -215,8 +220,8 @@ header.fixed{
   background-color: rgba($blue,0.2);
   left: 50%;
   width: 100%;
-  opacity: 0;
-  z-index: -100;
+  display: none;
+  z-index: 0;
   @include transform(translate(-50%,0));
   @include transition(0.4s);
   top: 20px;
@@ -252,6 +257,33 @@ header.fixed{
 }
 .top_search_bar.visible{
   top: 40px;
-  opacity: 1;
-  z-index: 0;
+  display: block;
+}
+.lang_menu,
+.top_nav_bar.mobile-only .lang_menu{
+  a{
+    position: relative;
+    padding-left: 35px;
+
+    &:before{
+      content: '';
+      display: inline-block;
+      width: 22px;
+      height: 15px;
+      margin-right: 15px;
+      background-size: cover;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      @include transform(translate(0,-50%));
+    }
+  }
+  .lang-EN:before{
+    background: url("../img/EN.png") no-repeat;
+    background-size: cover;
+  }
+  .lang-FR:before{
+    background: url("../img/FR.png") no-repeat;
+    background-size: cover;
+  }
 }

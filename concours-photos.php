@@ -1,7 +1,7 @@
 <?php include "assets/header.php"; ?>
     <ul class="breadcrumbs">
-        <li><a href="#">éducation</a></li>
-        <li><a href="#">articles</a></li>
+        <li><a href="#">Parents</a></li>
+        <li><a href="#">Concours de photos</a></li>
     </ul>
     <div class="container">
         <h1 class="article-title">Nathan, grand vainqueur du consours de photos Mai 2018</h1>

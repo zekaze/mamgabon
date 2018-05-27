@@ -26,10 +26,19 @@
   .mobile-only{
     display: block !important;
   }
-
   #top_header{
-    opacity: 0;
-    margin-bottom: 400px;
+    border: none;
+    z-index: 101;
+  }
+  .top_search_bar.visible{
+    position: fixed;
+    bottom: 0;
+    z-index: 200;
+    top: auto;
+    background-color: $light_gray;
+  }
+  .top_nav_bar{
+    display: none;
   }
 
   #logo_bar{
@@ -242,18 +251,6 @@
 @media (max-width: 640px){
   #top_header{
     margin-bottom: 350px;
-  }
-  .newsletter-bar {
-    @include animation(gradientBackground 20s linear infinite alternate);
-
-    &:before {
-      content: '';
-      opacity: 0.2;
-    }
-    &:after {
-      content: '';
-      opacity: 0.2;
-    }
   }
 }
 

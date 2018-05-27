@@ -10,10 +10,10 @@
     </div>
     <div class="container">
         <ul class="top_nav_bar">
-            <li><ul id="lang_menu">
-                    <li><a href="#">EN</a></li>
+            <li><ul class="lang_menu">
+                    <li><a href="#" class="lang-EN">EN</a></li>
                     <li><span class="slash">/</span></li>
-                    <li><a href="#">FR</a></li>
+                    <li><a href="#" class="lang-FR">FR</a></li>
                 </ul>
             </li>
             <li class="link_space"></li>
@@ -100,9 +100,9 @@
                 </li>
             </ul>
             <ul class="top_nav_bar mobile-only">
-                <li><ul id="lang_menu">
-                        <li><a href="#">EN</a></li>
-                        <li><a href="#">FR</a></li>
+                <li><ul class="lang_menu">
+                        <li><a href="#" class="lang-EN">EN</a></li>
+                        <li><a href="#" class="lang-FR">FR</a></li>
                     </ul>
                 </li>
                 <li class="link_space"></li>

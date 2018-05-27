@@ -75,15 +75,15 @@
 }
 @keyframes gradientBackground {
   0%{
-    background: $blue;
+    background: rgba($blue,0.8);
   }
   40%{
-    background: $blue;
+    background: rgba($blue,0.8);
   }
   60%{
-    background: $orange;
+    background: rgba($orange,0.7);
   }
   100%{
-    background: $orange;
+    background: rgba($orange,0.7);
   }
 }

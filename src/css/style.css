@@ -145,13 +145,13 @@
     transform: translate(50px, -10px); } }
 @keyframes gradientBackground {
   0% {
-    background: #89b1d5; }
+    background: rgba(137, 177, 213, 0.8); }
   40% {
-    background: #89b1d5; }
+    background: rgba(137, 177, 213, 0.8); }
   60% {
-    background: #fb7660; }
+    background: rgba(251, 118, 96, 0.7); }
   100% {
-    background: #fb7660; } }
+    background: rgba(251, 118, 96, 0.7); } }
 *,
 *:focus {
   outline: none; }
@@ -346,27 +346,28 @@ a:focus {
   background-color: #89b1d5;
   color: #fff;
   position: relative;
-  -webkit-animation: gradientBackground 20s linear infinite alternate;
-  -moz-animation: gradientBackground 20s linear infinite alternate;
-  -o-animation: gradientBackground 20s linear infinite alternate;
-  -ms-animation: gradientBackground 20s linear infinite alternate;
-  animation: gradientBackground 20s linear infinite alternate; }
+  -webkit-animation: gradientBackground 10s linear infinite alternate;
+  -moz-animation: gradientBackground 10s linear infinite alternate;
+  -o-animation: gradientBackground 10s linear infinite alternate;
+  -ms-animation: gradientBackground 10s linear infinite alternate;
+  animation: gradientBackground 10s linear infinite alternate; }
   .newsletter-bar:before {
     content: '';
     position: absolute;
     display: block;
     z-index: 0;
     top: 0;
+    opacity: 0.2;
     right: 20%;
     width: 128px;
     height: 128px;
     background: url("../img/cloud.png") no-repeat center center;
     background-size: cover;
-    -webkit-animation: floatingCloud_1 10s linear infinite alternate;
-    -moz-animation: floatingCloud_1 10s linear infinite alternate;
-    -o-animation: floatingCloud_1 10s linear infinite alternate;
-    -ms-animation: floatingCloud_1 10s linear infinite alternate;
-    animation: floatingCloud_1 10s linear infinite alternate; }
+    -webkit-animation: floatingCloud_1 5s linear infinite alternate;
+    -moz-animation: floatingCloud_1 5s linear infinite alternate;
+    -o-animation: floatingCloud_1 5s linear infinite alternate;
+    -ms-animation: floatingCloud_1 5s linear infinite alternate;
+    animation: floatingCloud_1 5s linear infinite alternate; }
   .newsletter-bar:after {
     content: '';
     position: absolute;
@@ -374,15 +375,16 @@ a:focus {
     z-index: 0;
     top: 85px;
     right: 25%;
+    opacity: 0.2;
     width: 120px;
     height: 120px;
     background: url("../img/cloud2.png") no-repeat center center;
     background-size: cover;
-    -webkit-animation: floatingCloud_2 20s linear infinite alternate;
-    -moz-animation: floatingCloud_2 20s linear infinite alternate;
-    -o-animation: floatingCloud_2 20s linear infinite alternate;
-    -ms-animation: floatingCloud_2 20s linear infinite alternate;
-    animation: floatingCloud_2 20s linear infinite alternate; }
+    -webkit-animation: floatingCloud_2 10s linear infinite alternate;
+    -moz-animation: floatingCloud_2 10s linear infinite alternate;
+    -o-animation: floatingCloud_2 10s linear infinite alternate;
+    -ms-animation: floatingCloud_2 10s linear infinite alternate;
+    animation: floatingCloud_2 10s linear infinite alternate; }
   .newsletter-bar h3 {
     font-size: 30px;
     letter-spacing: 3px;
@@ -400,7 +402,7 @@ a:focus {
     .newsletter-bar .form-row button[type="submit"] {
       background: transparent;
       color: #fff;
-      border: solid 2px transparent;
+      border: solid 2px rgba(255, 255, 255, 0.1);
       border-radius: 30px;
       padding: 10px 30px;
       -webkit-transition: all 0.3s ease-in-out;
@@ -422,6 +424,38 @@ a:focus {
   .grid-sizer img,
   .grid-item img {
     width: 100%; }
+
+.grid-item:hover:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: calc(100% - 5px);
+  height: calc(100% - 5px);
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1; }
+
+.grid-item:hover:after {
+  content: '\f002';
+  font-family: FontAwesome, sans-serif;
+  position: absolute;
+  font-size: 30px;
+  color: #fff;
+  opacity: 0.6;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 2; }
 
 header {
   margin-bottom: 30px;
@@ -489,6 +523,8 @@ header.fixed {
   .top_nav_bar a {
     padding: 15px;
     color: #5c6468; }
+  .top_nav_bar .slash {
+    margin-right: 15px; }
 
 .top_nav_bar.mobile-only a {
   display: block;
@@ -600,7 +636,7 @@ header.fixed {
   display: none;
   position: fixed;
   z-index: 101;
-  top: 5px;
+  top: 15px;
   right: 5px;
   background: #89b1d5;
   border: none;
@@ -613,8 +649,8 @@ header.fixed {
   background-color: rgba(137, 177, 213, 0.2);
   left: 50%;
   width: 100%;
-  opacity: 0;
-  z-index: -100;
+  display: none;
+  z-index: 0;
   -webkit-transform: translate(-50%, 0);
   -moz-transform: translate(-50%, 0);
   -o-transform: translate(-50%, 0);
@@ -654,8 +690,36 @@ header.fixed {
 
 .top_search_bar.visible {
   top: 40px;
-  opacity: 1;
-  z-index: 0; }
+  display: block; }
+
+.lang_menu a,
+.top_nav_bar.mobile-only .lang_menu a {
+  position: relative;
+  padding-left: 35px; }
+  .lang_menu a:before,
+  .top_nav_bar.mobile-only .lang_menu a:before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 15px;
+    margin-right: 15px;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%); }
+.lang_menu .lang-EN:before,
+.top_nav_bar.mobile-only .lang_menu .lang-EN:before {
+  background: url("../img/EN.png") no-repeat;
+  background-size: cover; }
+.lang_menu .lang-FR:before,
+.top_nav_bar.mobile-only .lang_menu .lang-FR:before {
+  background: url("../img/FR.png") no-repeat;
+  background-size: cover; }
 
 footer {
   background-color: #f8f8f8;
@@ -1333,8 +1397,18 @@ div.zabuto_calendar .badge-event {
     display: block !important; }
 
   #top_header {
-    opacity: 0;
-    margin-bottom: 400px; }
+    border: none;
+    z-index: 101; }
+
+  .top_search_bar.visible {
+    position: fixed;
+    bottom: 0;
+    z-index: 200;
+    top: auto;
+    background-color: #f2f2f2; }
+
+  .top_nav_bar {
+    display: none; }
 
   #logo_bar img {
     height: auto;
@@ -1496,20 +1570,7 @@ div.zabuto_calendar .badge-event {
     width: 33.333%; } }
 @media (max-width: 640px) {
   #top_header {
-    margin-bottom: 350px; }
-
-  .newsletter-bar {
-    -webkit-animation: gradientBackground 20s linear infinite alternate;
-    -moz-animation: gradientBackground 20s linear infinite alternate;
-    -o-animation: gradientBackground 20s linear infinite alternate;
-    -ms-animation: gradientBackground 20s linear infinite alternate;
-    animation: gradientBackground 20s linear infinite alternate; }
-    .newsletter-bar:before {
-      content: '';
-      opacity: 0.2; }
-    .newsletter-bar:after {
-      content: '';
-      opacity: 0.2; } }
+    margin-bottom: 350px; } }
 @media (max-width: 560px) {
   #top_header {
     margin-bottom: 320px; }
