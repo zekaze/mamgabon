@@ -209,7 +209,7 @@ a:focus{
   background-color: $blue;
   color: #fff;
   position: relative;
-  animation: gradientBackground 20s linear infinite alternate;
+  @include animation(gradientBackground 20s linear infinite alternate);
 
   &:before{
     content: '';
@@ -222,10 +222,7 @@ a:focus{
     height: 128px;
     background: url("../img/cloud.png") no-repeat center center;
     background-size: cover;
-    -webkit-animation: floatingCloud_1 5s linear infinite alternate;
-    -moz-animation: floatingCloud_1 5s linear infinite alternate;
-    -o-animation: floatingCloud_1 5s linear infinite alternate;
-    animation: floatingCloud_1 5s linear infinite alternate;
+    @include animation(floatingCloud_1 5s linear infinite alternate);
   }
   &:after{
     content: '';
@@ -238,10 +235,7 @@ a:focus{
     height: 120px;
     background: url("../img/cloud2.png") no-repeat center center;
     background-size: cover;
-    -webkit-animation: floatingCloud_2 10s linear infinite alternate;
-    -moz-animation: floatingCloud_2 10s linear infinite alternate;
-    -o-animation: floatingCloud_2 10s linear infinite alternate;
-    animation: floatingCloud_2 10s linear infinite alternate;
+    @include animation(floatingCloud_2 10s linear infinite alternate);
   }
 
 

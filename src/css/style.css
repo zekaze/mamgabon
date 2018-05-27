@@ -346,6 +346,10 @@ a:focus {
   background-color: #89b1d5;
   color: #fff;
   position: relative;
+  -webkit-animation: gradientBackground 20s linear infinite alternate;
+  -moz-animation: gradientBackground 20s linear infinite alternate;
+  -o-animation: gradientBackground 20s linear infinite alternate;
+  -ms-animation: gradientBackground 20s linear infinite alternate;
   animation: gradientBackground 20s linear infinite alternate; }
   .newsletter-bar:before {
     content: '';
@@ -361,6 +365,7 @@ a:focus {
     -webkit-animation: floatingCloud_1 5s linear infinite alternate;
     -moz-animation: floatingCloud_1 5s linear infinite alternate;
     -o-animation: floatingCloud_1 5s linear infinite alternate;
+    -ms-animation: floatingCloud_1 5s linear infinite alternate;
     animation: floatingCloud_1 5s linear infinite alternate; }
   .newsletter-bar:after {
     content: '';
@@ -376,6 +381,7 @@ a:focus {
     -webkit-animation: floatingCloud_2 10s linear infinite alternate;
     -moz-animation: floatingCloud_2 10s linear infinite alternate;
     -o-animation: floatingCloud_2 10s linear infinite alternate;
+    -ms-animation: floatingCloud_2 10s linear infinite alternate;
     animation: floatingCloud_2 10s linear infinite alternate; }
   .newsletter-bar h3 {
     font-size: 30px;
