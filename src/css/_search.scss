@@ -1,0 +1,72 @@
+.search_result_category{
+  margin-bottom: 20px;
+
+  &:last-child{
+    margin: 0;
+  }
+
+
+
+  .search_result_category_header{
+    background: $light_gray;
+    display: block;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    font-size: 16px;
+    font-family: $fontTitle;
+    color: $gray;
+    margin-bottom: 10px;
+    @include transition(0.3s);
+    position: relative;
+
+    &:hover {
+      background-color: $orange;
+      color: #fff;
+    }
+
+    &:after{
+      content: "\f067";
+      font-family: FontAwesome, sans-serif;
+      position: absolute;
+      right: 15px;
+    }
+  }
+}
+
+#search_result_evenements{
+  .liste-evenements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .list-item{
+      width: calc(50% - 12px);
+      margin-bottom: 10px;
+      border: solid 1px $light_gray;
+
+      &:nth-of-type(odd){
+        margin-right: 10px;
+      }
+      &:nth-of-type(even){
+        margin-left: 10px;
+      }
+
+      .col-xs-9{
+        padding: 10px 0 15px;
+      }
+
+      .event_title{
+        font-family: $fontTitle;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+}

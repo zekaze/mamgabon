@@ -20,7 +20,7 @@
             <li><a href="#" class="search-toggle">Rechercher &nbsp; <i class="fa fa-search"></i></a></li>
             <li class="link_space"></li>
             <li><a href="#">Espace annonceurs</a></li>
-            <li><a href="about.php">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
             <li class="link_space"></li>
             <li>
                 <ul class="social_menu">
@@ -109,7 +109,7 @@
                 <li><a href="#" class="search-toggle">Rechercher</a></li>
                 <li class="link_space"></li>
                 <li><a href="#">Espace annonceurs</a></li>
-                <li><a href="about.php">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </div>
     </nav>

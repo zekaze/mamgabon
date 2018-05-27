@@ -7,4 +7,48 @@
       width: 100%;
     }
   }
+
+  .widget{
+    margin-bottom: 20px;
+
+    .widget-title{
+      font-family: $fontTitle;
+      font-size: 25px;
+      letter-spacing: 2px;
+      color: $blue;
+      text-transform: uppercase;
+    }
+
+    &.sondage{
+      font-size: 13px;
+      padding: 10px;
+      background-color: rgba($blue,0.1);
+      border-radius: 5px;
+      ul{
+        margin: 10px 0;
+        padding: 0;
+        list-style: none;
+      }
+      .radio-option{
+        padding: 5px 0;
+        display: block;
+        margin-bottom: 2px;
+        cursor: pointer;
+        font-weight: normal;
+      }
+
+      input{
+        margin-right: 18px;
+      }
+
+      button{
+        background: $blue;
+        display: block;
+        margin: 15px auto;
+        padding: 10px 30px;
+        color: #fff;
+        border: none;
+      }
+    }
+  }
 }
