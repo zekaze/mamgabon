@@ -6,21 +6,20 @@
                         <p>Nonummy nibh euismod tincidunt ut
                             laoreet dolore magna aliquam</p>
                     </div>
-                    <img src="https://cdn-images-1.medium.com/max/2000/1*K90Ud3lDPs-NSwFWqmDDrg.jpeg" alt="img">
+                    <img src="https://www.childtrends.org/wp-content/uploads/2015/12/bigstock-Young-African-American-Mother-85812815.jpg" alt="img">
+                </a>
+                <a href="concours-photos.php" class="slide">
+                    <div class="slide-description">
+                        <p>Nathan, grand vainqueur du consours de photos Mai 2018</p>
+                    </div>
+                    <img src="https://i.pinimg.com/originals/20/c1/8c/20c18caa57e9077e4559ab35a93029e0.jpg" alt="img">
                 </a>
                 <a href="article.php" class="slide">
                     <div class="slide-description">
                         <p>Nonummy nibh euismod tincidunt ut
                             laoreet dolore magna aliquam</p>
                     </div>
-                    <img src="http://www.livescience.com/images/i/000/073/436/original/kids-pizza-150119.jpg" alt="img">
-                </a>
-                <a href="article.php" class="slide">
-                    <div class="slide-description">
-                        <p>Nonummy nibh euismod tincidunt ut
-                            laoreet dolore magna aliquam</p>
-                    </div>
-                    <img src="http://www.impactlab.net/wp-content/uploads/2016/11/kids.jpg" alt="img">
+                    <img src="http://worcuga.com/wp-content/uploads/2015/03/single-mom11.jpg" alt="img">
                 </a>
                 <a href="article.php" class="slide">
                     <div class="slide-description">
@@ -50,13 +49,12 @@
                         <?php //cette boucle duplique la colonne "article";?>
                         <?php for ($j = 0; $j < 2; $j++): ?>
                             <div class="col-sm-6">
-                                <a href="article.php" class="article" data-animate="fadeInUp">
+                                <a href="concours-photos.php" class="article" data-animate="fadeInUp">
                                     <div class="img-frame">
-                                        <img src="http://www.livescience.com/images/i/000/073/436/original/kids-pizza-150119.jpg"
+                                        <img src="https://i.pinimg.com/originals/20/c1/8c/20c18caa57e9077e4559ab35a93029e0.jpg"
                                              alt="image">
                                     </div>
-                                    <h4 class="title">Lorem ipsum dolor sit amet,
-                                        consectetuer adipiscing elit, sed</h4>
+                                    <h4 class="title">Nathan, grand vainqueur du consours de photos Mai 2018</h4>
 
                                     <div class="abstract">Lorem ipsum dolor sit amet, consectetuer
                                         adipiscing elit, sed diam nonummy nibh

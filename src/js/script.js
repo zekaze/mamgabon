@@ -289,7 +289,26 @@ $(document).ready(function () {
     /*
     * Autocomplete off
     * */
-
     $("input").attr("autocomplete","off");
+
+
+    /*
+    * Masonry
+    * */
+    $('.gallery-photo').masonry({
+        // options
+        columnWidth: '.grid-sizer',
+        itemSelector: '.grid-item',
+        percentPosition: true
+    });
+
+    $('.gallery-photo').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+        // other options
+        gallery:{
+            enabled:true
+        }
+    });
 });
 

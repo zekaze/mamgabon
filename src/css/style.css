@@ -362,11 +362,11 @@ a:focus {
     height: 128px;
     background: url("../img/cloud.png") no-repeat center center;
     background-size: cover;
-    -webkit-animation: floatingCloud_1 5s linear infinite alternate;
-    -moz-animation: floatingCloud_1 5s linear infinite alternate;
-    -o-animation: floatingCloud_1 5s linear infinite alternate;
-    -ms-animation: floatingCloud_1 5s linear infinite alternate;
-    animation: floatingCloud_1 5s linear infinite alternate; }
+    -webkit-animation: floatingCloud_1 10s linear infinite alternate;
+    -moz-animation: floatingCloud_1 10s linear infinite alternate;
+    -o-animation: floatingCloud_1 10s linear infinite alternate;
+    -ms-animation: floatingCloud_1 10s linear infinite alternate;
+    animation: floatingCloud_1 10s linear infinite alternate; }
   .newsletter-bar:after {
     content: '';
     position: absolute;
@@ -378,11 +378,11 @@ a:focus {
     height: 120px;
     background: url("../img/cloud2.png") no-repeat center center;
     background-size: cover;
-    -webkit-animation: floatingCloud_2 10s linear infinite alternate;
-    -moz-animation: floatingCloud_2 10s linear infinite alternate;
-    -o-animation: floatingCloud_2 10s linear infinite alternate;
-    -ms-animation: floatingCloud_2 10s linear infinite alternate;
-    animation: floatingCloud_2 10s linear infinite alternate; }
+    -webkit-animation: floatingCloud_2 20s linear infinite alternate;
+    -moz-animation: floatingCloud_2 20s linear infinite alternate;
+    -o-animation: floatingCloud_2 20s linear infinite alternate;
+    -ms-animation: floatingCloud_2 20s linear infinite alternate;
+    animation: floatingCloud_2 20s linear infinite alternate; }
   .newsletter-bar h3 {
     font-size: 30px;
     letter-spacing: 3px;
@@ -400,18 +400,28 @@ a:focus {
     .newsletter-bar .form-row button[type="submit"] {
       background: transparent;
       color: #fff;
-      border: none;
+      border: solid 2px transparent;
+      border-radius: 30px;
       padding: 10px 30px;
-      font-size: 18px;
       -webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
       -o-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out; }
       .newsletter-bar .form-row button[type="submit"]:hover {
-        background-color: #6398c8; }
+        border-color: #fff; }
       .newsletter-bar .form-row button[type="submit"]:after {
         content: "\f1d8";
-        font-family: FontAwesome, sans-serif; }
+        font-family: FontAwesome, sans-serif;
+        font-size: 18px;
+        margin-left: 15px; }
+
+.grid-sizer,
+.grid-item {
+  width: 25%;
+  padding: 3px; }
+  .grid-sizer img,
+  .grid-item img {
+    width: 100%; }
 
 header {
   margin-bottom: 30px;
@@ -1479,10 +1489,27 @@ div.zabuto_calendar .badge-event {
   .carousel .controls .prev {
     left: 5px; }
   .carousel .controls .next {
-    right: 5px; } }
+    right: 5px; }
+
+  .grid-sizer,
+  .grid-item {
+    width: 33.333%; } }
 @media (max-width: 640px) {
   #top_header {
-    margin-bottom: 350px; } }
+    margin-bottom: 350px; }
+
+  .newsletter-bar {
+    -webkit-animation: gradientBackground 20s linear infinite alternate;
+    -moz-animation: gradientBackground 20s linear infinite alternate;
+    -o-animation: gradientBackground 20s linear infinite alternate;
+    -ms-animation: gradientBackground 20s linear infinite alternate;
+    animation: gradientBackground 20s linear infinite alternate; }
+    .newsletter-bar:before {
+      content: '';
+      opacity: 0.2; }
+    .newsletter-bar:after {
+      content: '';
+      opacity: 0.2; } }
 @media (max-width: 560px) {
   #top_header {
     margin-bottom: 320px; }
@@ -1503,7 +1530,11 @@ div.zabuto_calendar .badge-event {
     float: none;
     margin-bottom: 15px; }
   .liste-etablissements .etablissement .photos .col-xs-6:last-child {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+
+  .grid-sizer,
+  .grid-item {
+    width: 50%; } }
 @media (max-width: 380px) {
   #top_header {
     margin-bottom: 230px; } }

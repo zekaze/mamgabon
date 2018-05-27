@@ -208,7 +208,6 @@
           height: 100px;
         }
       }
-
     }
   }
 
@@ -233,11 +232,28 @@
       }
     }
   }
+
+  .grid-sizer,
+  .grid-item{
+    width: 33.333%;
+  }
 }
 
 @media (max-width: 640px){
   #top_header{
     margin-bottom: 350px;
+  }
+  .newsletter-bar {
+    @include animation(gradientBackground 20s linear infinite alternate);
+
+    &:before {
+      content: '';
+      opacity: 0.2;
+    }
+    &:after {
+      content: '';
+      opacity: 0.2;
+    }
   }
 }
 
@@ -281,6 +297,11 @@
       }
 
     }
+  }
+
+  .grid-sizer,
+  .grid-item{
+    width: 50%;
   }
 }
 

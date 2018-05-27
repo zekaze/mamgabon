@@ -93,7 +93,7 @@
                             </div>
                             <div class="col-sm-1">
                                 <div class="form-row">
-                                    <button type="submit"></button>
+                                    <button type="submit"><span>S'enregistrer</span></button>
                                 </div>
                             </div>
                         </div>

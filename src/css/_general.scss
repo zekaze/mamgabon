@@ -222,7 +222,7 @@ a:focus{
     height: 128px;
     background: url("../img/cloud.png") no-repeat center center;
     background-size: cover;
-    @include animation(floatingCloud_1 5s linear infinite alternate);
+    @include animation(floatingCloud_1 10s linear infinite alternate);
   }
   &:after{
     content: '';
@@ -235,7 +235,7 @@ a:focus{
     height: 120px;
     background: url("../img/cloud2.png") no-repeat center center;
     background-size: cover;
-    @include animation(floatingCloud_2 10s linear infinite alternate);
+    @include animation(floatingCloud_2 20s linear infinite alternate);
   }
 
 
@@ -261,19 +261,34 @@ a:focus{
     button[type="submit"]{
       background: transparent;
       color: #fff;
-      border: none;
+      border: solid 2px transparent;
+      border-radius: 30px;
       padding: 10px 30px;
-      font-size: 18px;
       @include transition(0.3s);
 
       &:hover{
-        background-color: darken($blue, 10%);
+        border-color: #fff;
       }
 
       &:after{
         content: "\f1d8";
         font-family: FontAwesome, sans-serif;
+        font-size: 18px;
+        margin-left: 15px;
       }
     }
   }
+}
+.grid-sizer,
+.grid-item{
+  width: 25%;
+  padding: 3px;
+
+  img{
+    width: 100%;
+  }
+}
+
+.photo-gagnant{
+
 }
