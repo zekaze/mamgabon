@@ -284,5 +284,12 @@ $(document).ready(function () {
           formInput.focus();
        });
     });
+
+
+    /*
+    * Autocomplete off
+    * */
+
+    $("input").attr("autocomplete","off");
 });
 

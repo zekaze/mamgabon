@@ -13,6 +13,12 @@ body{
   position: relative;
   margin: 0;
 }
+h2, h1, h3{
+  font-family: $fontTitle;
+}
+h1{ font-size: 35px;}
+h2{ font-size: 28px;}
+h3{ font-size: 22px;}
 .rel{
   position: relative;
 }
@@ -194,4 +200,86 @@ a:focus{
 }
 .sharethis-inline-share-buttons{
   margin: 10px 0 15px;
+}
+
+
+.newsletter-bar{
+  padding: 50px 0;
+  margin-top: 30px;
+  background-color: $blue;
+  color: #fff;
+  position: relative;
+  animation: gradientBackground 20s linear infinite alternate;
+
+  &:before{
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: 0;
+    top: 0;
+    right: 20%;
+    width: 128px;
+    height: 128px;
+    background: url("../img/cloud.png") no-repeat center center;
+    background-size: cover;
+    -webkit-animation: floatingCloud_1 5s linear infinite alternate;
+    -moz-animation: floatingCloud_1 5s linear infinite alternate;
+    -o-animation: floatingCloud_1 5s linear infinite alternate;
+    animation: floatingCloud_1 5s linear infinite alternate;
+  }
+  &:after{
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: 0;
+    top: 85px;
+    right: 25%;
+    width: 120px;
+    height: 120px;
+    background: url("../img/cloud2.png") no-repeat center center;
+    background-size: cover;
+    -webkit-animation: floatingCloud_2 10s linear infinite alternate;
+    -moz-animation: floatingCloud_2 10s linear infinite alternate;
+    -o-animation: floatingCloud_2 10s linear infinite alternate;
+    animation: floatingCloud_2 10s linear infinite alternate;
+  }
+
+
+  h3{
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 0;
+  }
+
+  .form-row{
+    font-weight: normal;
+    display: block;
+    width: 100%;
+
+    .form-input{
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      color: $gray;
+    }
+
+    button[type="submit"]{
+      background: transparent;
+      color: #fff;
+      border: none;
+      padding: 10px 30px;
+      font-size: 18px;
+      @include transition(0.3s);
+
+      &:hover{
+        background-color: darken($blue, 10%);
+      }
+
+      &:after{
+        content: "\f1d8";
+        font-family: FontAwesome, sans-serif;
+      }
+    }
+  }
 }

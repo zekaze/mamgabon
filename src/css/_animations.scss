@@ -57,3 +57,33 @@
     @include transform(translate(0, -50%));
   }
 }
+@keyframes floatingCloud_1 {
+  0%{
+    @include transform(translate(0,0));
+  }
+  100%{
+    @include transform(translate(50px,10px));
+  }
+}
+@keyframes floatingCloud_2 {
+  0%{
+    @include transform(translate(0,0));
+  }
+  100%{
+    @include transform(translate(50px,-10px));
+  }
+}
+@keyframes gradientBackground {
+  0%{
+    background: $blue;
+  }
+  40%{
+    background: $blue;
+  }
+  60%{
+    background: $orange;
+  }
+  100%{
+    background: $orange;
+  }
+}
