@@ -252,6 +252,13 @@
   #top_header{
     margin-bottom: 350px;
   }
+  .articles.tiles{
+    display: block;
+
+    .article {
+      width: 100%;
+    }
+  }
 }
 
 @media (max-width: 560px){
@@ -304,6 +311,6 @@
 
 @media (max-width: 380px){
   #top_header{
-    margin-bottom: 230px;
+    margin-bottom: 300px;
   }
 }

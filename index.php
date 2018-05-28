@@ -54,7 +54,7 @@
                                         <img src="https://i.pinimg.com/originals/20/c1/8c/20c18caa57e9077e4559ab35a93029e0.jpg"
                                              alt="image">
                                     </div>
-                                    <h4 class="title">Nathan, grand vainqueur du consours de photos Mai 2018</h4>
+                                    <h4 class="title">Nathan, grand vainqueur du consours de photos Mais 2018</h4>
 
                                     <div class="abstract">Lorem ipsum dolor sit amet, consectetuer
                                         adipiscing elit, sed diam nonummy nibh

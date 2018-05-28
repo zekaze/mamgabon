@@ -58,83 +58,40 @@
                     </div>
 
                     <ul class="suggestion-list">
-                        <?php for ($i = 0; $i < 3; $i++): ?>
-                            <li><a href="#" class="list-item" data-animate="fadeInUp">
+                            <li><a href="concours-photos.php" class="list-item" data-animate="fadeInUp">
                                     <div class="image-frame">
-                                        <img src="http://tntribune.com/wp-content/uploads/2016/08/iStock_000010561067Medium.jpg" alt="titre de l'article">
+                                        <img src="https://www.childtrends.org/wp-content/uploads/2015/12/bigstock-Young-African-American-Mother-85812815.jpg" alt="titre de l'article">
                                     </div>
                                     <div class="abstract">
-                                        Lorem ipsum dolor sit amet, consectetuer
-                                        adipiscing elit, sed
+                                        Concours de photo janvier 2018
                                     </div>
                                 </a>
                             </li>
-                        <?php endfor;?>
+
+                            <li><a href="concours-photos.php" class="list-item" data-animate="fadeInUp">
+                                    <div class="image-frame">
+                                        <img src="https://www.blackradionetwork.com/images/headline/1303154662.jpg" alt="titre de l'article">
+                                    </div>
+                                    <div class="abstract">
+                                        Concours de photo févier 2018
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li><a href="concours-photos.php" class="list-item" data-animate="fadeInUp">
+                                    <div class="image-frame">
+                                        <img src="https://cbssacramento.files.wordpress.com/2012/03/sacramento-theatre-kids-camp.jpg" alt="titre de l'article">
+                                    </div>
+                                    <div class="abstract">
+                                        Concours de photo mars 2018
+                                    </div>
+                                </a>
+                            </li>
                     </ul>
                 </div>
                 <div class="comments-section">
                     <div class="header">
                         <h3 class="title">Laissez un commentaire</h3>
-
-                        <div class="inscription">
-                            Veuillez vous inscrire  pour pouvoir laisser un commentaire. Cliquez<button id="loginFormButton">ici pour vous inscrire.</button>
-                            <br>
-                            Déjà inscrit? Cliquez<button id="regFormButton">ici pour vous identifier.</button>
-
-                            <div id="slick-forms">
-                                <div class="slide">
-                                    <form method="get" action="" id="login-form">
-                                        <h3>S'identifier</h3>
-                                        <div class="form-row">
-                                            <label>
-                                                <input class="form-input" type="email" placeholder="Adresse mail" required>
-                                            </label>
-                                        </div>
-                                        <div class="form-row">
-                                            <label>
-                                                <input class="form-input" type="password" placeholder="Mot de passe" required>
-                                            </label>
-                                        </div>
-                                        <button type="submit">S'identifier</button>
-
-                                        <div style="padding: 15px 0">Mot de passe oublié? <a href="forgotten-password.php">Cliquez ici</a></div>
-                                    </form>
-                                </div>
-                                <div class="slide img" style="background-image: url('https://thumbs.dreamstime.com/b/surprised-african-kid-hands-face-close-up-portrait-hand-little-girl-open-mouth-isolated-white-background-71111084.jpg')">
-                                    <div class="img">
-                                    </div>
-                                </div>
-
-                                <div class="slide">
-                                    <form method="get" action="" id="registration-form">
-                                        <h3>S'inscrire</h3>
-                                        <div class="form-row">
-                                            <label>
-                                                <input class="form-input" type="text" name="" placeholder="Nom" required>
-                                            </label>
-                                        </div>
-                                        <div class="form-row">
-                                            <label>
-                                                <input class="form-input" type="email" name="" placeholder="Adresse mail" required>
-                                            </label>
-                                        </div>
-                                        <div class="form-row">
-                                            <label>
-                                                <input class="form-input" type="password" name="" placeholder="Mot de passe" required>
-                                            </label>
-                                        </div>
-                                        <div class="form-row">
-                                            <label>
-                                                <input type="checkbox" name="">
-                                                Cochez sur cette case si vous souhaitez recevoir notre newsletter à cette adresse
-                                            </label>
-
-                                        </div>
-                                        <button type="submit">S'inscrire</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class="comment-form">
                             <form action="" method="">

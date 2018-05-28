@@ -47,6 +47,21 @@
       }
     }
   }
+
+  &.tiles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .article{
+      width: 49%;
+
+      &:nth-of-type(2n){
+        border-color: $blue;
+      }
+    }
+  }
 }
 
 .article-title{
@@ -331,5 +346,19 @@
       border-radius: 10px;
       margin-bottom: 5px;
     }
+  }
+}
+.tags-list{
+  padding: 15px 0;
+  text-align: right;
+
+  .tag{
+    padding: 5px 10px;
+    font-size: 13px;
+    background-color: $light_gray;
+    color: $gray;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 0 2px 5px;
   }
 }

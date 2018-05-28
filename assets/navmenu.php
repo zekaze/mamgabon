@@ -11,9 +11,9 @@
     <div class="container">
         <ul class="top_nav_bar">
             <li><ul class="lang_menu">
-                    <li><a href="#" class="lang-EN">EN</a></li>
+                    <li><a href="#" class="lang-EN" title="English">EN</a></li>
                     <li><span class="slash">/</span></li>
-                    <li><a href="#" class="lang-FR">FR</a></li>
+                    <li><a href="#" class="lang-FR" title="Français">FR</a></li>
                 </ul>
             </li>
             <li class="link_space"></li>
@@ -55,7 +55,7 @@
                         <li><a href="annuaire.php">Annuaire des établissements</a></li>
                         <li><a href="#">Calendrier scolaire</a></li>
                         <li><a href="#">Soutien scolaire</a></li>
-                        <li><a href="#">Articles</a></li>
+                        <li><a href="articles.php">Articles</a></li>
                     </ul>
                 </li>
                 <li class="sub-menu"><span class="menu-item">SANTE <img src="src/img/sante.png" alt="Santé"></span>
@@ -65,13 +65,13 @@
                         <li><a href="#">Common childhood illnesses</a></li>
                         <li><a href="#">Common childhood conditions</a></li>
                         <li><a href="#">Calendrier des vaccins (par pays)</a></li>
-                        <li><a href="#">Articles</a></li>
+                        <li><a href="articles.php">Articles</a></li>
                     </ul>
                 </li>
                 <li class="sub-menu"><span class="menu-item">ALIMENTATION <img src="src/img/cuisine.png" alt="Alimentation"></span>
                     <ul>
                         <li><a href="#">Nos petites recettes</a></li>
-                        <li><a href="#">Articles</a></li>
+                        <li><a href="articles.php">Articles</a></li>
                     </ul>
                 </li>
                 <li class="sub-menu"><span class="menu-item">LOISIRS <img src="src/img/loisirs.png" alt="Loisirs"></span>
@@ -79,7 +79,7 @@
                         <li><a href="#">Calendrier des activites mensuel</a></li>
                         <li><a href="#">Annuaire Activités</a></li>
                         <li><a href="#">Anniversaires</a></li>
-                        <li><a href="#">Articles</a></li>
+                        <li><a href="articles.php">Articles</a></li>
                     </ul>
                 </li>
                 <li class="sub-menu"><span class="menu-item">PARENTS <img src="src/img/parents.png" alt="Parents"></span>
@@ -87,7 +87,7 @@
                         <li><a href="#">For mommy</a></li>
                         <li><a href="#">Daddy & Me</a></li>
                         <li><a href="#">Ressources pour parents</a></li>
-                        <li><a href="#">Articles</a></li>
+                        <li><a href="articles.php">Articles</a></li>
                     </ul>
                 </li>
                 <li class="sub-menu"><span class="menu-item">CARITATIVES <img src="src/img/caritatives.png" alt="Oeuvres caritatives"></span>

@@ -25,28 +25,28 @@
                     <div class="col-md-3 col-xs-4">
                         <ul class="footer_link_list">
                             <li><h6>Education</h6></li>
-                            <li><a href="#">Annuaire des établissements</a></li>
+                            <li><a href="annuaire.php">Annuaire des établissements</a></li>
                             <li><a href="#">Calendrier scolaire</a></li>
                             <li><a href="#">Soutien scolaire</a></li>
-                            <li><a href="#">Articles</a></li>
+                            <li><a href="articles.php">Articles</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-xs-4">
                         <ul class="footer_link_list">
                             <li><h6>SANTE</h6></li>
-                            <li><a href="#">Annuaire pédiatres </a></li>
-                            <li><a href="#">Annuaire paramedical</a></li>
+                            <li><a href="annuaire.php">Annuaire pédiatres </a></li>
+                            <li><a href="annuaire.php">Annuaire paramedical</a></li>
                             <li><a href="#">Common childhood illnesses</a></li>
                             <li><a href="#">Common childhood conditions</a></li>
                             <li><a href="#">Calendrier des vaccins (par pays)</a></li>
-                            <li><a href="#">Articles</a></li>
+                            <li><a href="articles.php">Articles</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-xs-4">
                         <ul class="footer_link_list">
                             <li><h6>ALIMENTATION</h6></li>
                             <li><a href="#">Nos petites recettes</a></li>
-                            <li><a href="#">Articles</a></li>
+                            <li><a href="articles.php">Articles</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-xs-4">
@@ -67,7 +67,7 @@
                             <li><a href="#">For mommy</a></li>
                             <li><a href="#">Daddy & Me</a></li>
                             <li><a href="#">Ressources pour parents</a></li>
-                            <li><a href="#">Articles</a></li>
+                            <li><a href="articles.php">Articles</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-xs-4">
@@ -92,7 +92,7 @@
                 <li><a href="#">ESPACE ANNONCEURS</a></li>
                 <li><a href="#">PLAN DU SITE</a></li>
                 <li><a href="#">INSCRIPTION À LA NEWSLETTER </a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
             </ul>
         </div>
     </div>

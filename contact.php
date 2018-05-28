@@ -1,11 +1,8 @@
 <?php include "assets/header.php"; ?>
-<div class="banner-image" style="background-image: url('https://teddibearswimschool.com/wp-content/uploads/2013/12/031.jpg')">
     <div class="container">
-        <h1 class="page-title">Contact</h1>
-    </div>
-</div>
-    <div class="container">
-
+        <div class="section-title left" data-animate="fadeInUp">
+            <h1>Nous contacter</h1>
+        </div>
 
         <div class="row">
             <div class="col-md-8">
@@ -62,7 +59,7 @@
             <div class="col-md-4">
                 <div class="sidebar">
                     <div class="widget contact-info">
-                        <h3 class="widget-title">Contact</h3>
+                        <h3 class="widget-title">Adresse</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda.</p>
                         <div class="adresse">BP 1234, Libreville, Gabon</div>
                         <div class="telephone">(+241) 01 22 33 44</div>

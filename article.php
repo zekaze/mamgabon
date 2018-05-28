@@ -1,7 +1,7 @@
 <?php include "assets/header.php"; ?>
     <ul class="breadcrumbs">
         <li><a href="#">éducation</a></li>
-        <li><a href="#">articles</a></li>
+        <li><a href="articles.php">articles</a></li>
     </ul>
     <div class="container">
         <h1 class="article-title">LOREM IPSUM DOLOR SIT AMET, CONSECTETUER
@@ -43,6 +43,14 @@
                         vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
                         accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
                         feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Architecto deleniti doloremque et explicabo illum minima natus nulla. Distinctio eligendi error harum impedit laborum mollitia nam nemo perferendis quod similique? At. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nemo sequi voluptatem. Autem consequuntur cum <strong>dolorum enim maxime</strong> modi nesciunt qui saepe sit? Amet blanditiis minus, odit officiis pariatur quos.</p>
+
+                </div>
+                <!--end of article body-->
+                <div class="tags-list">
+                    <a href="#" class="tag">#education</a>
+                    <a href="#" class="tag">#vulputate velit</a>
+                    <a href="#" class="tag">#Architecto</a>
+                    <a href="#" class="tag">#Architecto deleniti</a>
                 </div>
 
                 <div class="article-suggestions">
