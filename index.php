@@ -1,12 +1,11 @@
 <?php include "assets/header.php";?>
     <div class="carousel">
         <div class="slick">
-                <a href="article.php" class="slide">
+                <a href="concours-photos-inscriptions.php" class="slide">
                     <div class="slide-description">
-                        <p>Nonummy nibh euismod tincidunt ut
-                            laoreet dolore magna aliquam</p>
+                        <p>Concours de photos juin 2018</p>
                     </div>
-                    <img src="https://www.childtrends.org/wp-content/uploads/2015/12/bigstock-Young-African-American-Mother-85812815.jpg" alt="img">
+                    <img src="https://pictures.digitalrev.com/image/upload/w_1400,c_fill,q_60/v1462266655/en5xxtno1tyautirprzk.jpg" alt="img">
                 </a>
                 <a href="concours-photos.php" class="slide">
                     <div class="slide-description">

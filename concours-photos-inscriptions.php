@@ -1,14 +1,13 @@
 <?php include "assets/header.php"; ?>
     <ul class="breadcrumbs">
-        <li><a href="#">éducation</a></li>
-        <li><a href="articles.php">articles</a></li>
+        <li><a href="#">Parents</a></li>
+        <li><a href="#">Concours de photos</a></li>
     </ul>
     <div class="container">
-        <h1 class="article-title">LOREM IPSUM DOLOR SIT AMET, CONSECTETUER
-            ADIPISCING ELIT, SED</h1>
+        <h1 class="article-title">Concours de photos juin 2018</h1>
         
         <div class="hero-image">
-            <img src="https://teddibearswimschool.com/wp-content/uploads/2013/12/031.jpg" alt="titre de l'article">
+            <img src="https://pictures.digitalrev.com/image/upload/w_1400,c_fill,q_60/v1462266655/en5xxtno1tyautirprzk.jpg" alt="titre de l'article">
         </div>
 
         <div class="publication-date">
@@ -20,57 +19,77 @@
         <div class="row">
             <div class="col-md-9">
                 <div class="article-body">
-                    <p style="font-style: italic">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                        tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                        nostrud exerci tation ullamcorper suscipit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, minus, possimus. Architecto deserunt doloremque eaque esse, expedita iure maxime nihil numquam odio possimus provident quam, quod ratione rem saepe voluptas!</p>
-                    <h3>1 - Mobortis nisl ut aliquip</h3>
-                    <p>Mobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in
-                        vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
-                        accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-                        feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Architecto deleniti doloremque et explicabo illum minima natus nulla. Distinctio eligendi error harum impedit laborum mollitia nam nemo perferendis quod similique? At. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nemo sequi voluptatem. Autem consequuntur cum <strong>dolorum enim maxime</strong> modi nesciunt qui saepe sit? Amet blanditiis minus, odit officiis pariatur quos.</p>
+                    <h2>A propos des concours de photos MamGabon</h2>
 
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                        tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                        nostrud exerci tation ullamcorper suscipit</p>
-                    <h3>2 - Mobortis nisl ut aliquip</h3>
-                    <p>Mobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in
-                        vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
-                        accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-                        feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Architecto deleniti doloremque et explicabo illum minima natus nulla. Distinctio eligendi error harum impedit laborum mollitia nam nemo perferendis quod similique? At. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nemo sequi voluptatem. Autem consequuntur cum <strong>dolorum enim maxime</strong> modi nesciunt qui saepe sit? Amet blanditiis minus, odit officiis pariatur quos.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam at deleniti est fugit iste
+                        iure nobis officiis voluptatem. Corporis cumque dolore obcaecati soluta sunt. Cum eligendi est
+                        et nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, adipisci est
+                        eum facere impedit in laboriosam magni necessitatibus nisi nulla omnis perferendis quaerat
+                        ratione rem repudiandae sequi totam voluptate! Accusamus?</p>
 
-                    <h3>3 - Mobortis nisl ut aliquip</h3>
-                    <p>Mobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in
-                        vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
-                        accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-                        feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Architecto deleniti doloremque et explicabo illum minima natus nulla. Distinctio eligendi error harum impedit laborum mollitia nam nemo perferendis quod similique? At. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nemo sequi voluptatem. Autem consequuntur cum <strong>dolorum enim maxime</strong> modi nesciunt qui saepe sit? Amet blanditiis minus, odit officiis pariatur quos.</p>
+
+                    <h2>Les règles du concours</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <h3>1 - Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci atque corporis cum ducimus
+                        eligendi esse eum facilis id modi nobis obcaecati odit qui temporibus ullam. Magni perspiciatis
+                        praesentium repudiandae!</p>
+
+                    <h3>2 - Accusantium</h3>
+                    <p>consectetur adipisicing elit. Accusantium, adipisci est
+                        eum facere impedit in laboriosam magni necessitatibus nisi nulla omnis perferendis quaerat
+                        ratione rem repudiandae sequi totam voluptate! Accusamus?</p>
+
+                    <h3>3 - Quaerat ratione rem.</h3>
+                    <p>Corporis cumque dolore obcaecati soluta sunt. Cum eligendi est
+                        et nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium</p>
+
 
                 </div>
-                <!--end of article body-->
-                <div class="tags-list">
-                    <a href="#" class="tag">#education</a>
-                    <a href="#" class="tag">#vulputate velit</a>
-                    <a href="#" class="tag">#Architecto</a>
-                    <a href="#" class="tag">#Architecto deleniti</a>
+                <div class="module formulaire-photos">
+                    <form action="" enctype="multipart/form-data" id="formulaire-concours">
+                        <label for="image-form-field">Sélectionnez votre plus belle photo :)</label>
+                        <input type="file" id="image-form-field" name="photo-participant" accept="image/*" required >
+                        <button type="submit" class="submit-button">Soumettre</button>
+                        <button type="reset" class="reset-button">Annuler</button>
+                    </form>
                 </div>
-
                 <div class="article-suggestions">
                     <div class="section-title small" data-animate="fadeInUp">
                         <h3>Dans la même catégorie</h3>
                     </div>
 
                     <ul class="suggestion-list">
-                        <?php for ($i = 0; $i < 3; $i++): ?>
-                            <li><a href="#" class="list-item" data-animate="fadeInUp">
+                            <li><a href="concours-photos.php" class="list-item" data-animate="fadeInUp">
                                     <div class="image-frame">
-                                        <img src="http://tntribune.com/wp-content/uploads/2016/08/iStock_000010561067Medium.jpg" alt="titre de l'article">
+                                        <img src="https://www.childtrends.org/wp-content/uploads/2015/12/bigstock-Young-African-American-Mother-85812815.jpg" alt="titre de l'article">
                                     </div>
                                     <div class="abstract">
-                                        Lorem ipsum dolor sit amet, consectetuer
-                                        adipiscing elit, sed
+                                        Concours de photo janvier 2018
                                     </div>
                                 </a>
                             </li>
-                        <?php endfor;?>
+
+                            <li><a href="concours-photos.php" class="list-item" data-animate="fadeInUp">
+                                    <div class="image-frame">
+                                        <img src="https://www.blackradionetwork.com/images/headline/1303154662.jpg" alt="titre de l'article">
+                                    </div>
+                                    <div class="abstract">
+                                        Concours de photo févier 2018
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li><a href="concours-photos.php" class="list-item" data-animate="fadeInUp">
+                                    <div class="image-frame">
+                                        <img src="https://cbssacramento.files.wordpress.com/2012/03/sacramento-theatre-kids-camp.jpg" alt="titre de l'article">
+                                    </div>
+                                    <div class="abstract">
+                                        Concours de photo mars 2018
+                                    </div>
+                                </a>
+                            </li>
                     </ul>
                 </div>
                 <div class="comments-section">

@@ -79,6 +79,11 @@
   position: relative;
   margin-bottom: 10px;
 
+  & + .publication-date{
+    text-align: center;
+    font-style: italic;
+  }
+
   img{
     width: 100%;
     position: absolute;
@@ -86,6 +91,7 @@
     @include transform(translate(0,-50%));
   }
 }
+
 
 .section-title.small{
   margin-bottom: 30px !important;
@@ -360,5 +366,102 @@
     border-radius: 5px;
     display: inline-block;
     margin: 0 0 2px 5px;
+  }
+}
+.article-body{
+  margin-bottom: 50px;
+
+  h2,
+  h1{
+    margin-top: 50px;
+
+    &:first-of-type{
+      margin-top: 20px;
+    }
+  }
+
+  h3{
+    margin-top: 40px;
+  }
+}
+
+.formulaire-photos {
+  padding: 50px 20px 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  @include animation(gradientBackground 10s linear infinite alternate);
+
+  &:before {
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: 0;
+    top: 80px;
+    opacity: 0.2;
+    right: 10%;
+    width: 100px;
+    height: 100px;
+    background: url("../img/photography.png") no-repeat center center;
+    background-size: cover;
+    @include animation(floatingCloud_1 5s linear infinite alternate);
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: 0;
+    top: 5px;
+    right: 20%;
+    opacity: 0.2;
+    width: 50px;
+    height: 50px;
+    background: url("../img/cloud2.png") no-repeat center center;
+    background-size: cover;
+    @include animation(floatingCloud_2 10s linear infinite alternate);
+  }
+
+  #image-form-field {
+    display: none;
+  }
+  label {
+    font-weight: normal;
+    display: block;
+    font-family: $fontTitle;
+    font-size: 17px;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: #fff;
+    border: dashed 2px #c0c0c0;
+    cursor: pointer;
+    @include transition(0.3s);
+
+    &:hover{
+      background-color: $light_gray;
+    }
+  }
+
+  button{
+    border: none;
+    padding: 10px 25px;
+    color: #fff;
+
+    &.submit-button{
+      background-color: darken($blue, 5%);
+      opacity: 0.2;
+
+      &:hover{
+        @include transition(0.3s);
+        background-color: $orange;
+      }
+    }
+    &.reset-button{
+      background-color: #fff;
+      color: $gray;
+    }
   }
 }

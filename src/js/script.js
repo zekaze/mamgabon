@@ -166,6 +166,9 @@ $(document).ready(function () {
         if($window.scrollTop() > 300){
             $(".back-to-top").addClass("visible");
         }
+        else{
+            $(".back-to-top").removeClass("visible");
+        }
     }
 
     /*
@@ -285,13 +288,6 @@ $(document).ready(function () {
        });
     });
 
-
-    /*
-    * Autocomplete off
-    * */
-    $("input").attr("autocomplete","off");
-
-
     /*
     * Masonry
     * */
@@ -310,5 +306,31 @@ $(document).ready(function () {
             enabled:true
         }
     });
-});
+    /*
+    * Formulaire photos
+    * */
 
+    $(function () {
+        var formulaire = $("#formulaire-concours"),
+            label = formulaire.find("label"),
+            formField = formulaire.find("#image-form-field"),
+            submitButton = formulaire.find(".submit-button"),
+            resetButton = formulaire.find(".reset-button");
+
+        formField.change(function (e) {
+            var fileName = e.target.files[0].name;
+            if(e.target.files[0].length === 0){
+                label.text("Sélectionnez votre plus belle photo :)");
+            }
+            else {
+                label.text(fileName);
+                submitButton.css("opacity",1);
+            }
+        });
+
+        resetButton.click(function () {
+            label.text("Sélectionnez votre plus belle photo :)");
+            submitButton.css("opacity",0.2);
+        })
+    });
+});

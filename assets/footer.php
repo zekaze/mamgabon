@@ -105,7 +105,6 @@
 <script src="src/plugins/zabuto-calendar/zabuto_calendar.js"></script>
 <script src="src/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
 <script src='//platform-api.sharethis.com/js/sharethis.js#property=5afa2b570a23d40011096916&product=inline-share-buttons' type='text/javascript' async='async'></script>
-<script src="src/plugins/owlCarousel/owl.carousel.min.js"></script>
 <script src="src/plugins/masonry/masonry.pkgd.min.js"></script>
 <script src="src/js/script.js"></script>
 </body>
