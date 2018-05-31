@@ -64,10 +64,7 @@
                                     <div class="image-frame">
                                         <img src="http://tntribune.com/wp-content/uploads/2016/08/iStock_000010561067Medium.jpg" alt="titre de l'article">
                                     </div>
-                                    <div class="abstract">
-                                        Lorem ipsum dolor sit amet, consectetuer
-                                        adipiscing elit, sed
-                                    </div>
+                                    <h4 class="title" title="Lorem ipsum dolor sit amet, consectetuer Lorem ipsum dolor">Lorem ipsum dolor sit amet, consectetuer Lorem ipsum dolor</h4>
                                 </a>
                             </li>
                         <?php endfor;?>

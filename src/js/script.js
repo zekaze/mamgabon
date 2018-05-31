@@ -333,4 +333,36 @@ $(document).ready(function () {
             submitButton.css("opacity",0.2);
         })
     });
+
+
+    /*
+    * Abstract
+    * */
+
+    $(".abstract").each(function () {
+        var self = $(this),
+            txtLen = self.text().length;
+
+        if(txtLen > 255){
+            self.text(self.text().substr(0,255)+'...');
+        }
+    });
+
+    $(".suggestion-list .title").each(function () {
+        var self = $(this),
+            txtLen = self.text().length;
+
+        if(txtLen > 52){
+            self.text(self.text().substr(0,52)+'...');
+        }
+    });
+
+    $(".articles .title").each(function () {
+        var self = $(this),
+            txtLen = self.text().length;
+
+        if(txtLen > 80){
+            self.text(self.text().substr(0,80)+'...');
+        }
+    });
 });

@@ -19,6 +19,20 @@
       text-transform: uppercase;
     }
 
+    .link.center{
+      display: block;
+      padding: 8px 10px;
+      margin: 5px 0;
+      text-align: center;
+      color: $gray;
+      font-size: 13px;
+      @include transition(0.3s);
+
+      &:hover{
+        color: $orange;
+      }
+    }
+
     &.sondage{
       font-size: 13px;
       padding: 10px;

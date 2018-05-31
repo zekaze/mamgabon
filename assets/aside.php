@@ -2,6 +2,7 @@
     <div class="sidebar">
         <div class="widget calendar">
             <div id="calendar"></div>
+            <a href="calendrier.php" class="link center">Voir tous les événements</a>
         </div>
         <div class="widget sondage">
             <h3 class="widget-title">Sondage</h3>

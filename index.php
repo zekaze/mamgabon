@@ -48,17 +48,14 @@
                         <?php //cette boucle duplique la colonne "article";?>
                         <?php for ($j = 0; $j < 2; $j++): ?>
                             <div class="col-sm-6">
-                                <a href="concours-photos.php" class="article" data-animate="fadeInUp">
+                                <a href="concours-photos.php" class="article" data-animate="fadeInUp" title="">
                                     <div class="img-frame">
                                         <img src="https://i.pinimg.com/originals/20/c1/8c/20c18caa57e9077e4559ab35a93029e0.jpg"
                                              alt="image">
                                     </div>
-                                    <h4 class="title">Nathan, grand vainqueur du consours de photos Mais 2018</h4>
+                                    <h4 class="title" title="Nathan, grand vainqueur du consours de photos Mais 2018">Nathan, grand vainqueur du consours de photos Mais 2018</h4>
 
-                                    <div class="abstract">Lorem ipsum dolor sit amet, consectetuer
-                                        adipiscing elit, sed diam nonummy nibh
-                                        euismod tincidunt ut laoreet dolore magna
-                                        aliquam erat volutpat.
+                                    <div class="abstract">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliq 250 etur adipisicing elit. Ab, amet asperiores fugit illo iure labore, laborum molestiae natus nemo neque odit omnis perferendis quae, qui quidem reprehenderit soluta sunt voluptatum!
                                     </div>
                                 </a>
                             </div>

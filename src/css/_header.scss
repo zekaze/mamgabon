@@ -156,7 +156,8 @@ header.fixed{
     img{
       position: absolute;
       left: 50%;
-      top: -70px;
+      padding: 15px;
+      top: -82px;
       @include transition(0.3s);
       @include transform(translate(-50%,0));
 

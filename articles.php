@@ -14,10 +14,7 @@
                             </div>
                             <h4 class="title">Nathan, grand vainqueur du consours de photos Mai 2018</h4>
 
-                            <div class="abstract">Lorem ipsum dolor sit amet, consectetuer
-                                adipiscing elit, sed diam nonummy nibh
-                                euismod tincidunt ut laoreet dolore magna
-                                aliquam erat volutpat.
+                            <div class="abstract">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                             </div>
                         </a>
 
@@ -30,10 +27,7 @@
                             </div>
                             <h4 class="title">Nathan, grand vainqueur du consours de photos Mai 2018</h4>
 
-                            <div class="abstract">Lorem ipsum dolor sit amet, consectetuer
-                                adipiscing elit, sed diam nonummy nibh
-                                euismod tincidunt ut laoreet dolore magna
-                                aliquam erat volutpat.
+                            <div class="abstract">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                             </div>
                         </a>
 
@@ -46,10 +40,7 @@
                             </div>
                             <h4 class="title">Nathan, grand vainqueur du consours de photos Mai 2018</h4>
 
-                            <div class="abstract">Lorem ipsum dolor sit amet, consectetuer
-                                adipiscing elit, sed diam nonummy nibh
-                                euismod tincidunt ut laoreet dolore magna
-                                aliquam erat volutpat.
+                            <div class="abstract">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                             </div>
                         </a>
 
@@ -62,10 +53,7 @@
                             </div>
                             <h4 class="title">Nathan, grand vainqueur du consours de photos Mai 2018</h4>
 
-                            <div class="abstract">Lorem ipsum dolor sit amet, consectetuer
-                                adipiscing elit, sed diam nonummy nibh
-                                euismod tincidunt ut laoreet dolore magna
-                                aliquam erat volutpat.
+                            <div class="abstract">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                             </div>
                         </a>
 
@@ -78,12 +66,22 @@
                             </div>
                             <h4 class="title">Nathan, grand vainqueur du consours de photos Mai 2018</h4>
 
-                            <div class="abstract">Lorem ipsum dolor sit amet, consectetuer
-                                adipiscing elit, sed diam nonummy nibh
-                                euismod tincidunt ut laoreet dolore magna
-                                aliquam erat volutpat.
+                            <div class="abstract">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                             </div>
                         </a>
+                </div>
+                <div class="pagination">
+                    <ul>
+                        <li><a href="#" class="first"><i class="fa fa-chevron-left"></i></a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><span  class="dots">...</span></li>
+                        <li><a href="#">10</a></li>
+                        <li><a href="#">11</a></li>
+                        <li><a href="#">12</a></li>
+                        <li><a href="#" class="last"><i class="fa fa-chevron-right"></i></a></li>
+                    </ul>
                 </div>
             </div>
             <?php include "assets/aside.php"; ?>

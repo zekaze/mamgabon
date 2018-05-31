@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bienvenue chez Mommy and Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Bienvenue chez Mommy and Me</title>
+    <meta property="og:title" content="Bienvenue chez Mommy and Me"/>
+    <meta property="og:url" content="http://www.mamgabon.com" />
+    <meta property="og:type" content="blog" />
+    <meta property="og:description" content="Présentation du site MamGabon" />
+    <meta property="og:image" content="http://www.mamgabon.com/image-name.jpg" />
     <meta name="theme-color" content="#89b1d5">
+    <meta name="description" content="Description du site">
+
+    <link rel="canonical" href="#">
+
     <!-- Open sans -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i" rel="stylesheet">
     <!-- Bootstrap -->
