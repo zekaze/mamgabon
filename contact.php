@@ -1,5 +1,9 @@
 <?php include "assets/header.php"; ?>
     <div class="container">
+        <ul class="breadcrumbs left">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
         <div class="section-title left" data-animate="fadeInUp">
             <h1>Nous contacter</h1>
         </div>

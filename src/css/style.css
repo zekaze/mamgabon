@@ -1480,59 +1480,62 @@ div.zabuto_calendar .badge-event {
       position: absolute;
       right: 15px; }
 
-#search_result_evenements .liste-evenements,
-.evenement-mois .liste-evenements {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-  #search_result_evenements .liste-evenements .list-item,
-  .evenement-mois .liste-evenements .list-item {
-    width: 49%;
-    margin-bottom: 10px;
-    border: solid 1px #f2f2f2; }
-    #search_result_evenements .liste-evenements .list-item .col-xs-9,
-    .evenement-mois .liste-evenements .list-item .col-xs-9 {
-      padding: 10px 0 15px; }
-    #search_result_evenements .liste-evenements .list-item .event_title,
-    .evenement-mois .liste-evenements .list-item .event_title {
-      font-family: "deliusregular", sans-serif;
-      font-size: 20px;
-      color: #89b1d5;
+#search_result_evenements,
+.evenement-mois {
+  margin-bottom: 150px; }
+  #search_result_evenements .liste-evenements,
+  .evenement-mois .liste-evenements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    #search_result_evenements .liste-evenements .list-item,
+    .evenement-mois .liste-evenements .list-item {
+      width: 49%;
       margin-bottom: 10px;
-      padding: 5px 10px 0; }
-    #search_result_evenements .liste-evenements .list-item .event_location,
-    #search_result_evenements .liste-evenements .list-item .annonceur,
-    #search_result_evenements .liste-evenements .list-item .event_date,
-    .evenement-mois .liste-evenements .list-item .event_location,
-    .evenement-mois .liste-evenements .list-item .annonceur,
-    .evenement-mois .liste-evenements .list-item .event_date {
-      padding: 0 10px 5px 30px;
-      font-size: 13px;
-      position: relative; }
+      border: solid 1px #f2f2f2; }
+      #search_result_evenements .liste-evenements .list-item .col-xs-9,
+      .evenement-mois .liste-evenements .list-item .col-xs-9 {
+        padding: 10px 0 15px; }
+      #search_result_evenements .liste-evenements .list-item .event_title,
+      .evenement-mois .liste-evenements .list-item .event_title {
+        font-family: "deliusregular", sans-serif;
+        font-size: 20px;
+        color: #89b1d5;
+        margin-bottom: 10px;
+        padding: 5px 10px 0; }
+      #search_result_evenements .liste-evenements .list-item .event_location,
+      #search_result_evenements .liste-evenements .list-item .annonceur,
+      #search_result_evenements .liste-evenements .list-item .event_date,
+      .evenement-mois .liste-evenements .list-item .event_location,
+      .evenement-mois .liste-evenements .list-item .annonceur,
+      .evenement-mois .liste-evenements .list-item .event_date {
+        padding: 0 10px 5px 30px;
+        font-size: 13px;
+        position: relative; }
+        #search_result_evenements .liste-evenements .list-item .event_location:before,
+        #search_result_evenements .liste-evenements .list-item .annonceur:before,
+        #search_result_evenements .liste-evenements .list-item .event_date:before,
+        .evenement-mois .liste-evenements .list-item .event_location:before,
+        .evenement-mois .liste-evenements .list-item .annonceur:before,
+        .evenement-mois .liste-evenements .list-item .event_date:before {
+          font-family: FontAwesome, sans-serif;
+          position: absolute;
+          left: 10px;
+          color: #B7B7B7;
+          top: 0; }
       #search_result_evenements .liste-evenements .list-item .event_location:before,
-      #search_result_evenements .liste-evenements .list-item .annonceur:before,
+      .evenement-mois .liste-evenements .list-item .event_location:before {
+        content: '\f015'; }
       #search_result_evenements .liste-evenements .list-item .event_date:before,
-      .evenement-mois .liste-evenements .list-item .event_location:before,
-      .evenement-mois .liste-evenements .list-item .annonceur:before,
       .evenement-mois .liste-evenements .list-item .event_date:before {
-        font-family: FontAwesome, sans-serif;
-        position: absolute;
-        left: 10px;
-        color: #B7B7B7;
-        top: 0; }
-    #search_result_evenements .liste-evenements .list-item .event_location:before,
-    .evenement-mois .liste-evenements .list-item .event_location:before {
-      content: '\f015'; }
-    #search_result_evenements .liste-evenements .list-item .event_date:before,
-    .evenement-mois .liste-evenements .list-item .event_date:before {
-      content: '\f073'; }
-    #search_result_evenements .liste-evenements .list-item .annonceur:before,
-    .evenement-mois .liste-evenements .list-item .annonceur:before {
-      content: '\f007'; }
-    #search_result_evenements .liste-evenements .list-item:last-child,
-    .evenement-mois .liste-evenements .list-item:last-child {
-      margin-bottom: 0; }
+        content: '\f073'; }
+      #search_result_evenements .liste-evenements .list-item .annonceur:before,
+      .evenement-mois .liste-evenements .list-item .annonceur:before {
+        content: '\f007'; }
+      #search_result_evenements .liste-evenements .list-item:last-child,
+      .evenement-mois .liste-evenements .list-item:last-child {
+        margin-bottom: 0; }
 
 #contact-form .form-row {
   display: block;
