@@ -462,22 +462,20 @@ a:focus {
   width: 100%;
   padding: 10px 0;
   overflow: hidden;
-  border-top: solid 1px #f2f2f2; }
-  .pagination ul {
-    float: right;
-    list-style: none;
-    padding: 0; }
-    .pagination ul li {
+  border-top: solid 1px #f2f2f2;
+  list-style: none; }
+  .pagination li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-bottom: 5px; }
+    .pagination li a, .pagination li span {
       display: inline-block;
-      vertical-align: top;
-      margin-left: 5px;
-      margin-bottom: 5px; }
-      .pagination ul li a, .pagination ul li span {
-        display: inline-block;
-        padding: 10px 15px;
-        font-weight: 700;
-        background-color: rgba(137, 177, 213, 0.8);
-        color: #fff; }
+      padding: 10px 15px;
+      font-weight: 700;
+      background-color: rgba(137, 177, 213, 0.8);
+      color: #fff;
+      border-color: #fff; }
 
 header {
   margin-bottom: 30px;
@@ -490,35 +488,6 @@ header {
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out; }
-
-header.fixed {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 5;
-  width: 100%;
-  margin: 0;
-  -webkit-animation: showNav 0.7s ease 1;
-  -moz-animation: showNav 0.7s ease 1;
-  -o-animation: showNav 0.7s ease 1;
-  -ms-animation: showNav 0.7s ease 1;
-  animation: showNav 0.7s ease 1; }
-  header.fixed #logo_bar {
-    padding: 10px 0 !important; }
-    header.fixed #logo_bar .slogan {
-      display: none; }
-    header.fixed #logo_bar img {
-      height: 100px; }
-  header.fixed .nav-menu {
-    margin-top: 0; }
-    header.fixed .nav-menu .menu-item {
-      font-size: 13px;
-      padding: 10px 10px 10px 30px; }
-      header.fixed .nav-menu .menu-item img {
-        position: absolute;
-        left: 5px;
-        top: 2px;
-        height: 30px !important; }
 
 #top_header {
   font-size: 13px;
@@ -751,6 +720,44 @@ header.fixed {
 .top_nav_bar.mobile-only .lang_menu .lang-FR:before {
   background: url("../img/FR.png") no-repeat;
   background-size: cover; }
+
+header.fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  margin: 0;
+  -webkit-animation: showNav 0.7s ease 1;
+  -moz-animation: showNav 0.7s ease 1;
+  -o-animation: showNav 0.7s ease 1;
+  -ms-animation: showNav 0.7s ease 1;
+  animation: showNav 0.7s ease 1; }
+  header.fixed #logo_bar {
+    padding: 10px 0 !important; }
+    header.fixed #logo_bar .slogan {
+      display: none; }
+    header.fixed #logo_bar img {
+      height: 100px; }
+  header.fixed .nav-menu {
+    margin-top: 0; }
+    header.fixed .nav-menu .menu-item {
+      font-size: 13px;
+      padding: 10px 10px 10px 30px; }
+      header.fixed .nav-menu .menu-item img {
+        position: absolute;
+        left: 5px;
+        top: 2px;
+        padding: 0;
+        height: 30px !important; }
+    header.fixed .nav-menu .menu-item:hover img,
+    header.fixed .nav-menu .menu-item.active img,
+    header.fixed .nav-menu .sub-menu:hover > .menu-item img {
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+      -o-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0); }
 
 footer {
   background-color: #f8f8f8;
@@ -1473,18 +1480,22 @@ div.zabuto_calendar .badge-event {
       position: absolute;
       right: 15px; }
 
-#search_result_evenements .liste-evenements {
+#search_result_evenements .liste-evenements,
+.evenement-mois .liste-evenements {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between; }
-  #search_result_evenements .liste-evenements .list-item {
+  #search_result_evenements .liste-evenements .list-item,
+  .evenement-mois .liste-evenements .list-item {
     width: 49%;
     margin-bottom: 10px;
     border: solid 1px #f2f2f2; }
-    #search_result_evenements .liste-evenements .list-item .col-xs-9 {
+    #search_result_evenements .liste-evenements .list-item .col-xs-9,
+    .evenement-mois .liste-evenements .list-item .col-xs-9 {
       padding: 10px 0 15px; }
-    #search_result_evenements .liste-evenements .list-item .event_title {
+    #search_result_evenements .liste-evenements .list-item .event_title,
+    .evenement-mois .liste-evenements .list-item .event_title {
       font-family: "deliusregular", sans-serif;
       font-size: 20px;
       color: #89b1d5;
@@ -1492,11 +1503,35 @@ div.zabuto_calendar .badge-event {
       padding: 5px 10px 0; }
     #search_result_evenements .liste-evenements .list-item .event_location,
     #search_result_evenements .liste-evenements .list-item .annonceur,
-    #search_result_evenements .liste-evenements .list-item .event_date {
-      padding: 0 10px 5px;
+    #search_result_evenements .liste-evenements .list-item .event_date,
+    .evenement-mois .liste-evenements .list-item .event_location,
+    .evenement-mois .liste-evenements .list-item .annonceur,
+    .evenement-mois .liste-evenements .list-item .event_date {
+      padding: 0 10px 5px 30px;
       font-size: 13px;
-      font-style: italic; }
-    #search_result_evenements .liste-evenements .list-item:last-child {
+      position: relative; }
+      #search_result_evenements .liste-evenements .list-item .event_location:before,
+      #search_result_evenements .liste-evenements .list-item .annonceur:before,
+      #search_result_evenements .liste-evenements .list-item .event_date:before,
+      .evenement-mois .liste-evenements .list-item .event_location:before,
+      .evenement-mois .liste-evenements .list-item .annonceur:before,
+      .evenement-mois .liste-evenements .list-item .event_date:before {
+        font-family: FontAwesome, sans-serif;
+        position: absolute;
+        left: 10px;
+        color: #B7B7B7;
+        top: 0; }
+    #search_result_evenements .liste-evenements .list-item .event_location:before,
+    .evenement-mois .liste-evenements .list-item .event_location:before {
+      content: '\f015'; }
+    #search_result_evenements .liste-evenements .list-item .event_date:before,
+    .evenement-mois .liste-evenements .list-item .event_date:before {
+      content: '\f073'; }
+    #search_result_evenements .liste-evenements .list-item .annonceur:before,
+    .evenement-mois .liste-evenements .list-item .annonceur:before {
+      content: '\f007'; }
+    #search_result_evenements .liste-evenements .list-item:last-child,
+    .evenement-mois .liste-evenements .list-item:last-child {
       margin-bottom: 0; }
 
 #contact-form .form-row {
@@ -1681,6 +1716,12 @@ div.zabuto_calendar .badge-event {
       -ms-transform: translate(0, 0);
       transform: translate(0, 0); }
 
+  .section-title h2, .section-title h3,
+  .section-title h1 {
+    font-size: 30px; }
+  .section-title h3 {
+    font-size: 25px; }
+
   .suggestion-list {
     display: block; }
     .suggestion-list li {
@@ -1712,6 +1753,20 @@ div.zabuto_calendar .badge-event {
 
   .liste-etablissements .etablissement .prestations ul {
     height: 100px; }
+
+  #search_result_evenements .liste-evenements .list-item .col-xs-7,
+  .evenement-mois .liste-evenements .list-item .col-xs-7 {
+    padding-left: 0; }
+  #search_result_evenements .liste-evenements .list-item .event_title,
+  .evenement-mois .liste-evenements .list-item .event_title {
+    font-size: 16px; }
+  #search_result_evenements .liste-evenements .list-item .event_location,
+  #search_result_evenements .liste-evenements .list-item .annonceur,
+  #search_result_evenements .liste-evenements .list-item .event_date,
+  .evenement-mois .liste-evenements .list-item .event_location,
+  .evenement-mois .liste-evenements .list-item .annonceur,
+  .evenement-mois .liste-evenements .list-item .event_date {
+    font-size: 12px; }
 
   .carousel .controls span {
     width: 50px;
@@ -1766,7 +1821,14 @@ div.zabuto_calendar .badge-event {
 
   .grid-sizer,
   .grid-item {
-    width: 50%; } }
+    width: 50%; }
+
+  #search_result_evenements .liste-evenements,
+  .evenement-mois .liste-evenements {
+    display: block; }
+    #search_result_evenements .liste-evenements .list-item,
+    .evenement-mois .liste-evenements .list-item {
+      width: 100%; } }
 @media (max-width: 380px) {
   #top_header {
     margin-bottom: 300px; } }

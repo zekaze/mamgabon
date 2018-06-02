@@ -322,28 +322,25 @@ a:focus{
   padding: 10px 0;
   overflow: hidden;
   border-top: solid 1px $light_gray;
-  ul{
-    float: right;
-    list-style: none;
-    padding: 0;
+  list-style: none;
 
-    li{
+  li{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+
+    a, span{
       display: inline-block;
-      vertical-align: top;
-      margin-left: 5px;
-      margin-bottom: 5px;
+      padding: 10px 15px;
+      font-weight: 700;
+      background-color: rgba($blue,0.8);
+      color: #fff;
+      border-color: #fff;
+    }
+    a.first{
 
-
-      a, span{
-        display: inline-block;
-        padding: 10px 15px;
-        font-weight: 700;
-        background-color: rgba($blue,0.8);
-        color: #fff;
-      }
-      a.first{
-
-      }
     }
   }
 }

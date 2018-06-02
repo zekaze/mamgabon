@@ -170,6 +170,15 @@
     }
   }
 
+  .section-title{
+    h2, h3,
+    h1{
+      font-size: 30px;
+    }
+    h3{
+      font-size: 25px;
+    }
+  }
   .suggestion-list{
     display: block;
 
@@ -215,6 +224,29 @@
       .prestations{
         ul{
           height: 100px;
+        }
+      }
+    }
+  }
+
+  #search_result_evenements,
+  .evenement-mois{
+
+    .liste-evenements{
+
+      .list-item{
+
+        .col-xs-7{
+          padding-left: 0;
+        }
+
+        .event_title{
+          font-size: 16px;
+        }
+        .event_location,
+        .annonceur,
+        .event_date{
+          font-size: 12px;
         }
       }
     }
@@ -306,6 +338,19 @@
   .grid-sizer,
   .grid-item{
     width: 50%;
+  }
+
+
+  #search_result_evenements,
+  .evenement-mois{
+
+    .liste-evenements{
+      display: block;
+
+      .list-item{
+        width: 100%;
+      }
+    }
   }
 }
 

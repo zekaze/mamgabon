@@ -28,14 +28,14 @@ $search_question = isset($_GET["q"]) ? $_GET["q"] : null;
                             <div class="liste-evenements">
                                 <div class="list-item">
                                     <div class="row">
-                                        <div class="col-sm-4">
+                                        <div class="col-xs-5">
                                             <a href="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/31277589_1651529734954992_6658242169030714875_n.jpg?_nc_cat=0&oh=19dc7941e95d351f99d9c81380fe82aa&oe=5B95021D" class="popup-link">
                                                 <img src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/31277589_1651529734954992_6658242169030714875_n.jpg?_nc_cat=0&oh=19dc7941e95d351f99d9c81380fe82aa&oe=5B95021D" class="img-responsive" alt="Photo evenement">
                                             </a>
 
                                         </div>
-                                        <div class="col-sm-8">
-                                            <div class="event_title"><?php echo $search_question;?></div>
+                                        <div class="col-xs-7">
+                                            <div class="event_title">Adango en café concert</div>
                                             <div class="event_location">L'Institut français du Gabon</div>
                                             <div class="event_date">9 Juin 2018 à 19h30</div>
                                             <div class="annonceur">Par L'Institut français du Gabon</div>
@@ -43,17 +43,15 @@ $search_question = isset($_GET["q"]) ? $_GET["q"] : null;
                                     </div>
                                 </div>
 
-
-
                                 <div class="list-item">
                                     <div class="row">
-                                        <div class="col-sm-4">
+                                        <div class="col-xs-5">
                                             <a href="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/29186965_1610944632346836_3342431140360164448_n.jpg?_nc_cat=0&oh=9f8f46a7d12bd35b9e1fc1b7c7ad10d3&oe=5B9CD38D" class="popup-link">
                                                 <img src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/29186965_1610944632346836_3342431140360164448_n.jpg?_nc_cat=0&oh=9f8f46a7d12bd35b9e1fc1b7c7ad10d3&oe=5B9CD38D" class="img-responsive" alt="Photo evenement">
                                             </a>
                                         </div>
-                                        <div class="col-sm-8">
-                                            <div class="event_title"><?php echo $search_question;?></div>
+                                        <div class="col-xs-7">
+                                            <div class="event_title">Matris</div>
                                             <div class="event_location">L'Institut français du Gabon</div>
                                             <div class="event_date">9 Juin 2018 à 19h30</div>
                                             <div class="annonceur">Par L'Institut français du Gabon</div>
@@ -63,14 +61,14 @@ $search_question = isset($_GET["q"]) ? $_GET["q"] : null;
 
                                 <div class="list-item">
                                     <div class="row">
-                                        <div class="col-sm-4">
+                                        <div class="col-xs-5">
                                             <a href="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/30656512_1640560252718607_3635224169070276705_n.jpg?_nc_cat=0&oh=77374de791fbebb84b017074c2245163&oe=5B4FB868" class="popup-link">
                                                 <img src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/30656512_1640560252718607_3635224169070276705_n.jpg?_nc_cat=0&oh=77374de791fbebb84b017074c2245163&oe=5B4FB868" class="img-responsive" alt="Photo evenement">
                                             </a>
 
                                         </div>
-                                        <div class="col-sm-8">
-                                            <div class="event_title"><?php echo $search_question;?></div>
+                                        <div class="col-xs-7">
+                                            <div class="event_title">Expositios  photos : Passionnés / Passionnelles de Emmanuelle Laté</div>
                                             <div class="event_location">L'Institut français du Gabon</div>
                                             <div class="event_date">9 Juin 2018 à 19h30</div>
                                             <div class="annonceur">Par l'Institut français du Gabon</div>
@@ -87,12 +85,12 @@ $search_question = isset($_GET["q"]) ? $_GET["q"] : null;
                                 <?php for($i = 0; $i < 2; $i++):?>
                                     <div class="etablissement">
                                         <div class="row">
-                                            <div class="col-xs-3">
+                                            <div class="col-sm-3">
                                                 <div class="img-frame">
                                                     <img src="http://logofaves.com/wp-content/uploads/2012/02/oak_m.jpg?9cf02b" class="img-responsive" alt="logo">
                                                 </div>
                                             </div>
-                                            <div class="col-xs-9">
+                                            <div class="col-sm-9">
                                                 <h4>Académie de Danse Classique de Libreville</h4>
                                                 <div class="adresse">Immaculée Conception près Géant CKdo, Bd Bessieux</div>
                                                 <div class="row details">

@@ -8,44 +8,6 @@ header{
   @include transition(1s);
 }
 
-
-header.fixed{
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 5;
-  width: 100%;
-  margin: 0;
-  @include animation(showNav 0.7s ease 1);
-
-
-  #logo_bar{
-    padding: 10px 0 !important;
-    .slogan{
-      display: none;
-    }
-    img{
-      height: 100px;
-    }
-  }
-
-  .nav-menu{
-    margin-top: 0;
-
-    .menu-item{
-      font-size: 13px;
-      padding: 10px 10px 10px 30px;
-
-      img{
-        position: absolute;
-        left: 5px;
-        top: 2px;
-        height: 30px !important;
-      }
-    }
-  }
-}
-
 #top_header{
   font-size: 13px;
   text-transform: uppercase;
@@ -293,5 +255,51 @@ header.fixed{
   .lang-FR:before{
     background: url("../img/FR.png") no-repeat;
     background-size: cover;
+  }
+}
+
+header.fixed{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  margin: 0;
+  @include animation(showNav 0.7s ease 1);
+
+
+  #logo_bar{
+    padding: 10px 0 !important;
+    .slogan{
+      display: none;
+    }
+    img{
+      height: 100px;
+    }
+  }
+
+  .nav-menu{
+    margin-top: 0;
+
+    .menu-item{
+      font-size: 13px;
+      padding: 10px 10px 10px 30px;
+
+      img{
+        position: absolute;
+        left: 5px;
+        top: 2px;
+        padding: 0;
+        height: 30px !important;
+      }
+    }
+
+    .menu-item:hover,
+    .menu-item.active,
+    .sub-menu:hover > .menu-item{
+      img{
+        @include transform(translate(-50%,0));
+      }
+    }
   }
 }

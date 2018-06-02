@@ -26,12 +26,12 @@
                     <?php for($i = 0; $i < 10; $i++):?>
                     <div class="etablissement">
                         <div class="row">
-                            <div class="col-xs-3">
+                            <div class="col-sm-3">
                                 <div class="img-frame">
                                     <img src="http://logofaves.com/wp-content/uploads/2012/02/oak_m.jpg?9cf02b" class="img-responsive" alt="logo">
                                 </div>
                             </div>
-                            <div class="col-xs-9">
+                            <div class="col-sm-9">
                                 <h4>Académie de Danse Classique de Libreville</h4>
                                 <div class="adresse">Immaculée Conception près Géant CKdo, Bd Bessieux</div>
                                 <div class="row details">
