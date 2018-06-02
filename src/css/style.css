@@ -1483,6 +1483,9 @@ div.zabuto_calendar .badge-event {
 #search_result_evenements,
 .evenement-mois {
   margin-bottom: 150px; }
+  #search_result_evenements:last-child,
+  .evenement-mois:last-child {
+    margin-bottom: 30px; }
   #search_result_evenements .liste-evenements,
   .evenement-mois .liste-evenements {
     display: flex;
@@ -1512,7 +1515,8 @@ div.zabuto_calendar .badge-event {
       .evenement-mois .liste-evenements .list-item .event_date {
         padding: 0 10px 5px 30px;
         font-size: 13px;
-        position: relative; }
+        position: relative;
+        color: #5c6468; }
         #search_result_evenements .liste-evenements .list-item .event_location:before,
         #search_result_evenements .liste-evenements .list-item .annonceur:before,
         #search_result_evenements .liste-evenements .list-item .event_date:before,

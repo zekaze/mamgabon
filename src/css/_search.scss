@@ -40,6 +40,10 @@
 .evenement-mois{
   margin-bottom: 150px;
 
+  &:last-child{
+    margin-bottom: 30px;
+  }
+
   .liste-evenements{
     display: flex;
     flex-direction: row;
@@ -68,6 +72,7 @@
         padding: 0 10px 5px 30px;
         font-size: 13px;
         position: relative;
+        color: $gray;
 
         &:before{
           font-family: FontAwesome, sans-serif;
