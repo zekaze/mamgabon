@@ -68,7 +68,7 @@ div.zabuto_calendar {
 #menu-mois{
   padding: 15px 20px;
   margin: 0;
-  background-color: $light_gray;
+  background-color: #f8f8f8;
 
   &.fixed{
     width: 100%;
@@ -80,14 +80,18 @@ div.zabuto_calendar {
 
   li{
     display: inline-block;
-    margin: 0 2px;
+    margin: 0 2px 5px;
 
     a{
-      padding: 10px 15px;
-      color: $gray;
-      background-color: #fff;
+      padding: 8px 15px;
+      border-radius: 3px;
+      display: inline-block;
+      color: #fff;
+      background-color: #ccc;
       text-transform: uppercase;
+      @include transition(0.3s);
 
+      &:hover ,
       &.active{
         color: #fff;
         background-color: $orange;

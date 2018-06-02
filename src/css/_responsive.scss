@@ -231,6 +231,7 @@
 
   #search_result_evenements,
   .evenement-mois{
+    margin-top: 50px;
 
     .liste-evenements{
 
@@ -277,6 +278,24 @@
   .grid-sizer,
   .grid-item{
     width: 33.333%;
+  }
+
+  #menu-mois{
+
+    &.fixed{
+      width: 100%;
+      text-align: left;
+    }
+
+    li{
+      display: inline-block;
+      margin: 0 2px 5px;
+
+      a{
+        padding: 10px 15px;
+        display: inline-block;
+      }
+    }
   }
 }
 

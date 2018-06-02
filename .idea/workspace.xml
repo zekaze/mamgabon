@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe2e6229-1e41-46e8-b865-31130c8a9b2d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/plugins/smoothScroll/smooth-scroll.polyfills.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/footer.php" afterPath="$PROJECT_DIR$/assets/footer.php" />
       <change beforePath="$PROJECT_DIR$/calendrier.php" afterPath="$PROJECT_DIR$/calendrier.php" />
       <change beforePath="$PROJECT_DIR$/src/css/_calendar.scss" afterPath="$PROJECT_DIR$/src/css/_calendar.scss" />
+      <change beforePath="$PROJECT_DIR$/src/css/_responsive.scss" afterPath="$PROJECT_DIR$/src/css/_responsive.scss" />
       <change beforePath="$PROJECT_DIR$/src/css/_search.scss" afterPath="$PROJECT_DIR$/src/css/_search.scss" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css.map" afterPath="$PROJECT_DIR$/src/css/style.css.map" />
-      <change beforePath="$PROJECT_DIR$/src/js/script.js" afterPath="$PROJECT_DIR$/src/js/script.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,24 +52,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search.php">
+      <file leaf-file-name="_search.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/_search.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="140" column="22" lean-forward="false" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
-              <folding>
-                <element signature="e#1617#5854#0#HTML" expanded="false" />
-              </folding>
+            <state relative-caret-position="-461">
+              <caret line="40" column="2" lean-forward="false" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_search.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/_search.scss">
+      <file leaf-file-name="_responsive.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/_responsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="479">
+              <caret line="295" column="30" lean-forward="true" selection-start-line="295" selection-start-column="30" selection-end-line="295" selection-end-column="30" />
+              <folding>
+                <element signature="e#2179#2211#0" expanded="false" />
+                <element signature="e#2632#3292#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,8 +78,8 @@
       <file leaf-file-name="_calendar.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/_calendar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+            <state relative-caret-position="39">
+              <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -119,12 +118,10 @@
       <file leaf-file-name="calendrier.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calendrier.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="560">
+              <caret line="79" column="26" lean-forward="false" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
               <folding>
-                <element signature="e#629#4402#0#HTML" expanded="false" />
-                <element signature="e#4689#8558#0#HTML" expanded="false" />
-                <element signature="e#8840#12709#0#HTML" expanded="false" />
+                <element signature="e#928#4797#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -220,17 +217,17 @@
         <option value="$PROJECT_DIR$/assets/aside-evenements.php" />
         <option value="$PROJECT_DIR$/src/css/_general.scss" />
         <option value="$PROJECT_DIR$/src/css/_header.scss" />
-        <option value="$PROJECT_DIR$/src/css/_responsive.scss" />
         <option value="$PROJECT_DIR$/annuaire.php" />
         <option value="$PROJECT_DIR$/contact.php" />
         <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/articles.php" />
         <option value="$PROJECT_DIR$/assets/aside.php" />
         <option value="$PROJECT_DIR$/src/css/_sidebar.scss" />
-        <option value="$PROJECT_DIR$/src/css/_calendar.scss" />
-        <option value="$PROJECT_DIR$/src/css/_search.scss" />
         <option value="$PROJECT_DIR$/assets/footer.php" />
         <option value="$PROJECT_DIR$/src/js/script.js" />
+        <option value="$PROJECT_DIR$/src/css/_search.scss" />
+        <option value="$PROJECT_DIR$/src/css/_responsive.scss" />
+        <option value="$PROJECT_DIR$/src/css/_calendar.scss" />
         <option value="$PROJECT_DIR$/calendrier.php" />
       </list>
     </option>
@@ -479,7 +476,7 @@
       <workItem from="1527524103745" duration="14825000" />
       <workItem from="1527727870818" duration="6774000" />
       <workItem from="1527798524845" duration="1292000" />
-      <workItem from="1527863636631" duration="14949000" />
+      <workItem from="1527863636631" duration="16953000" />
     </task>
     <task id="LOCAL-00001" summary="Updates nav menu et footer">
       <created>1523825851311</created>
@@ -705,11 +702,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527950700904</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Updates:&#10;- Smooth scroll">
+      <created>1527956184571</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1527956184571</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245921000" />
+    <option name="totallyTimeSpent" value="247925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -765,7 +769,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Updates nav menu et footer" />
     <MESSAGE value="Ajout du carousel" />
     <MESSAGE value="Updates carousel" />
     <MESSAGE value="Slide up animation" />
@@ -790,7 +793,8 @@
     <MESSAGE value="Updates:&#10;- Ajout de la page calendrier&#10;- Bugfix: Fiche événement dans la page recherche&#10;- Bugfix: Icônes dans le fixed navbar&#10;- Bugfix: Logo dans entreprises dans les pages annuaire, search" />
     <MESSAGE value="Updates:&#10;                                                              - Bugfix: Evenements" />
     <MESSAGE value="Updates:&#10;- Evénement page calendrier et search results" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates:&#10;- Evénement page calendrier et search results" />
+    <MESSAGE value="Updates:&#10;- Smooth scroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates:&#10;- Smooth scroll" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1037,17 +1041,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/_responsive.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="236" column="17" lean-forward="true" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
-          <folding>
-            <element signature="e#2179#2211#0" expanded="false" />
-            <element signature="e#2632#3292#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1098,22 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/_calendar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/_search.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/_general.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4001">
@@ -1149,14 +1126,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_search.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-461">
+          <caret line="40" column="2" lean-forward="false" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="295" column="30" lean-forward="true" selection-start-line="295" selection-start-column="30" selection-end-line="295" selection-end-column="30" />
+          <folding>
+            <element signature="e#2179#2211#0" expanded="false" />
+            <element signature="e#2632#3292#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_calendar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calendrier.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="560">
+          <caret line="79" column="26" lean-forward="false" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
           <folding>
-            <element signature="e#629#4402#0#HTML" expanded="false" />
-            <element signature="e#4689#8558#0#HTML" expanded="false" />
-            <element signature="e#8840#12709#0#HTML" expanded="false" />
+            <element signature="e#928#4797#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>

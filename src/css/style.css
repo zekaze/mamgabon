@@ -1361,7 +1361,7 @@ div.zabuto_calendar .badge-event {
 #menu-mois {
   padding: 15px 20px;
   margin: 0;
-  background-color: #f2f2f2; }
+  background-color: #f8f8f8; }
   #menu-mois.fixed {
     width: 100%;
     text-align: center;
@@ -1370,13 +1370,19 @@ div.zabuto_calendar .badge-event {
     left: 0; }
   #menu-mois li {
     display: inline-block;
-    margin: 0 2px; }
+    margin: 0 2px 5px; }
     #menu-mois li a {
-      padding: 10px 15px;
-      color: #5c6468;
-      background-color: #fff;
-      text-transform: uppercase; }
-      #menu-mois li a.active {
+      padding: 8px 15px;
+      border-radius: 3px;
+      display: inline-block;
+      color: #fff;
+      background-color: #ccc;
+      text-transform: uppercase;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      #menu-mois li a:hover, #menu-mois li a.active {
         color: #fff;
         background-color: #fb7660; }
 
@@ -1505,8 +1511,8 @@ div.zabuto_calendar .badge-event {
 #search_result_evenements,
 .evenement-mois {
   margin-top: 150px; }
-  #search_result_evenements:first-child,
-  .evenement-mois:first-child {
+  #search_result_evenements:first-of-type,
+  .evenement-mois:first-of-type {
     margin-top: 0; }
   #search_result_evenements .liste-evenements,
   .evenement-mois .liste-evenements {
@@ -1783,19 +1789,22 @@ div.zabuto_calendar .badge-event {
   .liste-etablissements .etablissement .prestations ul {
     height: 100px; }
 
-  #search_result_evenements .liste-evenements .list-item .col-xs-7,
-  .evenement-mois .liste-evenements .list-item .col-xs-7 {
-    padding-left: 0; }
-  #search_result_evenements .liste-evenements .list-item .event_title,
-  .evenement-mois .liste-evenements .list-item .event_title {
-    font-size: 16px; }
-  #search_result_evenements .liste-evenements .list-item .event_location,
-  #search_result_evenements .liste-evenements .list-item .annonceur,
-  #search_result_evenements .liste-evenements .list-item .event_date,
-  .evenement-mois .liste-evenements .list-item .event_location,
-  .evenement-mois .liste-evenements .list-item .annonceur,
-  .evenement-mois .liste-evenements .list-item .event_date {
-    font-size: 12px; }
+  #search_result_evenements,
+  .evenement-mois {
+    margin-top: 50px; }
+    #search_result_evenements .liste-evenements .list-item .col-xs-7,
+    .evenement-mois .liste-evenements .list-item .col-xs-7 {
+      padding-left: 0; }
+    #search_result_evenements .liste-evenements .list-item .event_title,
+    .evenement-mois .liste-evenements .list-item .event_title {
+      font-size: 16px; }
+    #search_result_evenements .liste-evenements .list-item .event_location,
+    #search_result_evenements .liste-evenements .list-item .annonceur,
+    #search_result_evenements .liste-evenements .list-item .event_date,
+    .evenement-mois .liste-evenements .list-item .event_location,
+    .evenement-mois .liste-evenements .list-item .annonceur,
+    .evenement-mois .liste-evenements .list-item .event_date {
+      font-size: 12px; }
 
   .carousel .controls span {
     width: 50px;
@@ -1817,7 +1826,17 @@ div.zabuto_calendar .badge-event {
 
   .grid-sizer,
   .grid-item {
-    width: 33.333%; } }
+    width: 33.333%; }
+
+  #menu-mois.fixed {
+    width: 100%;
+    text-align: left; }
+  #menu-mois li {
+    display: inline-block;
+    margin: 0 2px 5px; }
+    #menu-mois li a {
+      padding: 10px 15px;
+      display: inline-block; } }
 @media (max-width: 640px) {
   #top_header {
     margin-bottom: 350px; }
