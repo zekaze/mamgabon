@@ -65,3 +65,33 @@ div.zabuto_calendar {
     font-size: 13px;
   }
 }
+#menu-mois{
+  padding: 15px 20px;
+  margin: 0;
+  background-color: $light_gray;
+
+  &.fixed{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  li{
+    display: inline-block;
+    margin: 0 2px;
+
+    a{
+      padding: 10px 15px;
+      color: $gray;
+      background-color: #fff;
+      text-transform: uppercase;
+
+      &.active{
+        color: #fff;
+        background-color: $orange;
+      }
+    }
+  }
+}

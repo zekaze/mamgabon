@@ -1,6 +1,7 @@
 <?php include "assets/header.php"; ?>
 
     <div class="container">
+        <span id="mois-juin"></span>
         <ul class="breadcrumbs left">
             <li><a href="#">Accueil</a></li>
             <li><a href="#">Évènements</a></li>
@@ -66,6 +67,7 @@
                             </div>
                         </div>
                     </div>
+                    <span id="mois-juillet"></span>
                 </div>
 
                 <div class="evenement-mois">
@@ -124,6 +126,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <span id="mois-aout"></span>
                 </div>
 
                 <div class="evenement-mois">
@@ -186,5 +190,19 @@
             </div>
             <?php include "assets/aside-evenements.php"; ?>
         </div>
+        <ul id="menu-mois" class="fixed">
+            <li><a href="#mois-janvier">Jan</a></li>
+            <li><a href="#mois-fevrier">Fev</a></li>
+            <li><a href="#mois-mars">Mar</a></li>
+            <li><a href="#mois-avril">Avr</a></li>
+            <li><a href="#mois-mai">Mai</a></li>
+            <li><a href="#mois-juin">Juin</a></li>
+            <li><a href="#mois-juillet">Juillet</a></li>
+            <li><a href="#mois-aout">Août</a></li>
+            <li><a href="#mois-septembre">Sep</a></li>
+            <li><a href="#mois-octobre">Oct</a></li>
+            <li><a href="#mois-novembre">Nov</a></li>
+            <li><a href="#mois-decembre">Déc</a></li>
+        </ul>
     </div>
 <?php include "assets/footer.php"; ?>

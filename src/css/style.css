@@ -1358,6 +1358,28 @@ div.zabuto_calendar .badge-event {
     margin-bottom: 10px;
     font-size: 13px; }
 
+#menu-mois {
+  padding: 15px 20px;
+  margin: 0;
+  background-color: #f2f2f2; }
+  #menu-mois.fixed {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0; }
+  #menu-mois li {
+    display: inline-block;
+    margin: 0 2px; }
+    #menu-mois li a {
+      padding: 10px 15px;
+      color: #5c6468;
+      background-color: #fff;
+      text-transform: uppercase; }
+      #menu-mois li a.active {
+        color: #fff;
+        background-color: #fb7660; }
+
 .sidebar .advert {
   display: block;
   margin: 15px 0; }
@@ -1482,10 +1504,10 @@ div.zabuto_calendar .badge-event {
 
 #search_result_evenements,
 .evenement-mois {
-  margin-bottom: 150px; }
-  #search_result_evenements:last-child,
-  .evenement-mois:last-child {
-    margin-bottom: 30px; }
+  margin-top: 150px; }
+  #search_result_evenements:first-child,
+  .evenement-mois:first-child {
+    margin-top: 0; }
   #search_result_evenements .liste-evenements,
   .evenement-mois .liste-evenements {
     display: flex;

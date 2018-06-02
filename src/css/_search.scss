@@ -38,10 +38,10 @@
 
 #search_result_evenements,
 .evenement-mois{
-  margin-bottom: 150px;
+  margin-top: 150px;
 
-  &:last-child{
-    margin-bottom: 30px;
+  &:first-child{
+    margin-top: 0;
   }
 
   .liste-evenements{

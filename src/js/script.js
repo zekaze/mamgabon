@@ -365,4 +365,9 @@ $(document).ready(function () {
             self.text(self.text().substr(0,80)+'...');
         }
     });
+
+    /*
+    * Smooth scroll
+    * */
+    var scroll = new SmoothScroll('a[href*="#"]');
 });
