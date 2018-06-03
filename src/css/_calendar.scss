@@ -104,3 +104,35 @@ div.zabuto_calendar {
     }
   }
 }
+
+.category-list{
+  list-style: none;
+  padding: 0;
+
+  a{
+    display: block;
+    padding: 5px 5px 5px 25px;
+    color: $gray;
+    position: relative;
+    @include transition(0.3s);
+
+    &:hover{
+      color: $orange;
+    }
+
+    &:before{
+      @include icon('\f105');
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      @include centerVertical;
+    }
+  }
+}
+
+.category-menu{
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+  border: solid 2px #ddd;
+}

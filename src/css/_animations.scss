@@ -87,3 +87,18 @@
     background: rgba($orange,0.7);
   }
 }
+@keyframes gradientBorder {
+  0%{
+    border-color: rgba($blue,0.8);
+  }
+  40%{
+    border-color: rgba($blue,0.8);
+  }
+  60%{
+    border-color: rgba($orange,0.7);
+  }
+  100%{
+    border-color: rgba($orange,0.7);
+  }
+}
+

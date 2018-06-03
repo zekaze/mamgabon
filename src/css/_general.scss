@@ -28,6 +28,31 @@ a:focus{
   outline: none;
 }
 
+.btn{
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #fff;
+  @include transition(0.3s);
+
+  &:hover{
+    color: #fff;
+  }
+
+  &.blue{
+    background-color: $blue;
+
+    &:hover{
+      background-color: darken($blue,10%);
+    }
+  }
+  &.orange{
+    background-color: $orange;
+    &:hover{
+      background-color: darken($orange,10%);
+    }
+  }
+}
+
 .mobile-only{
   display: none !important;
 }

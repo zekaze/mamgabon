@@ -152,7 +152,8 @@
   }
 }
 
-.comments-section{
+.comments-section,
+.module.inscriptions{
   .header{
     background-color: $light_gray;
     padding: 15px;
@@ -285,7 +286,7 @@
       position: absolute;
       left: 0;
       bottom: -15px;
-      z-index: 2000;
+      z-index: 1;
 
       .like-button{
         background-color: #fff;
@@ -386,12 +387,17 @@
 }
 
 .formulaire-photos {
-  padding: 50px 20px 20px;
+  padding: 20px;
   margin-top: 30px;
   border-radius: 5px;
   text-align: center;
   position: relative;
   @include animation(gradientBackground 10s linear infinite alternate);
+
+  h2{
+    color: #fff;
+    margin-bottom: 20px;
+  }
 
   &:before {
     content: '';
@@ -463,5 +469,14 @@
       background-color: #fff;
       color: $gray;
     }
+  }
+}
+#uploaded-photo{
+  img{
+    display: block;
+    margin: 50px auto;
+    border: solid 10px $blue;
+    border-radius: 3px;
+    @include animation(gradientBorder 5s linear infinite);
   }
 }

@@ -47,57 +47,11 @@
 
 
                 </div>
-                <div class="module formulaire-photos">
-                    <form action="" enctype="multipart/form-data" id="formulaire-concours">
-                        <label for="image-form-field">Sélectionnez votre plus belle photo :)</label>
-                        <input type="file" id="image-form-field" name="photo-participant" accept="image/*" required >
-                        <button type="submit" class="submit-button">Soumettre</button>
-                        <button type="reset" class="reset-button">Annuler</button>
-                    </form>
-                </div>
-                <div class="article-suggestions">
-                    <div class="section-title small" data-animate="fadeInUp">
-                        <h3>Dans la même catégorie</h3>
-                    </div>
-
-                    <ul class="suggestion-list">
-                            <li><a href="concours-photos.php" class="list-item" data-animate="fadeInUp">
-                                    <div class="image-frame">
-                                        <img src="https://www.childtrends.org/wp-content/uploads/2015/12/bigstock-Young-African-American-Mother-85812815.jpg" alt="titre de l'article">
-                                    </div>
-                                    <div class="abstract">
-                                        Concours de photo janvier 2018
-                                    </div>
-                                </a>
-                            </li>
-
-                            <li><a href="concours-photos.php" class="list-item" data-animate="fadeInUp">
-                                    <div class="image-frame">
-                                        <img src="https://www.blackradionetwork.com/images/headline/1303154662.jpg" alt="titre de l'article">
-                                    </div>
-                                    <div class="abstract">
-                                        Concours de photo févier 2018
-                                    </div>
-                                </a>
-                            </li>
-
-                            <li><a href="concours-photos.php" class="list-item" data-animate="fadeInUp">
-                                    <div class="image-frame">
-                                        <img src="https://cbssacramento.files.wordpress.com/2012/03/sacramento-theatre-kids-camp.jpg" alt="titre de l'article">
-                                    </div>
-                                    <div class="abstract">
-                                        Concours de photo mars 2018
-                                    </div>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-                <div class="comments-section">
+                <div class="module inscriptions">
                     <div class="header">
-                        <h3 class="title">Laissez un commentaire</h3>
-
+                        <h2 class="title text-center">Inscription</h2>
                         <div class="inscription">
-                            Veuillez vous inscrire  pour pouvoir laisser un commentaire. Cliquez<button id="loginFormButton">ici pour vous inscrire.</button>
+                            Veuillez vous inscrire  pour pouvoir uploader votre photo. Cliquez<button id="loginFormButton">ici pour vous inscrire.</button>
                             <br>
                             Déjà inscrit? Cliquez<button id="regFormButton">ici pour vous identifier.</button>
 
@@ -155,6 +109,58 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="module formulaire-photos">
+                    <h2>Choix de la photo</h2>
+
+                    <form action="concours-photos-upload-success.php" enctype="multipart/form-data" id="formulaire-concours">
+                        <label for="image-form-field">Sélectionnez votre plus belle photo :)</label>
+                        <input type="file" id="image-form-field" name="photo-participant" accept="image/*" required >
+                        <button type="submit" class="submit-button">Soumettre</button>
+                        <button type="reset" class="reset-button">Annuler</button>
+                    </form>
+                </div>
+                <div class="article-suggestions">
+                    <div class="section-title small" data-animate="fadeInUp">
+                        <h3>Dans la même catégorie</h3>
+                    </div>
+
+                    <ul class="suggestion-list">
+                            <li><a href="concours-photos.php" class="list-item" data-animate="fadeInUp">
+                                    <div class="image-frame">
+                                        <img src="https://www.childtrends.org/wp-content/uploads/2015/12/bigstock-Young-African-American-Mother-85812815.jpg" alt="titre de l'article">
+                                    </div>
+                                    <div class="abstract">
+                                        Concours de photo janvier 2018
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li><a href="concours-photos.php" class="list-item" data-animate="fadeInUp">
+                                    <div class="image-frame">
+                                        <img src="https://www.blackradionetwork.com/images/headline/1303154662.jpg" alt="titre de l'article">
+                                    </div>
+                                    <div class="abstract">
+                                        Concours de photo févier 2018
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li><a href="concours-photos.php" class="list-item" data-animate="fadeInUp">
+                                    <div class="image-frame">
+                                        <img src="https://cbssacramento.files.wordpress.com/2012/03/sacramento-theatre-kids-camp.jpg" alt="titre de l'article">
+                                    </div>
+                                    <div class="abstract">
+                                        Concours de photo mars 2018
+                                    </div>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="comments-section">
+                    <div class="header">
+                        <h3 class="title">Laissez un commentaire</h3>
 
                         <div class="comment-form">
                             <form action="" method="">

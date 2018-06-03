@@ -85,6 +85,7 @@
         left: 25px;
         top: 3px;
         height: 35px;
+        padding: 0;
       }
     }
     .menu-item:hover,
@@ -151,6 +152,17 @@
 
   #top_header{
     margin-bottom: 400px;
+  }
+
+
+  .lang_menu,
+  .top_nav_bar.mobile-only .lang_menu{
+    a{
+      padding-left: 50px;
+      &:before{
+        left: 15px;
+      }
+    }
   }
 
   .article-title{

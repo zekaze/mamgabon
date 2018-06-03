@@ -105,11 +105,10 @@
                         <li><a href="#" class="lang-FR">FR</a></li>
                     </ul>
                 </li>
-                <li class="link_space"></li>
                 <li><a href="#" class="search-toggle">Rechercher</a></li>
-                <li class="link_space"></li>
                 <li><a href="#">Espace annonceurs</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <li><a href="#" class="nav-login-button">S'identifier</a></li>
             </ul>
         </div>
     </nav>

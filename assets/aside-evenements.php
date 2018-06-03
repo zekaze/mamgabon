@@ -1,15 +1,27 @@
 <div class="col-md-3">
     <div class="sidebar">
-        <div class="widget">
+        <div class="widget menu">
             <h3 class="widget-title">Catégories</h3>
 
-            <ul class="category-list">
-                <a href="#">Education</a>
-                <a href="#">Santé</a>
-                <a href="#">Santé</a>
-                <a href="#">Musique</a>
-                <a href="#">Ouvres caritatives</a>
+            <ul class="category-list hidden-xs">
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Santé</a></li>
+                <li><a href="#">Santé</a></li>
+                <li><a href="#">Musique</a></li>
+                <li><a href="#">Ouvres caritatives</a></li>
             </ul>
+
+            <label for="select-category" class="hidden"></label>
+            <form action="" method="get">
+                <select id="select-category" class="category-menu visible-xs">
+                    <option>Choisissez une catégorie</option>
+                    <option value="education">Education</option>
+                    <option value="sante">Santé</option>
+                    <option value="musique">Musique</option>
+                    <option value="jeux">Danse</option>
+                    <option value="jeux">Ouvres caritatives</option>
+                </select>
+            </form>
         </div>
 
         <div class="widget calendar">
