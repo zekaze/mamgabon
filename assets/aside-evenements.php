@@ -1,17 +1,20 @@
 <div class="col-md-3">
     <div class="sidebar">
-        <div class="widget sondage">
-            <h3 class="widget-title">Sondage</h3>
-            <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ?</div>
+        <div class="widget">
+            <h3 class="widget-title">Catégories</h3>
 
-            <form action="">
-                <ul>
-                    <li><label class="radio-option"><input type="radio" value="1" required name="sondage-001"> Lorem ipsum dolor sit amet</label></li>
-                    <li><label class="radio-option"><input type="radio" value="2" required name="sondage-001"> Architecto, culpa debitis</label></li>
-                    <li><label class="radio-option"><input type="radio" value="3" required name="sondage-001"> Obcaecati officiis pariatur</label></li>
-                </ul>
-                <button type="submit">Soumettre</button>
-            </form>
+            <ul class="category-list">
+                <a href="#">Education</a>
+                <a href="#">Santé</a>
+                <a href="#">Santé</a>
+                <a href="#">Musique</a>
+                <a href="#">Ouvres caritatives</a>
+            </ul>
+        </div>
+
+        <div class="widget calendar">
+            <div id="calendar"></div>
+            <a href="calendrier.php" class="link center">Voir tous les événements</a>
         </div>
         <a href="#" class="advert"><img src="https://pbs.twimg.com/media/DaAxHV7W0AAlmVW.jpg" alt="publicité"></a>
         <a href="#" class="advert"><img src="https://static.wixstatic.com/media/b3741a_915c690a41144e1bb5e3a7ec45f5bebf~mv2.png/v1/fill/w_630,h_630,al_c,usm_0.66_1.00_0.01/b3741a_915c690a41144e1bb5e3a7ec45f5bebf~mv2.png" alt="publicité"></a>

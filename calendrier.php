@@ -26,8 +26,6 @@
                                     <div class="col-xs-5">
 
                                         <img src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/31277589_1651529734954992_6658242169030714875_n.jpg?_nc_cat=0&oh=19dc7941e95d351f99d9c81380fe82aa&oe=5B95021D" class="img-responsive" alt="Photo evenement">
-
-
                                     </div>
                                     <div class="col-xs-7">
                                         <div class="event_title">Adango en café concert</div>
@@ -35,8 +33,8 @@
                                         <div class="event_date">9 Juin 2018 à 19h30</div>
                                         <div class="annonceur">Par L'Institut français du Gabon</div>
                                     </div>
+                                </a>
                             </div>
-                            </a>
                         </div>
 
                         <div class="list-item">
@@ -77,18 +75,18 @@
             <?php include "assets/aside-evenements.php"; ?>
         </div>
         <ul id="menu-mois" class="fixed">
-            <li><a href="#">Jan</a></li>
-            <li><a href="#mois-fevrier">Fev</a></li>
-            <li><a href="#mois-mars">Mar</a></li>
-            <li><a href="#mois-avril">Avr</a></li>
-            <li><a href="#mois-mai">Mai</a></li>
-            <li><a href="#mois-juin">Juin</a></li>
-            <li><a href="#mois-juillet">Juillet</a></li>
-            <li><a href="#mois-aout">Août</a></li>
-            <li><a href="#mois-septembre">Sep</a></li>
-            <li><a href="#mois-octobre">Oct</a></li>
-            <li><a href="#mois-novembre">Nov</a></li>
-            <li><a href="#mois-decembre">Déc</a></li>
+            <li><a class="anchor-button" id="mois-janvier-anchor" href="#">Jan</a></li>
+            <li><a class="anchor-button" id="mois-fevrier-anchor" href="#mois-fevrier">Fev</a></li>
+            <li><a class="anchor-button" id="mois-mars-anchor" href="#mois-mars">Mar</a></li>
+            <li><a class="anchor-button" id="mois-avril-anchor" href="#mois-avril">Avr</a></li>
+            <li><a class="anchor-button" id="mois-mai-anchor" href="#mois-mai">Mai</a></li>
+            <li><a class="anchor-button" id="mois-juin-anchor" href="#mois-juin">Juin</a></li>
+            <li><a class="anchor-button" id="mois-juillet-anchor" href="#mois-juillet">Juillet</a></li>
+            <li><a class="anchor-button" id="mois-aout-anchor" href="#mois-aout">Août</a></li>
+            <li><a class="anchor-button" id="mois-septembre-anchor" href="#mois-septembre">Sep</a></li>
+            <li><a class="anchor-button" id="mois-octobre-anchor" href="#mois-octobre">Oct</a></li>
+            <li><a class="anchor-button" id="mois-novembre-anchor" href="#mois-novembre">Nov</a></li>
+            <li><a class="anchor-button" id="mois-decembre-anchor" href="#mois-decembre">Déc</a></li>
         </ul>
     </div>
 <?php include "assets/footer.php"; ?>

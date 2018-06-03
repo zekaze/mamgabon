@@ -139,7 +139,43 @@ $(document).ready(function () {
             });
         }
 
+
+        $.each($(".month-anchor"), function () {
+            var $element = jQuery(this);
+            var anchorButton = $("#" + $element.attr("id") + "-anchor");
+            var anchorButtons = $(".anchor-button");
+            var element_height = $element.outerHeight();
+            var element_top_position = $element.offset().top;
+            var element_bottom_position = (element_top_position + element_height);
+
+
+            //check to see if this current container is within viewport
+            if ((element_bottom_position >= window_top_position - 300) &&
+                (element_top_position <= window_bottom_position - 300)) {
+                anchorButtons.removeClass('active');
+                anchorButton.addClass('active');
+            }
+        });
+
+        $.each($(".month-anchor"), function () {
+            var $element = jQuery(this);
+            var anchorButton = $("#" + $element.attr("id") + "-anchor");
+            var anchorButtons = $(".anchor-button");
+            var element_height = $element.outerHeight();
+            var element_top_position = $element.offset().top;
+            var element_bottom_position = (element_top_position + element_height);
+
+
+            //check to see if this current container is within viewport
+            if ((element_bottom_position >= window_top_position - 300) &&
+                (element_top_position <= window_bottom_position - 300)) {
+                anchorButtons.removeClass('active');
+                anchorButton.addClass('active');
+            }
+        });
     }
+
+
 
     /*
     Minimize nav menu
