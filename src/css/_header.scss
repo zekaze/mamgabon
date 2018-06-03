@@ -303,17 +303,17 @@ header.fixed{
   }
 }
 .nav-login-button{
-  display: inline-block !important;
-  padding: 5px 48px !important;
-  color: #fff !important;
-  background-color: $blue !important;
+  display: inline-block;
+  padding: 5px 10px 5px 30px !important;
+  color: $gray;
+  background-color: $light_gray !important;
   position: relative;
 
   &:before{
     content: '\f007';
     font-family: FontAwesome, sans-serif;
     position: absolute;
-    left: 20px;
+    left: 10px;
     @include centerVertical;
   }
 }

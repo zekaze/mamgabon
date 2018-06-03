@@ -788,16 +788,16 @@ header.fixed {
       transform: translate(-50%, 0); }
 
 .nav-login-button {
-  display: inline-block !important;
-  padding: 5px 48px !important;
-  color: #fff !important;
-  background-color: #89b1d5 !important;
+  display: inline-block;
+  padding: 5px 10px 5px 30px !important;
+  color: #5c6468;
+  background-color: #f2f2f2 !important;
   position: relative; }
   .nav-login-button:before {
     content: '\f007';
     font-family: FontAwesome, sans-serif;
     position: absolute;
-    left: 20px;
+    left: 10px;
     top: 50%;
     -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
@@ -1757,7 +1757,7 @@ div.zabuto_calendar .badge-event {
     position: fixed;
     overflow-y: scroll;
     z-index: 100;
-    height: 100%;
+    height: 150%;
     width: 100%;
     background-color: #fff;
     padding: 10px 0;
@@ -1807,6 +1807,14 @@ div.zabuto_calendar .badge-event {
     -o-transform: translate(100%, 0);
     -ms-transform: translate(100%, 0);
     transform: translate(100%, 0); }
+
+  .nav-login-button {
+    display: inline-block !important;
+    padding: 5px 48px !important;
+    background-color: #89b1d5 !important;
+    color: #fff !important; }
+    .nav-login-button:before {
+      left: 20px; }
 
   #footer_bottom {
     text-align: center; }
