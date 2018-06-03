@@ -201,9 +201,11 @@ $(document).ready(function () {
     function showBackToTopButton() {
         if($window.scrollTop() > 300){
             $(".back-to-top").addClass("visible");
+            $("#menu-mois").addClass("visible");
         }
         else{
             $(".back-to-top").removeClass("visible");
+            $("#menu-mois").removeClass("visible");
         }
     }
 

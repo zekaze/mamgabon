@@ -69,6 +69,11 @@ div.zabuto_calendar {
   padding: 15px 20px;
   margin: 0;
   background-color: #f8f8f8;
+  display: none;
+
+  &.visible{
+    display: block;
+  }
 
   &.fixed{
     width: 100%;

@@ -281,7 +281,7 @@
   }
 
   #menu-mois{
-
+    padding: 10px 50px 10px 5px;
     &.fixed{
       width: 100%;
       text-align: left;
@@ -292,7 +292,8 @@
       margin: 0 2px 5px;
 
       a{
-        padding: 10px 15px;
+        padding: 5px 15px;
+        font-size: 11px;
         display: inline-block;
       }
     }

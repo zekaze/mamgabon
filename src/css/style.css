@@ -1361,7 +1361,10 @@ div.zabuto_calendar .badge-event {
 #menu-mois {
   padding: 15px 20px;
   margin: 0;
-  background-color: #f8f8f8; }
+  background-color: #f8f8f8;
+  display: none; }
+  #menu-mois.visible {
+    display: block; }
   #menu-mois.fixed {
     width: 100%;
     text-align: center;
@@ -1828,15 +1831,18 @@ div.zabuto_calendar .badge-event {
   .grid-item {
     width: 33.333%; }
 
-  #menu-mois.fixed {
-    width: 100%;
-    text-align: left; }
-  #menu-mois li {
-    display: inline-block;
-    margin: 0 2px 5px; }
-    #menu-mois li a {
-      padding: 10px 15px;
-      display: inline-block; } }
+  #menu-mois {
+    padding: 10px 50px 10px 5px; }
+    #menu-mois.fixed {
+      width: 100%;
+      text-align: left; }
+    #menu-mois li {
+      display: inline-block;
+      margin: 0 2px 5px; }
+      #menu-mois li a {
+        padding: 5px 15px;
+        font-size: 11px;
+        display: inline-block; } }
 @media (max-width: 640px) {
   #top_header {
     margin-bottom: 350px; }
