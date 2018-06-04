@@ -369,3 +369,30 @@ a:focus{
     }
   }
 }
+
+#reset-password-form{
+  padding: 0 0 100px;
+display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .form-input{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: solid 3px $light_gray;
+  }
+  .submit-button{
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: $blue;
+    color: #fff;
+    @include transition(0.3s);
+
+    &:hover{
+      background-color: darken($blue, 10%);
+    }
+  }
+
+}

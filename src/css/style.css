@@ -506,6 +506,29 @@ a:focus {
       color: #fff;
       border-color: #fff; }
 
+#reset-password-form {
+  padding: 0 0 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  #reset-password-form .form-input {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: solid 3px #f2f2f2; }
+  #reset-password-form .submit-button {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #89b1d5;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    #reset-password-form .submit-button:hover {
+      background-color: #6398c8; }
+
 header {
   margin-bottom: 30px;
   background-color: #fff;
@@ -791,7 +814,7 @@ header.fixed {
   display: inline-block;
   padding: 5px 10px 5px 30px !important;
   color: #5c6468;
-  background-color: #f2f2f2 !important;
+  background: none;
   position: relative; }
   .nav-login-button:before {
     content: '\f007';
@@ -1710,6 +1733,25 @@ div.zabuto_calendar .badge-event {
   content: '\f095'; }
 .contact-info .email:before {
   content: '\f0e0'; }
+
+.login-registration-forms form {
+  padding: 20px 15px; }
+  .login-registration-forms form h2 {
+    margin-bottom: 40px; }
+  .login-registration-forms form .form-row {
+    margin-bottom: 8px; }
+  .login-registration-forms form label {
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    margin-bottom: 5px; }
+    .login-registration-forms form label:last-child {
+      margin-bottom: 0; }
+    .login-registration-forms form label .form-input {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: solid 2px #f2f2f2; }
 
 @media (max-width: 1366px) {
   .error404 {

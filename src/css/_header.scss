@@ -306,7 +306,7 @@ header.fixed{
   display: inline-block;
   padding: 5px 10px 5px 30px !important;
   color: $gray;
-  background-color: $light_gray !important;
+  background: none;
   position: relative;
 
   &:before{

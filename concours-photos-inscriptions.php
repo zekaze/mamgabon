@@ -51,34 +51,11 @@
                     <div class="header">
                         <h2 class="title text-center">Inscription</h2>
                         <div class="inscription">
-                            Veuillez vous inscrire  pour pouvoir uploader votre photo. Cliquez<button id="loginFormButton">ici pour vous inscrire.</button>
+                            Veuillez vous inscrire  pour pouvoir uploader votre photo. Cliquez<button id="regFormButton">ici pour vous inscrire.</button>
                             <br>
-                            Déjà inscrit? Cliquez<button id="regFormButton">ici pour vous identifier.</button>
+                            Déjà inscrit? Cliquez<button id="loginFormButton">ici pour vous identifier.</button>
 
                             <div id="slick-forms">
-                                <div class="slide">
-                                    <form method="get" action="" id="login-form">
-                                        <h3>S'identifier</h3>
-                                        <div class="form-row">
-                                            <label>
-                                                <input class="form-input" type="email" placeholder="Adresse mail" required>
-                                            </label>
-                                        </div>
-                                        <div class="form-row">
-                                            <label>
-                                                <input class="form-input" type="password" placeholder="Mot de passe" required>
-                                            </label>
-                                        </div>
-                                        <button type="submit">S'identifier</button>
-
-                                        <div style="padding: 15px 0">Mot de passe oublié? <a href="forgotten-password.php">Cliquez ici</a></div>
-                                    </form>
-                                </div>
-                                <div class="slide img" style="background-image: url('https://thumbs.dreamstime.com/b/surprised-african-kid-hands-face-close-up-portrait-hand-little-girl-open-mouth-isolated-white-background-71111084.jpg')">
-                                    <div class="img">
-                                    </div>
-                                </div>
-
                                 <div class="slide">
                                     <form method="get" action="" id="registration-form">
                                         <h3>S'inscrire</h3>
@@ -105,6 +82,29 @@
 
                                         </div>
                                         <button type="submit">S'inscrire</button>
+                                    </form>
+                                </div>
+                                <div class="slide img" style="background-image: url('https://thumbs.dreamstime.com/b/surprised-african-kid-hands-face-close-up-portrait-hand-little-girl-open-mouth-isolated-white-background-71111084.jpg')">
+                                    <div class="img">
+                                    </div>
+                                </div>
+
+                                <div class="slide">
+                                    <form method="get" action="" id="login-form">
+                                        <h3>S'identifier</h3>
+                                        <div class="form-row">
+                                            <label>
+                                                <input class="form-input" type="email" placeholder="Adresse mail" required>
+                                            </label>
+                                        </div>
+                                        <div class="form-row">
+                                            <label>
+                                                <input class="form-input" type="password" placeholder="Mot de passe" required>
+                                            </label>
+                                        </div>
+                                        <button type="submit">S'identifier</button>
+
+                                        <div style="padding: 15px 0">Mot de passe oublié? <a href="forgotten-password.php">Cliquez ici</a></div>
                                     </form>
                                 </div>
                             </div>

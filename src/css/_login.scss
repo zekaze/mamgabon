@@ -1,0 +1,30 @@
+.login-registration-forms{
+  form{
+      padding: 20px 15px;
+
+    h2{
+      margin-bottom: 40px;
+    }
+
+    .form-row{
+      margin-bottom: 8px;
+    }
+    label{
+      font-weight: normal;
+      display: block;
+      width: 100%;
+      margin-bottom: 5px;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+
+      .form-input{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: solid 2px $light_gray;
+      }
+    }
+  }
+}
