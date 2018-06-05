@@ -127,7 +127,7 @@
                                         <button type="submit">S'inscrire</button>
                                     </form>
                                 </div>
-                                <div class="slide img" style="background-image: url('https://thumbs.dreamstime.com/b/surprised-african-kid-hands-face-close-up-portrait-hand-little-girl-open-mouth-isolated-white-background-71111084.jpg')">
+                                <div class="slide img" style="background-image: url('https://image.shutterstock.com/z/stock-photo-close-up-portrait-of-surprised-african-kid-with-hand-on-face-little-girl-with-open-mouth-isolated-415812820.jpg')">
                                     <div class="img">
                                     </div>
                                 </div>
