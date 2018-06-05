@@ -1,7 +1,7 @@
 <?php include "assets/header.php"; ?>
     <div class="container">
         <div class="section-title" data-animate="fadeInUp">
-            <h1>Mot de passe oublié</h1>
+            <h1>Changer de mot de passe</h1>
         </div>
 <?php if(isset($_GET["e"]) && !empty($_GET["e"])):?>
 
@@ -12,16 +12,16 @@
 <?php else:?>
 
         <div class="article-body">
-            <p class="text-center">Veuillez entrer votre adresse mail. Un e-mail de réinitialisation sera envoyé à cette adresse si elle associée à un compte utilisateur.</p>
+            <p class="text-center">Veuillez remplir ce formulaire pour réinitialiser votre mot de passe.</p>
             <div class="row">
                 <div class="col-sm-4 col-sm-push-4">
                     <form action="" id="reset-password-form">
-                        <input type="email" name="e" class="form-input" required placeholder="Adresse mail">
-                        <button type="submit" class="submit-button">Envoyer</button>
-                        <div class="text-center" style="padding: 15px 0">
-                            <a href="login-registration.php">Je me souviens de mon mot de passe</a>
-                        </div>
+                        <input type="password" name="new-password" class="form-input error" required placeholder="Nouveau mot de passe">
+                        <span class="error-message">Les mots de passe ne sont pas identiques</span>
+                        <input type="password" name="re-new-password" class="form-input error" required placeholder="Répéter le mot de passe">
 
+                        <span class="error-message">Les mots de passe ne sont pas identiques</span>
+                        <button type="submit" class="submit-button">Enregistrer</button>
                     </form>
 
                 </div>

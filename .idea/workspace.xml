@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe2e6229-1e41-46e8-b865-31130c8a9b2d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/reset-password.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/forgotten-password.php" afterPath="$PROJECT_DIR$/forgotten-password.php" />
       <change beforePath="$PROJECT_DIR$/src/css/_general.scss" afterPath="$PROJECT_DIR$/src/css/_general.scss" />
-      <change beforePath="$PROJECT_DIR$/src/css/_login.scss" afterPath="$PROJECT_DIR$/src/css/_login.scss" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css.map" afterPath="$PROJECT_DIR$/src/css/style.css.map" />
     </list>
@@ -28,14 +28,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forgotten-password.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forgotten-password.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forgotten-password.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" column="71" lean-forward="false" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+            <state relative-caret-position="280">
+              <caret line="14" column="174" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="174" />
               <folding>
-                <element signature="e#1276#1299#0#HTML" expanded="true" />
+                <element signature="e#1063#1086#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset-password.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reset-password.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="93" lean-forward="false" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,8 +53,8 @@
       <file leaf-file-name="_general.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/_general.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="373" column="21" lean-forward="true" selection-start-line="373" selection-start-column="21" selection-end-line="373" selection-end-column="21" />
+            <state relative-caret-position="739">
+              <caret line="407" column="20" lean-forward="false" selection-start-line="407" selection-start-column="20" selection-end-line="407" selection-end-column="20" />
               <folding>
                 <element signature="e#5126#5188#0" expanded="false" />
                 <element signature="e#5213#5445#0" expanded="false" />
@@ -103,16 +113,6 @@
                 <element signature="n#style#0;n#a#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#2;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -249,8 +249,9 @@
         <option value="$PROJECT_DIR$/src/css/style.scss" />
         <option value="$PROJECT_DIR$/login-registration.php" />
         <option value="$PROJECT_DIR$/src/css/_login.scss" />
-        <option value="$PROJECT_DIR$/src/css/_general.scss" />
         <option value="$PROJECT_DIR$/forgotten-password.php" />
+        <option value="$PROJECT_DIR$/reset-password.php" />
+        <option value="$PROJECT_DIR$/src/css/_general.scss" />
       </list>
     </option>
   </component>
@@ -426,16 +427,16 @@
       <recent name="http://demo-ifs.acreativelab.com" />
       <recent name="http://http://demo-ifs.acreativelab.com" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\mamgabon\src\fonts" />
-      <recent name="C:\wamp64\www\mamgabon\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\mamgabon\assets" />
       <recent name="C:\wamp64\www\mamgabon" />
+      <recent name="C:\wamp64\www\mamgabon\assets" />
       <recent name="C:\wamp64\www\mamgabon\src\plugins\smoothScroll" />
       <recent name="C:\wamp64\www\mamgabon\src\img" />
       <recent name="C:\wamp64\www\mamgabon\src\plugins" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\mamgabon\src\fonts" />
+      <recent name="C:\wamp64\www\mamgabon\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -500,7 +501,7 @@
       <workItem from="1527798524845" duration="1292000" />
       <workItem from="1527863636631" duration="17562000" />
       <workItem from="1528025782203" duration="27384000" />
-      <workItem from="1528225024101" duration="3613000" />
+      <workItem from="1528225024101" duration="6027000" />
     </task>
     <task id="LOCAL-00001" summary="Updates nav menu et footer">
       <created>1523825851311</created>
@@ -782,11 +783,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528073818034</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Updates:&#10;- Login/ registrations page&#10;- Forgotten password page">
+      <created>1528229045705</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1528229045705</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279531000" />
+    <option name="totallyTimeSpent" value="281945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -797,6 +805,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13219616" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -808,7 +817,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -842,7 +850,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Updates:&#10;- Couleur orange&#10;- Nav menu fixed pour desktop&#10;- Couleur de fond du nav menu" />
     <MESSAGE value="Updates:&#10;- Articles&#10;- Calendrier" />
     <MESSAGE value="Updates:&#10;- Annuaire&#10;- Updates articles" />
     <MESSAGE value="Updates:&#10;- Annuaire Font size" />
@@ -867,7 +874,8 @@
     <MESSAGE value="Updates:&#10;- Bugfixes eévénements" />
     <MESSAGE value="Updates:&#10;- Inscriptions concours photos&#10;- login button dans le nav menu" />
     <MESSAGE value="Updates:&#10;- Inscriptions concours&#10;- Mot de passe oublié" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates:&#10;- Inscriptions concours&#10;- Mot de passe oublié" />
+    <MESSAGE value="Updates:&#10;- Login/ registrations page&#10;- Forgotten password page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates:&#10;- Login/ registrations page&#10;- Forgotten password page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -876,13 +884,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/plugins/zabuto-calendar/zabuto_calendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/plugins/magnific-popup/jquery.magnific-popup.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1082,8 +1083,8 @@
         <state relative-caret-position="456">
           <caret line="799" column="15" lean-forward="true" selection-start-line="799" selection-start-column="15" selection-end-line="799" selection-end-column="15" />
           <folding>
-            <marker date="1528228448990" expanded="true" signature="20824:20973" ph="{...}" />
-            <marker date="1528228448990" expanded="true" signature="51470:51497" ph="{...}" />
+            <marker date="1528233523392" expanded="true" signature="20824:20973" ph="{...}" />
+            <marker date="1528233523392" expanded="true" signature="51470:51497" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1206,17 +1207,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/_general.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="373" column="21" lean-forward="true" selection-start-line="373" selection-start-column="21" selection-end-line="373" selection-end-column="21" />
-          <folding>
-            <element signature="e#5126#5188#0" expanded="false" />
-            <element signature="e#5213#5445#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1246,11 +1236,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forgotten-password.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="71" lean-forward="false" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+        <state relative-caret-position="280">
+          <caret line="14" column="174" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="174" />
           <folding>
-            <element signature="e#1276#1299#0#HTML" expanded="true" />
+            <element signature="e#1063#1086#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_general.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="407" column="20" lean-forward="false" selection-start-line="407" selection-start-column="20" selection-end-line="407" selection-end-column="20" />
+          <folding>
+            <element signature="e#5126#5188#0" expanded="false" />
+            <element signature="e#5213#5445#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reset-password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="93" lean-forward="false" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+          <folding />
         </state>
       </provider>
     </entry>

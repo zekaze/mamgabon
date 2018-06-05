@@ -528,6 +528,17 @@ a:focus {
     #reset-password-form .submit-button:hover {
       background-color: #6398c8; }
 
+.form-input.error {
+  box-shadow: 0 0 15px red !important; }
+
+.error-message {
+  display: block;
+  padding: 5px 0;
+  color: red;
+  font-style: italic;
+  font-size: 11px;
+  margin-bottom: 5px; }
+
 header {
   margin-bottom: 30px;
   background-color: #fff;
