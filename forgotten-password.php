@@ -6,9 +6,7 @@
             <li><a href="index.php">Accueil</a></li>
             <li><a href="#">Mot de passe oublié</a></li>
         </ul>
-        <div class="section-title left" data-animate="fadeInUp">
-            <h1>Mot de passe</h1>
-        </div>
+        <h2>Mot de passe oublié</h2>
 
         <div class="article-body">
             <p>Un email a été envoyé à l'adresse : <?php echo $_GET{"e"};?></p>
@@ -17,23 +15,24 @@
     </div>
 <?php else:?>
     <div class="container">
-        <ul class="breadcrumbs left">
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="#">Mot de passe oublié</a></li>
-        </ul>
-        <div class="section-title left" data-animate="fadeInUp">
-            <h1>Mot de passe</h1>
+        <div class="section-title" data-animate="fadeInUp">
+            <h1>Mot de passe oublié</h1>
         </div>
 
         <div class="article-body">
-            <p>Veuillez entrer votre adresse mail. Un e-mail de réinitialisation sera envoyé à cette adresse si elle associée à un compte utilisateur.</p>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <form action="" id="reset-password-form">
-                        <input type="email" name="e" class="form-input" placeholder="Adresse mail">
-                    <button type="submit" class="submit-button"><i class="fa fa-envelope-o"></i></button>
-                </form>
+            <p class="text-center">Veuillez entrer votre adresse mail. Un e-mail de réinitialisation sera envoyé à cette adresse si elle associée à un compte utilisateur.</p>
+            <div class="row">
+                <div class="col-sm-4 col-sm-push-4">
+                    <form action="" id="reset-password-form">
+                        <input type="email" name="e" class="form-input" required placeholder="Adresse mail">
+                        <button type="submit" class="submit-button">Envoyer</button>
+                        <div class="text-center" style="padding: 15px 0">
+                            <a href="login-registration.php">Je me souviens de mon mot de passe</a>
+                        </div>
+
+                    </form>
+
+                </div>
             </div>
         </div>
     </div>

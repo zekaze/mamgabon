@@ -1,4 +1,5 @@
 .login-registration-forms{
+  padding-bottom: 100px;
   form{
       padding: 20px 15px;
 
@@ -24,6 +25,46 @@
         width: 100%;
         padding: 10px;
         border: solid 2px $light_gray;
+      }
+    }
+    button[type="submit"]{
+      border: none;
+      padding: 10px 20px;
+      display: block;
+      width: 100%;
+      color: #fff;
+      @include transition(0.3s);
+    }
+  }
+  #registration-form{
+
+
+    button[type="submit"]{
+      background-color: $blue;
+      &:hover{
+        background-color: darken($blue,10%);
+      }
+    }
+  }
+  #login-form{
+    position: relative;
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      left: -50px;
+      top: 50%;
+      @include transform(translate(0, -50%));
+      height: 80%;
+      width: 2px;
+      background-color: $light_gray;
+    }
+
+    button[type="submit"]{
+      background-color: $orange;
+
+      &:hover{
+        background-color: darken($orange,10%);
       }
     }
   }

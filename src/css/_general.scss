@@ -372,19 +372,18 @@ a:focus{
 
 #reset-password-form{
   padding: 0 0 100px;
-display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 
   .form-input{
     display: block;
-    width: 80%;
+    width: 100%;
+    margin-bottom: 5px;
     padding: 10px;
     border: solid 3px $light_gray;
   }
   .submit-button{
     display: block;
-    width: 20%;
+    width: 100%;
+    padding: 15px;
     border: none;
     background-color: $blue;
     color: #fff;

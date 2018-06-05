@@ -507,18 +507,17 @@ a:focus {
       border-color: #fff; }
 
 #reset-password-form {
-  padding: 0 0 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
+  padding: 0 0 100px; }
   #reset-password-form .form-input {
     display: block;
-    width: 80%;
+    width: 100%;
+    margin-bottom: 5px;
     padding: 10px;
     border: solid 3px #f2f2f2; }
   #reset-password-form .submit-button {
     display: block;
-    width: 20%;
+    width: 100%;
+    padding: 15px;
     border: none;
     background-color: #89b1d5;
     color: #fff;
@@ -1734,24 +1733,60 @@ div.zabuto_calendar .badge-event {
 .contact-info .email:before {
   content: '\f0e0'; }
 
-.login-registration-forms form {
-  padding: 20px 15px; }
-  .login-registration-forms form h2 {
-    margin-bottom: 40px; }
-  .login-registration-forms form .form-row {
-    margin-bottom: 8px; }
-  .login-registration-forms form label {
-    font-weight: normal;
-    display: block;
-    width: 100%;
-    margin-bottom: 5px; }
-    .login-registration-forms form label:last-child {
-      margin-bottom: 0; }
-    .login-registration-forms form label .form-input {
+.login-registration-forms {
+  padding-bottom: 100px; }
+  .login-registration-forms form {
+    padding: 20px 15px; }
+    .login-registration-forms form h2 {
+      margin-bottom: 40px; }
+    .login-registration-forms form .form-row {
+      margin-bottom: 8px; }
+    .login-registration-forms form label {
+      font-weight: normal;
       display: block;
       width: 100%;
-      padding: 10px;
-      border: solid 2px #f2f2f2; }
+      margin-bottom: 5px; }
+      .login-registration-forms form label:last-child {
+        margin-bottom: 0; }
+      .login-registration-forms form label .form-input {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: solid 2px #f2f2f2; }
+    .login-registration-forms form button[type="submit"] {
+      border: none;
+      padding: 10px 20px;
+      display: block;
+      width: 100%;
+      color: #fff;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+  .login-registration-forms #registration-form button[type="submit"] {
+    background-color: #89b1d5; }
+    .login-registration-forms #registration-form button[type="submit"]:hover {
+      background-color: #6398c8; }
+  .login-registration-forms #login-form {
+    position: relative; }
+    .login-registration-forms #login-form:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: -50px;
+      top: 50%;
+      -webkit-transform: translate(0, -50%);
+      -moz-transform: translate(0, -50%);
+      -o-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      height: 80%;
+      width: 2px;
+      background-color: #f2f2f2; }
+    .login-registration-forms #login-form button[type="submit"] {
+      background-color: #fb7660; }
+      .login-registration-forms #login-form button[type="submit"]:hover {
+        background-color: #fa4b2e; }
 
 @media (max-width: 1366px) {
   .error404 {
