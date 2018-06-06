@@ -57,11 +57,4 @@
     <style type="text/css">
         body:before{background-image: url("https://image.shutterstock.com/z/stock-photo-african-american-mother-and-daughter-753499996.jpg");}
     </style>
-
-    <script>
-        PNotify.success({
-            title: 'Success!',
-            text: 'That thing that you were trying to do worked.'
-        });
-    </script>
 <?php include "assets/footer.php"; ?>

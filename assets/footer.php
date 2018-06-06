@@ -107,7 +107,6 @@
 <script src='//platform-api.sharethis.com/js/sharethis.js#property=5afa2b570a23d40011096916&product=inline-share-buttons' type='text/javascript' async='async'></script>
 <script src="src/plugins/masonry/masonry.pkgd.min.js"></script>
 <script src="src/plugins/smoothScroll/smooth-scroll.polyfills.min.js"></script>
-<script src="src/plugins/pnotify/pnotify.custom.min.js"></script>
 <script src="src/js/script.js"></script>
 </body>
 </html>

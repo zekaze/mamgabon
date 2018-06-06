@@ -32,8 +32,6 @@
     <link href="src/plugins/slick/slick-theme.css" rel="stylesheet">
     <!--Magnific popup-->
     <link href="src/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <!--P. Notify-->
-    <link href="src/plugins/pnotify/pnotify.custom.min.css" rel="stylesheet">
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 </head>

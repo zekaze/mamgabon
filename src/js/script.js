@@ -408,4 +408,5 @@ $(document).ready(function () {
     * Smooth scroll
     * */
     var scroll = new SmoothScroll('a[href*="#"]');
+
 });
