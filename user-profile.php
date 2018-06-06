@@ -1,6 +1,6 @@
 <?php include "assets/header.php"; ?>
     <div class="container">
-        <div class="row">
+        <div class="row" style="background-color: #fff">
             <div class="col-sm-6">
                 <h1>Modifier mes informations</h1>
                 <div class="article-body">
