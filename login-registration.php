@@ -4,7 +4,7 @@
             <li><a href="#">Accueil</a></li>
             <li><a href="#">S'identifier</a></li>
         </ul>
-        <div class="row login-registration-forms">
+        <div class="row login-registration-forms" style="background-color: #fff">
             <div class="col-sm-6">
                 <form method="get" action="" id="registration-form">
                     <h2>S'inscrire</h2>
