@@ -170,6 +170,10 @@ html {
   height: 100%;
   box-sizing: border-box; }
 
+label {
+  font-weight: normal;
+  cursor: pointer; }
+
 body {
   color: #50585C;
   min-height: 100%;

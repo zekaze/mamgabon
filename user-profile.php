@@ -11,6 +11,10 @@
                         <input type="text" name="nom" class="form-input" required placeholder="Modifier votre nom">
 
                         <input type="email" name="e" class="form-input" required placeholder="Adresse mail">
+                        <label>
+                            <input type="checkbox" name="">
+                            Recevoir notre newsletter à cette adresse
+                        </label>
 
                         <button type="submit" class="submit-button">Enregistrer les modifications</button>
                     </form>
@@ -53,4 +57,11 @@
     <style type="text/css">
         body:before{background-image: url("https://image.shutterstock.com/z/stock-photo-african-american-mother-and-daughter-753499996.jpg");}
     </style>
+
+    <script>
+        PNotify.success({
+            title: 'Success!',
+            text: 'That thing that you were trying to do worked.'
+        });
+    </script>
 <?php include "assets/footer.php"; ?>
