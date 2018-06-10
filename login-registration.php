@@ -56,4 +56,5 @@
     <style type="text/css">
         body:before{background-image: url("https://image.shutterstock.com/z/stock-photo-mother-and-son-312942662.jpg");}
     </style>
+
 <?php include "assets/footer.php"; ?>

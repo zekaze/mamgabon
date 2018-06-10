@@ -25,13 +25,15 @@
     <link href="src/fonts/delius/delius.css" rel="stylesheet">
     <!-- Zabuto calendar -->
     <link href="src/plugins/zabuto-calendar/zabuto_calendar.min.css" rel="stylesheet">
-    <!-- Style -->
-    <link href="src/css/style.css" rel="stylesheet">
     <!-- Slick -->
     <link href="src/plugins/slick/slick.css" rel="stylesheet">
     <link href="src/plugins/slick/slick-theme.css" rel="stylesheet">
     <!--Magnific popup-->
     <link href="src/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!--lobibox-->
+    <link href="src/plugins/lobibox/css/lobibox.min.css" rel="stylesheet">
+    <!-- Style -->
+    <link href="src/css/style.css" rel="stylesheet">
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 </head>
