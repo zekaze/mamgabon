@@ -16,7 +16,7 @@
                                 <img src="https://www.childtrends.org/wp-content/uploads/2015/12/bigstock-Young-African-American-Mother-85812815.jpg"
                                      alt="image">
                             </div>
-                            <h4 class="title">Nathan, grand vainqueur du consours de photos Mai 2018</h4>
+                            <h4 class="title"><span class="article-category">Sous catégorie</span> Nathan, grand vainqueur du consours de photos Mai 2018</h4>
 
                             <div class="abstract">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                             </div>
@@ -29,7 +29,7 @@
                                 <img src="http://worcuga.com/wp-content/uploads/2015/03/single-mom11.jpg"
                                      alt="image">
                             </div>
-                            <h4 class="title">Nathan, grand vainqueur du consours de photos Mai 2018</h4>
+                            <h4 class="title"><span class="article-category">Sous catégorie</span>Nathan, grand vainqueur du consours de photos Mai 2018</h4>
 
                             <div class="abstract">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                             </div>
@@ -42,7 +42,7 @@
                                 <img src="https://cbssacramento.files.wordpress.com/2012/03/sacramento-theatre-kids-camp.jpg"
                                      alt="image">
                             </div>
-                            <h4 class="title">Nathan, grand vainqueur du consours de photos Mai 2018</h4>
+                            <h4 class="title"><span class="article-category">Sous catégorie</span>Nathan, grand vainqueur du consours de photos Mai 2018</h4>
 
                             <div class="abstract">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                             </div>
@@ -55,7 +55,7 @@
                                 <img src="https://i.pinimg.com/originals/20/c1/8c/20c18caa57e9077e4559ab35a93029e0.jpg"
                                      alt="image">
                             </div>
-                            <h4 class="title">Nathan, grand vainqueur du consours de photos Mai 2018</h4>
+                            <h4 class="title"><span class="article-category">Sous catégorie</span>Nathan, grand vainqueur du consours de photos Mai 2018</h4>
 
                             <div class="abstract">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                             </div>
@@ -68,7 +68,7 @@
                                 <img src="https://teddibearswimschool.com/wp-content/uploads/2013/12/031.jpg"
                                      alt="image">
                             </div>
-                            <h4 class="title">Nathan, grand vainqueur du consours de photos Mai 2018</h4>
+                            <h4 class="title"><span class="article-category">Sous catégorie</span>Nathan, grand vainqueur du consours de photos Mai 2018</h4>
 
                             <div class="abstract">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                             </div>

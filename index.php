@@ -3,26 +3,26 @@
         <div class="slick">
                 <a href="concours-photos-inscriptions.php" class="slide">
                     <div class="slide-description">
-                        <p>Concours de photos juin 2018</p>
+                        <p><span class="article-category">concours de photos</span> Concours de photos juin 2018</p>
                     </div>
                     <img src="https://pictures.digitalrev.com/image/upload/w_1400,c_fill,q_60/v1462266655/en5xxtno1tyautirprzk.jpg" alt="img">
                 </a>
                 <a href="concours-photos.php" class="slide">
                     <div class="slide-description">
-                        <p>Nathan, grand vainqueur du consours de photos Mai 2018</p>
+                        <p><span class="article-category">concours de photos</span> Nathan, grand vainqueur du consours de photos Mai 2018</p>
                     </div>
                     <img src="https://i.pinimg.com/originals/20/c1/8c/20c18caa57e9077e4559ab35a93029e0.jpg" alt="img">
                 </a>
                 <a href="article.php" class="slide">
                     <div class="slide-description">
-                        <p>Nonummy nibh euismod tincidunt ut
+                        <p><span class="article-category">For mommy</span> Nonummy nibh euismod tincidunt ut
                             laoreet dolore magna aliquam</p>
                     </div>
                     <img src="http://worcuga.com/wp-content/uploads/2015/03/single-mom11.jpg" alt="img">
                 </a>
                 <a href="article.php" class="slide">
                     <div class="slide-description">
-                        <p>Nonummy nibh euismod tincidunt ut
+                        <p><span class="article-category">Soutien scolaire</span> Nonummy nibh euismod tincidunt ut
                             laoreet dolore magna aliquam</p>
                     </div>
                     <img src="https://cbssacramento.files.wordpress.com/2012/03/sacramento-theatre-kids-camp.jpg" alt="img">
@@ -53,7 +53,7 @@
                                         <img src="https://i.pinimg.com/originals/20/c1/8c/20c18caa57e9077e4559ab35a93029e0.jpg"
                                              alt="image">
                                     </div>
-                                    <h4 class="title" title="Nathan, grand vainqueur du consours de photos Mais 2018">Nathan, grand vainqueur du consours de photos Mais 2018</h4>
+                                    <h4 class="title" title="Nathan, grand vainqueur du consours de photos Mais 2018"><span class="article-category">Concours de photos</span> Nathan, grand vainqueur du consours de photos Mais 2018</h4>
 
                                     <div class="abstract">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliq 250 etur adipisicing elit. Ab, amet asperiores fugit illo iure labore, laborum molestiae natus nemo neque odit omnis perferendis quae, qui quidem reprehenderit soluta sunt voluptatum!
                                     </div>

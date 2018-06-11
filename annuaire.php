@@ -21,9 +21,11 @@
                         <option value="libreville">Port-Gentil</option>
                     </select>
                 </form>
-
-                <div class="liste-etablissements">
-                    <?php for($i = 0; $i < 10; $i++):?>
+                <div class="no-result">
+                    Aucun résultat trouvé
+                </div>
+                <!--<div class="liste-etablissements">
+                    <?php /*for($i = 0; $i < 10; $i++):*/?>
                     <div class="etablissement">
                         <div class="row">
                             <div class="col-sm-3">
@@ -54,9 +56,9 @@
                         <div class="prestations">
                             <h5>Prestations</h5>
                             <ul>
-                                <?php for($j = 1; $j < 9; $j++):;?>
-                                    <li>Prestation <?php echo $j;?></li>
-                                <?php endfor;?>
+                                <?php /*for($j = 1; $j < 9; $j++):;*/?>
+                                    <li>Prestation <?php /*echo $j;*/?></li>
+                                <?php /*endfor;*/?>
                             </ul>
                         </div>
                         <div class="photos" data-animate="fadeInUp">
@@ -74,8 +76,8 @@
                             </div>
                         </div>
                     </div>
-                    <?php endfor;?>
-                </div>
+                    <?php /*endfor;*/?>
+                </div>-->
                 <div class="pagination">
                     <ul>
                         <li><a href="#" class="first"><i class="fa fa-chevron-left"></i></a></li>

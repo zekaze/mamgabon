@@ -561,6 +561,12 @@ a:focus {
   font-size: 11px;
   margin-bottom: 5px; }
 
+.no-result {
+  padding: 40px 15px;
+  background: #f8f8f8;
+  font-style: italic;
+  margin: 20px 0; }
+
 header {
   margin-bottom: 30px;
   background-color: #fff;
@@ -972,12 +978,12 @@ footer {
         padding: 0;
         width: 90%;
         left: 50%;
-        top: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); }
+        top: 10px;
+        -webkit-transform: translate(-50%, 0);
+        -moz-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0); }
   .slick .slide:hover img {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -1209,6 +1215,15 @@ footer {
     background-color: #fb7660; }
   #slick-forms #registration-form button {
     background-color: #89b1d5; }
+
+.article-category {
+  display: block;
+  margin-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase; }
 
 .comment-form,
 .reply-form {
@@ -1766,6 +1781,9 @@ div.zabuto_calendar .badge-event {
 .contact-info .email:before {
   content: '\f0e0'; }
 
+:root {
+  --font-size: 17px; }
+
 .login-registration-forms {
   padding-bottom: 100px; }
   .login-registration-forms form {
@@ -1785,6 +1803,7 @@ div.zabuto_calendar .badge-event {
         display: block;
         width: 100%;
         padding: 10px;
+        font-size: var(--font-size);
         border: solid 2px #f2f2f2; }
     .login-registration-forms form button[type="submit"] {
       border: none;

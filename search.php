@@ -36,13 +36,13 @@ $search_question = isset($_GET["q"]) ? $_GET["q"] : null;
 
                                             </div>
                                             <div class="col-xs-7">
-                                                <div class="event_title">Adango en café concert</div>
+                                                <div class="event_title"><div class="article-category">Concert</div>Adango en café concert</div>
                                                 <div class="event_location">L'Institut français du Gabon</div>
                                                 <div class="event_date">9 Juin 2018 à 19h30</div>
                                                 <div class="annonceur">Par L'Institut français du Gabon</div>
                                             </div>
+                                        </a>
                                     </div>
-                                    </a>
                                 </div>
 
                                 <div class="list-item">
@@ -52,7 +52,7 @@ $search_question = isset($_GET["q"]) ? $_GET["q"] : null;
                                                 <img src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/29186965_1610944632346836_3342431140360164448_n.jpg?_nc_cat=0&oh=9f8f46a7d12bd35b9e1fc1b7c7ad10d3&oe=5B9CD38D" class="img-responsive" alt="Photo evenement">
                                             </div>
                                             <div class="col-xs-7">
-                                                <div class="event_title">Matris</div>
+                                                <div class="event_title"><div class="article-category">Cinéma</div>Matris</div>
                                                 <div class="event_location">L'Institut français du Gabon</div>
                                                 <div class="event_date">9 Juin 2018 à 19h30</div>
                                                 <div class="annonceur">Par L'Institut français du Gabon</div>
@@ -68,7 +68,7 @@ $search_question = isset($_GET["q"]) ? $_GET["q"] : null;
                                                 <img src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/30656512_1640560252718607_3635224169070276705_n.jpg?_nc_cat=0&oh=77374de791fbebb84b017074c2245163&oe=5B4FB868" class="img-responsive" alt="Photo evenement">
                                             </div>
                                             <div class="col-xs-7">
-                                                <div class="event_title">Expositios  photos : Passionnés / Passionnelles de Emmanuelle Laté</div>
+                                                <div class="event_title"><div class="article-category">Exposition</div> Expositios  photos : Passionnés / Passionnelles de Emmanuelle Laté</div>
                                                 <div class="event_location">L'Institut français du Gabon</div>
                                                 <div class="event_date">9 Juin 2018 à 19h30</div>
                                                 <div class="annonceur">Par l'Institut français du Gabon</div>

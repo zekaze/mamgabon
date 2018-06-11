@@ -223,7 +223,15 @@
     }
   }
 }
-
+.article-category{
+  display: block;
+  margin-bottom: 5px;
+  font-family: $fontMain;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
 .comment-form,
 .reply-form{
   margin: 10px 0;
