@@ -410,7 +410,7 @@ $(document).ready(function () {
     var scroll = new SmoothScroll('a[href*="#"]');
 
     $.get("http://localhost/mamgabon/user-profile.php",function (data, status) {
-        if(status === 'success'){
+        /*if(status === 'success'){
             console.log(data);
             Lobibox.notify('success', {
                 title: false,
@@ -419,7 +419,7 @@ $(document).ready(function () {
                 position: "top left",
                 msg: 'Lorem ipsum data dolor sit amet hears farmer indemnity inherent.'
             });
-        }
+        }*/
 
     })
 });
