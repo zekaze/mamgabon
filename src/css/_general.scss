@@ -434,3 +434,54 @@ a:focus{
   font-style: italic;
   margin: 20px 0;
 }
+
+.sitemap{
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+  a{
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 10px 10px 0;
+  }
+  .level-1{
+    a{
+      color: $orange;
+      font-family: $fontTitle;
+      font-size: 20px;
+    }
+  }
+  .level-2{
+    border-left: solid 2px $light_gray;
+    li:before{
+      content: '';
+      display: inline-block;
+      vertical-align: bottom;
+      width: 40px;
+      height: 2px;
+      background-color: $light_gray;
+    }
+    a{
+      color: $gray;
+      font-family: $fontMain;
+      font-size: 15px;
+    }
+  }
+  .level-3{
+    margin-left: 40px;
+    border-left: solid 2px $light_gray;
+    li:before{
+      content: '';
+      display: inline-block;
+      vertical-align: bottom;
+      width: 40px;
+      height: 2px;
+      background-color: $light_gray;
+    }
+    a{
+      color: $gray;
+      font-family: $fontMain;
+    }
+  }
+}

@@ -567,6 +567,44 @@ a:focus {
   font-style: italic;
   margin: 20px 0; }
 
+.sitemap ul {
+  list-style: none;
+  padding: 0; }
+.sitemap a {
+  display: inline-block;
+  vertical-align: bottom;
+  padding: 10px 10px 0; }
+.sitemap .level-1 a {
+  color: #fb7660;
+  font-family: "deliusregular", sans-serif;
+  font-size: 20px; }
+.sitemap .level-2 {
+  border-left: solid 2px #f2f2f2; }
+  .sitemap .level-2 li:before {
+    content: '';
+    display: inline-block;
+    vertical-align: bottom;
+    width: 40px;
+    height: 2px;
+    background-color: #f2f2f2; }
+  .sitemap .level-2 a {
+    color: #5c6468;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px; }
+.sitemap .level-3 {
+  margin-left: 40px;
+  border-left: solid 2px #f2f2f2; }
+  .sitemap .level-3 li:before {
+    content: '';
+    display: inline-block;
+    vertical-align: bottom;
+    width: 40px;
+    height: 2px;
+    background-color: #f2f2f2; }
+  .sitemap .level-3 a {
+    color: #5c6468;
+    font-family: "Open Sans", sans-serif; }
+
 header {
   margin-bottom: 30px;
   background-color: #fff;
@@ -848,13 +886,15 @@ header.fixed {
       -ms-transform: translate(-50%, 0);
       transform: translate(-50%, 0); }
 
-.nav-login-button {
+.nav-login-button,
+.nav-logout-button {
   display: inline-block;
   padding: 5px 10px 5px 30px !important;
   color: #5c6468;
   background: none;
   position: relative; }
-  .nav-login-button:before {
+  .nav-login-button:before,
+  .nav-logout-button:before {
     content: '\f007';
     font-family: FontAwesome, sans-serif;
     position: absolute;
@@ -865,6 +905,17 @@ header.fixed {
     -o-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%); }
+
+.nav-logout-button {
+  background-color: #f8f8f8;
+  display: inline-block !important; }
+  .nav-logout-button:before {
+    content: '\f011';
+    color: #fff !important;
+    background-color: #fb7660;
+    padding: 1px 5px;
+    border-radius: 100%;
+    left: 5px; }
 
 footer {
   background-color: #f8f8f8;

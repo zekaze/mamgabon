@@ -90,7 +90,7 @@
             </div>
             <ul class="bottom_menu hidden-xs">
                 <li><a href="annonceurs.php">ESPACE ANNONCEURS</a></li>
-                <li><a href="#">PLAN DU SITE</a></li>
+                <li><a href="sitemap.php">PLAN DU SITE</a></li>
                 <li><a href="#">INSCRIPTION À LA NEWSLETTER </a></li>
                 <li><a href="contact.php">CONTACT</a></li>
             </ul>
