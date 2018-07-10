@@ -11,6 +11,7 @@
                 </a>
             </div>
             <div class="col-md-7">
+                <div class="sharethis-inline-share-buttons"></div>
                 <h1 class="event-title" style="margin-bottom: 30px"><span class="article-category">Exposition photos</span> Passionnés & Passionnelles</h1>
                 <div class="event-details">
                     <div class="event_location">L'Institut français du Gabon</div>
@@ -37,7 +38,7 @@
 
                     </div>
                 </div>
-                <div class="sharethis-inline-share-buttons"></div>
+
             </div>
         </div>
         <div class="row">

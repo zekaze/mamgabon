@@ -2,14 +2,6 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="6ff66fac-ee28-46b5-ab97-1256c2767fb4" name="Alexandre-kaze.com" url="http://ftp.alexandre-kaze.com">
-        <fileTransfer host="ftp.alexandre-kaze.com" port="21">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
-          </advancedOptions>
-          <option name="port" value="21" />
-        </fileTransfer>
-      </webServer>
       <webServer id="d1227502-9cda-4aa8-a907-88d11283bfb7" name="MamGabon" url="http://ftp.alexandre-kaze.com">
         <fileTransfer host="ftp.alexandre-kaze.com" port="21" rootFolder="/mamgabon">
           <advancedOptions>
