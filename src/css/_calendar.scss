@@ -64,6 +64,17 @@ div.zabuto_calendar {
     margin-bottom: 10px;
     font-size: 13px;
   }
+  .btn{
+    background-color: $blue;
+    color: #fff;
+    display: inline-block;
+    margin: 15px 0 0;
+    @include transition(0.3s);
+
+    &:hover{
+      background-color: darken($blue, 10%);
+    }
+  }
 }
 #menu-mois{
   padding: 15px 20px;

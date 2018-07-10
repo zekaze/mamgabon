@@ -196,6 +196,12 @@ body {
     background-position: center center;
     opacity: 0.4; }
 
+blockquote {
+  font-family: "deliusregular", sans-serif;
+  font-size: 22px;
+  margin: 80px 0;
+  color: #60655b; }
+
 h2, h1, h3 {
   font-family: "deliusregular", sans-serif; }
 
@@ -1393,11 +1399,13 @@ footer {
 
 .article-body {
   margin-bottom: 50px; }
+  .article-body h3,
   .article-body h2,
   .article-body h1 {
-    margin: 50px 0 25px; }
-  .article-body h3 {
-    margin: 40px 0 25px; }
+    margin: 50px 0 30px; }
+  .article-body p img {
+    display: block;
+    margin: 0 auto; }
 
 .formulaire-photos {
   padding: 20px;
@@ -1542,6 +1550,17 @@ div.zabuto_calendar .badge-event {
     font-style: italic;
     margin-bottom: 10px;
     font-size: 13px; }
+  .modal-content .btn {
+    background-color: #89b1d5;
+    color: #fff;
+    display: inline-block;
+    margin: 15px 0 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .modal-content .btn:hover {
+      background-color: #6398c8; }
 
 #menu-mois {
   padding: 15px 20px;
@@ -1789,6 +1808,32 @@ div.zabuto_calendar .badge-event {
       #search_result_evenements .liste-evenements .list-item:last-child,
       .evenement-mois .liste-evenements .list-item:last-child {
         margin-bottom: 0; }
+
+.event-details {
+  margin-bottom: 15px; }
+  .event-details .event_location,
+  .event-details .annonceur,
+  .event-details .event_date {
+    padding: 0 10px 5px 30px;
+    font-size: 14px;
+    position: relative;
+    color: #5c6468; }
+    .event-details .event_location:before,
+    .event-details .annonceur:before,
+    .event-details .event_date:before {
+      font-family: FontAwesome, sans-serif;
+      position: absolute;
+      left: 10px;
+      color: #B7B7B7;
+      top: 0; }
+  .event-details .event_location:before {
+    content: '\f015'; }
+  .event-details .event_date:before {
+    content: '\f073'; }
+  .event-details .annonceur:before {
+    content: '\f007'; }
+  .event-details:last-child {
+    margin-bottom: 0; }
 
 #contact-form .form-row {
   display: block;

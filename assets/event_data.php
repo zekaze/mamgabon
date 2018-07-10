@@ -29,7 +29,7 @@ if(isset($_GET["event-data"]) && !empty($_GET["event-data"])){
 }
 
 $dates = array(
-    "2018-06-14" => array(
+    "2018-07-14" => array(
         array(
             "titre" => "Titre de l'événement 1",
             "ville" => "Libreville",
@@ -49,7 +49,7 @@ $dates = array(
             "url" => "article.php"
         )
     ),
-    "2018-06-20" => array(
+    "2018-07-20" => array(
         array(
             "titre" => "Titre de l'événement 1",
             "ville" => "Libreville",
@@ -89,10 +89,13 @@ foreach ($dates as $date => $events){
         $date_calendrier[$count]['body'] .= "<div class=\"article-category\">$categorie</div>";
         $date_calendrier[$count]['body'] .= "<div class=\"event_title\">$titre</div>";
         $date_calendrier[$count]['body'] .= "<div class=\"event_location\">$quartier, $ville</div>";
+        //if (client ==  premium, etc)
         $date_calendrier[$count]['body'] .= "<div class=\"event_picture_frame\">";
         $date_calendrier[$count]['body'] .= "<img src=\"$photo_couverture\" class=\"img-responsive\" alt=\"$titre\">";
         $date_calendrier[$count]['body'] .= "</div>"; //closes picture frame
+        //end if
         $date_calendrier[$count]['body'] .= "<div class=\"annonceur\">Par $annonceur</div>";
+        $date_calendrier[$count]['body'] .= "<a href='".$url."' class='btn'>En savoir plus</a>";
         $date_calendrier[$count]['body'] .= "</div>"; //closes event
 
 

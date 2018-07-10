@@ -38,6 +38,10 @@
                         accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
                         feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Architecto deleniti doloremque et explicabo illum minima natus nulla. Distinctio eligendi error harum impedit laborum mollitia nam nemo perferendis quod similique? At. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nemo sequi voluptatem. Autem consequuntur cum <strong>dolorum enim maxime</strong> modi nesciunt qui saepe sit? Amet blanditiis minus, odit officiis pariatur quos.</p>
 
+                    <blockquote>
+                        <p>Architecto deleniti doloremque et explicabo illum minima natus nulla. Distinctio eligendi error harum impedit laborum mollitia nam nemo</p>
+                    </blockquote>
+
                     <h3>3 - Mobortis nisl ut aliquip</h3>
                     <p>Mobortis nisl ut aliquip ex ea <strong>commodo consequat</strong>. Duis autem vel eum iriure dolor in hendrerit in
                         vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et

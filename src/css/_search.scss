@@ -98,3 +98,36 @@
     }
   }
 }
+
+.event-details{
+  margin-bottom: 15px;
+  .event_location,
+  .annonceur,
+  .event_date{
+    padding: 0 10px 5px 30px;
+    font-size: 14px;
+    position: relative;
+    color: $gray;
+
+    &:before{
+      font-family: FontAwesome, sans-serif;
+      position: absolute;
+      left: 10px;
+      color: #B7B7B7;
+      top: 0;
+    }
+  }
+
+  .event_location:before{
+    content: '\f015';
+  }
+  .event_date:before{
+    content: '\f073';
+  }
+  .annonceur:before{
+    content: '\f007';
+  }
+  &:last-child{
+    margin-bottom: 0;
+  }
+}

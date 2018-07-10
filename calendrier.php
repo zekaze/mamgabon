@@ -22,7 +22,7 @@
                     <div class="liste-evenements">
                         <div class="list-item">
                             <div class="row">
-                                <a href="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/31277589_1651529734954992_6658242169030714875_n.jpg?_nc_cat=0&oh=19dc7941e95d351f99d9c81380fe82aa&oe=5B95021D" class="popup-link">
+                                <a href="evenement.php">
                                     <div class="col-xs-5">
 
                                         <img src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/31277589_1651529734954992_6658242169030714875_n.jpg?_nc_cat=0&oh=19dc7941e95d351f99d9c81380fe82aa&oe=5B95021D" class="img-responsive" alt="Photo evenement">
@@ -40,9 +40,9 @@
 
                         <div class="list-item">
                             <div class="row">
-                                <a href="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/29186965_1610944632346836_3342431140360164448_n.jpg?_nc_cat=0&oh=9f8f46a7d12bd35b9e1fc1b7c7ad10d3&oe=5B9CD38D" class="popup-link">
+                                <div>
                                     <div class="col-xs-5">
-                                        <img src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/29186965_1610944632346836_3342431140360164448_n.jpg?_nc_cat=0&oh=9f8f46a7d12bd35b9e1fc1b7c7ad10d3&oe=5B9CD38D" class="img-responsive" alt="Photo evenement">
+                                        <img src="src/img/mamgabon-default-picture-portrait.jpg" class="img-responsive" alt="Photo evenement">
                                     </div>
                                     <div class="col-xs-7">
 
@@ -51,13 +51,13 @@
                                         <div class="event_date">9 Juin 2018 à 19h30</div>
                                         <div class="annonceur">Par L'Institut français du Gabon</div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
 
                         <div class="list-item">
                             <div class="row">
-                                <a href="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/30656512_1640560252718607_3635224169070276705_n.jpg?_nc_cat=0&oh=77374de791fbebb84b017074c2245163&oe=5B4FB868" class="popup-link">
+                                <a href="evenement.php">
                                     <div class="col-xs-5">
                                         <img src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/30656512_1640560252718607_3635224169070276705_n.jpg?_nc_cat=0&oh=77374de791fbebb84b017074c2245163&oe=5B4FB868" class="img-responsive" alt="Photo evenement">
                                     </div>
