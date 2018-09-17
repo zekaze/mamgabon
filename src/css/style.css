@@ -150,18 +150,18 @@
   40% {
     background: rgba(137, 177, 213, 0.8); }
   60% {
-    background: rgba(251, 118, 96, 0.7); }
+    background: rgba(243, 147, 131, 0.7); }
   100% {
-    background: rgba(251, 118, 96, 0.7); } }
+    background: rgba(243, 147, 131, 0.7); } }
 @keyframes gradientBorder {
   0% {
     border-color: rgba(137, 177, 213, 0.8); }
   40% {
     border-color: rgba(137, 177, 213, 0.8); }
   60% {
-    border-color: rgba(251, 118, 96, 0.7); }
+    border-color: rgba(243, 147, 131, 0.7); }
   100% {
-    border-color: rgba(251, 118, 96, 0.7); } }
+    border-color: rgba(243, 147, 131, 0.7); } }
 *,
 *:focus {
   outline: none; }
@@ -237,9 +237,9 @@ a:focus {
     .btn.blue:hover {
       background-color: #6398c8; }
   .btn.orange {
-    background-color: #fb7660; }
+    background-color: #f39383; }
     .btn.orange:hover {
-      background-color: #fa4b2e; }
+      background-color: #ef6b55; }
 
 .mobile-only {
   display: none !important; }
@@ -270,7 +270,7 @@ a:focus {
     width: 50px;
     height: 50px;
     border: none;
-    background-color: #fb7660;
+    background-color: #f39383;
     color: #fff;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in-out;
@@ -327,7 +327,7 @@ a:focus {
   opacity: 0.8;
   padding: 12px 15px;
   cursor: pointer;
-  background-color: #fb7660;
+  background-color: #f39383;
   color: #fff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -355,7 +355,7 @@ a:focus {
     display: inline-block;
     margin: 0; }
   .breadcrumbs li:last-of-type a {
-    color: #fb7660; }
+    color: #f39383; }
   .breadcrumbs li:last-of-type:after {
     content: '';
     display: none; }
@@ -585,7 +585,7 @@ a:focus {
   vertical-align: bottom;
   padding: 10px 10px 0; }
 .sitemap .level-1 a {
-  color: #fb7660;
+  color: #f39383;
   font-family: "deliusregular", sans-serif;
   font-size: 20px; }
 .sitemap .level-2 {
@@ -660,7 +660,7 @@ header {
   padding: 8px 15px; }
 .top_nav_bar.mobile-only a:focus,
 .top_nav_bar.mobile-only a:hover {
-  color: #fb7660; }
+  color: #f39383; }
 
 #logo_bar {
   padding: 80px 0 15px;
@@ -732,7 +732,7 @@ header {
   .nav-menu .menu-item:hover,
   .nav-menu .menu-item.active,
   .nav-menu .sub-menu:hover > .menu-item {
-    box-shadow: inset 0 -3px 0 #fb7660; }
+    box-shadow: inset 0 -3px 0 #f39383; }
     .nav-menu .menu-item:hover img,
     .nav-menu .menu-item.active img,
     .nav-menu .sub-menu:hover > .menu-item img {
@@ -764,7 +764,7 @@ header {
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out; }
       .nav-menu .sub-menu li a:hover {
-        border-color: #fb7660; }
+        border-color: #f39383; }
   @media (min-width: 992px) {
     .nav-menu .sub-menu:hover > ul {
       display: block;
@@ -922,7 +922,7 @@ header.fixed {
   .nav-logout-button:before {
     content: '\f011';
     color: #fff !important;
-    background-color: #fb7660;
+    background-color: #f39383;
     padding: 1px 5px;
     border-radius: 100%;
     left: 5px; }
@@ -977,7 +977,7 @@ footer {
       width: 50px;
       height: 50px;
       border-radius: 100%;
-      background-color: #fb7660;
+      background-color: #f39383;
       color: #fff;
       font-size: 23px;
       position: relative; }
@@ -997,7 +997,7 @@ footer {
   list-style: none; }
   .footer_link_list h6 {
     text-transform: uppercase;
-    color: #fb7660;
+    color: #f39383;
     font-size: 18px;
     font-family: "deliusregular", sans-serif;
     margin-bottom: 15px; }
@@ -1032,7 +1032,7 @@ footer {
       font-size: 18px;
       text-transform: uppercase;
       font-family: "deliusregular", sans-serif;
-      background-color: rgba(251, 118, 96, 0.85); }
+      background-color: rgba(243, 147, 131, 0.85); }
       .slick .slide .slide-description p {
         position: absolute;
         margin: 0;
@@ -1070,7 +1070,7 @@ footer {
     border-radius: 100%;
     padding: 7px 0;
     text-align: center;
-    background-color: #fb7660;
+    background-color: #f39383;
     color: #fff;
     cursor: pointer;
     opacity: 0;
@@ -1099,7 +1099,7 @@ footer {
 .articles .article {
   display: inline-block;
   padding: 15px 15px 50px;
-  border-bottom: solid 6px #fb7660;
+  border-bottom: solid 6px #f39383;
   margin-bottom: 50px;
   box-shadow: 0 0 8px #e5e5e5;
   position: relative; }
@@ -1195,7 +1195,7 @@ footer {
       display: inline-block;
       width: 100%;
       padding: 10px 10px 30px;
-      border-bottom: solid 3px #fb7660;
+      border-bottom: solid 3px #f39383;
       font-family: "deliusregular", sans-serif;
       color: #5c6468; }
       .suggestion-list li .list-item .abstract {
@@ -1234,7 +1234,7 @@ footer {
   .module.inscriptions .header #regFormButton {
     background: none;
     border: none;
-    color: #fb7660; }
+    color: #f39383; }
 
 #slick-forms {
   margin: 20px 0;
@@ -1272,7 +1272,7 @@ footer {
       color: #fff;
       border: none; }
   #slick-forms #login-form button {
-    background-color: #fb7660; }
+    background-color: #f39383; }
   #slick-forms #registration-form button {
     background-color: #89b1d5; }
 
@@ -1315,7 +1315,7 @@ footer {
     .comment-list .comment-container .author-name {
       font-weight: 700;
       font-size: 14px;
-      color: #fb7660;
+      color: #f39383;
       margin-bottom: 10px; }
     .comment-list .comment-container .comment {
       padding: 15px;
@@ -1369,7 +1369,7 @@ footer {
     font-family: FontAwesome, sans-serif;
     margin-left: 5px; }
   .comment-list .reply-button:hover {
-    color: #fb7660; }
+    color: #f39383; }
 
 .replies-list .comment-container {
   margin-bottom: 5px;
@@ -1377,7 +1377,7 @@ footer {
   .replies-list .comment-container .author-name {
     font-weight: 700;
     font-size: 14px;
-    color: #fb7660;
+    color: #f39383;
     margin-bottom: 5px; }
   .replies-list .comment-container .comment {
     padding: 15px;
@@ -1487,7 +1487,7 @@ footer {
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #fb7660; }
+        background-color: #f39383; }
     .formulaire-photos button.reset-button {
       background-color: #fff;
       color: #5c6468; }
@@ -1506,7 +1506,7 @@ footer {
 div.zabuto_calendar .badge-today {
   background-color: #5c6468; }
 div.zabuto_calendar .table tr td.event div.day {
-  background-color: #fb7660;
+  background-color: #f39383;
   color: #fff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1521,7 +1521,7 @@ div.zabuto_calendar .badge-event {
   border-radius: 0;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); }
   .modal-content .modal-header {
-    background-color: #fb7660;
+    background-color: #f39383;
     color: #fff;
     font-family: "deliusregular", sans-serif;
     font-size: 25px; }
@@ -1529,14 +1529,14 @@ div.zabuto_calendar .badge-event {
     border: none;
     background: #f2f2f2; }
     .modal-content .modal-footer .btn {
-      background: #fb7660;
+      background: #f39383;
       color: #fff;
       border-radius: 0;
       border: none;
       font-family: "Open Sans", sans-serif; }
   .modal-content .event {
     padding-bottom: 25px;
-    border-bottom: solid 2px #fb7660;
+    border-bottom: solid 2px #f39383;
     margin-bottom: 15px; }
   .modal-content .event:last-child {
     margin: 0; }
@@ -1591,7 +1591,7 @@ div.zabuto_calendar .badge-event {
       transition: all 0.3s ease-in-out; }
       #menu-mois li a:hover, #menu-mois li a.active {
         color: #fff;
-        background-color: #fb7660; }
+        background-color: #f39383; }
 
 .category-list {
   list-style: none;
@@ -1606,7 +1606,7 @@ div.zabuto_calendar .badge-event {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
     .category-list a:hover {
-      color: #fb7660; }
+      color: #f39383; }
     .category-list a:before {
       content: "";
       font-family: FontAwesome, sans-serif;
@@ -1651,7 +1651,7 @@ div.zabuto_calendar .badge-event {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
     .sidebar .widget .link.center:hover {
-      color: #fb7660; }
+      color: #f39383; }
   .sidebar .widget.sondage {
     font-size: 13px;
     padding: 10px;
@@ -1696,7 +1696,7 @@ div.zabuto_calendar .badge-event {
   box-shadow: 0 0 5px rgba(92, 100, 104, 0.2), 0 5px 5px #f2f2f2; }
   .liste-etablissements .etablissement h4 {
     font-family: "deliusregular", sans-serif;
-    color: #fb7660;
+    color: #f39383;
     font-size: 20px;
     margin-bottom: 15px; }
   .liste-etablissements .etablissement .adresse {
@@ -1740,7 +1740,7 @@ div.zabuto_calendar .badge-event {
     transition: all 0.3s ease-in-out;
     position: relative; }
     .search_result_category .search_result_category_header:hover {
-      background-color: #fb7660;
+      background-color: #f39383;
       color: #fff; }
     .search_result_category .search_result_category_header:after {
       content: "\f067";
@@ -1840,7 +1840,7 @@ div.zabuto_calendar .badge-event {
   font-weight: normal;
   margin-bottom: 15px; }
 #contact-form .label {
-  color: #fb7660;
+  color: #f39383;
   display: block;
   text-align: left;
   padding-left: 0; }
@@ -1855,7 +1855,7 @@ div.zabuto_calendar .badge-event {
   resize: vertical; }
 #contact-form button[type="submit"] {
   display: block;
-  background-color: #fb7660;
+  background-color: #f39383;
   color: #fff;
   padding: 10px 30px;
   border: none; }
@@ -1932,9 +1932,9 @@ div.zabuto_calendar .badge-event {
       width: 2px;
       background-color: #f2f2f2; }
     .login-registration-forms #login-form button[type="submit"] {
-      background-color: #fb7660; }
+      background-color: #f39383; }
       .login-registration-forms #login-form button[type="submit"]:hover {
-        background-color: #fa4b2e; }
+        background-color: #ef6b55; }
 
 @media (max-width: 1366px) {
   .error404 {
@@ -2013,7 +2013,7 @@ div.zabuto_calendar .badge-event {
     .nav-menu .menu-item:hover,
     .nav-menu .menu-item.active,
     .nav-menu .sub-menu:hover > .menu-item {
-      box-shadow: inset 3px 0 0 #fb7660; }
+      box-shadow: inset 3px 0 0 #f39383; }
     .nav-menu .sub-menu {
       height: 43px;
       overflow: hidden;
@@ -2108,7 +2108,7 @@ div.zabuto_calendar .badge-event {
         display: inline-block;
         width: 100%;
         padding: 10px 10px 30px;
-        border-bottom: solid 3px #fb7660;
+        border-bottom: solid 3px #f39383;
         font-family: "deliusregular", sans-serif;
         color: #5c6468; }
         .suggestion-list li .list-item .abstract {
@@ -2152,7 +2152,7 @@ div.zabuto_calendar .badge-event {
     display: inline-block;
     padding: 5px 0;
     text-align: center;
-    background-color: #fb7660;
+    background-color: #f39383;
     color: #fff;
     cursor: pointer;
     opacity: 0.5;

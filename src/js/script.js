@@ -45,10 +45,12 @@ $(document).ready(function () {
         slickNext = slickControls.find(".next");
 
     $('.slick').slick({
-        centerMode: true,
+        centerMode: false,
         centerPadding: '0px',
         slidesToShow: 3,
+        slidesToScroll: 3,
         autoplay: true,
+        autoplaySpeed: 5000,
         infinite: true,
         draggable: false,
         pauseOnFocus: false,
@@ -60,9 +62,12 @@ $(document).ready(function () {
                 breakpoint: 1441,
                 settings: {
                     arrows: false,
-                    centerMode: true,
+                    centerMode: false,
                     centerPadding: '0px',
-                    slidesToShow: 3
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    autoplay: true,
+                    autoplaySpeed: 5000
                 }
             },
             {
@@ -71,7 +76,9 @@ $(document).ready(function () {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '200px',
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 3000
                 }
             },
             {
@@ -80,7 +87,9 @@ $(document).ready(function () {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '100px',
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 3000
                 }
             },
             {
@@ -89,7 +98,9 @@ $(document).ready(function () {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '50px',
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 3000
                 }
             },
             {
@@ -98,7 +109,9 @@ $(document).ready(function () {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '20px',
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 3000
                 }
             }
         ]

@@ -82,6 +82,7 @@
                 </div>
             </div>
         </div>
+        <div id="visitors-count" class="text-center"><i class="fa fa-eye"></i> 450 visiteurs en ligne</div>
     </div>
     <div id="footer_bottom">
         <div class="container">
