@@ -120,6 +120,13 @@ $(document).ready(function () {
     var $animation_elements = jQuery('*[data-animate]'),
         $window = jQuery(window);
 
+    //Welcome modal trigger
+    function showWelcomeModal() {
+        $("#myModal").modal();
+    }
+
+    setTimeout(showWelcomeModal, 2000);
+
     $window.on('scroll',function () {
         check_if_in_view();
         minimizeNavMenu();

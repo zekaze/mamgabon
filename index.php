@@ -33,6 +33,7 @@
             <span class="next"><i class="fa fa-angle-right"></i></span>
         </div>
 </div>
+<?php include "assets/modal-welcome.php";?>
 <div class="section-title" data-animate="fadeInUp">
     <h2>focus</h2>
     <small>la sélection de mam gabon</small>
