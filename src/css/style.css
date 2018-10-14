@@ -1276,6 +1276,12 @@ footer {
   #slick-forms #registration-form button {
     background-color: #89b1d5; }
 
+.h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f39383; }
+
 .article-category {
   display: block;
   margin-bottom: 5px;
@@ -1302,6 +1308,28 @@ footer {
   .comment-form .form-input::placeholder,
   .reply-form .form-input::placeholder {
     color: #878787; }
+
+#sub-categories {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px; }
+  #sub-categories li {
+    display: inline-block; }
+  #sub-categories a {
+    display: inline-block;
+    color: #5c6468;
+    vertical-align: top;
+    padding: 10px 20px;
+    margin: 0 5px 2px 0;
+    border-radius: 3px;
+    background-color: #fff;
+    border: solid 2px #f2f2f2; }
+    #sub-categories a:last-child {
+      margin: 0 0 2px 0; }
+    #sub-categories a.active {
+      background-color: #f39383;
+      border-color: #f39383;
+      color: #fff; }
 
 .reply-form .form-input {
   border-radius: 20px; }

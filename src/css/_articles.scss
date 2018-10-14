@@ -222,6 +222,12 @@
     }
   }
 }
+.h4{
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: $orange;
+}
 .article-category{
   display: block;
   margin-bottom: 5px;
@@ -248,6 +254,33 @@
   }
   .form-input::placeholder{
     color: #878787;
+  }
+}
+#sub-categories{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  li{
+    display: inline-block;
+  }
+  a{
+    display: inline-block;
+    color: $gray;
+    vertical-align: top;
+    padding: 10px 20px;
+    margin: 0 5px 2px 0;
+    border-radius: 3px;
+    background-color: #fff;
+    border: solid 2px $light_gray;
+
+    &:last-child{
+      margin: 0 0 2px 0;
+    }
+    &.active{
+      background-color: $orange;
+      border-color: $orange;
+      color: #fff;
+    }
   }
 }
 .reply-form{

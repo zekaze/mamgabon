@@ -8,6 +8,16 @@
         <div class="section-title left" data-animate="fadeInUp">
             <h1>Education</h1>
         </div>
+        <h4 class="h4">Autres catégories</h4>
+        <ul id="sub-categories">
+            <li><a href="#">Common childhood illnesses</a></li>
+            <li><a href="#">Common childhood conditions</a></li>
+            <li><a href="#" class="active">Nos petites recettes</a></li>
+            <li><a href="#">Common childhood illnesses</a></li>
+            <li><a href="#">Ressources pour parents</a></li>
+            <li><a href="#">Soutien scolaire</a></li>
+            <li><a href="#">Common childhood conditions</a></li>
+        </ul>
         <div class="row">
             <div class="col-md-9">
                 <div class="articles tiles">
