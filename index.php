@@ -91,3 +91,10 @@
     </div>
 </div>
 <?php include "assets/footer.php";?>
+
+<script>
+    function showWelcomeModal() {
+        $("#myModal").modal();
+    }
+    setTimeout(showWelcomeModal, 2000);
+</script>
