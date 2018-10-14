@@ -1,46 +1,48 @@
 #myModal{
-  text-align: center;
+    text-align: center;
 
-   .modal-header{
-     background: none;
-     border: none;
-   }
-  .modal-footer{
-    background: none;
-    text-align: inherit;
-  }
-  .cover-image{
-    height: 400px;
-    width: 100%;background: url("../img/mother.jpg");
-    background-size: cover;
-    background-position: center center;
-  }
-  .modal-content{
-    padding: 40px;
-    z-index: 1;
-    background-color: #fff;
-  }
-  h2{
-    font-size: 45px;
-    margin-bottom: 40px;
-    color: $blue;
-  }
-  p{
-    font-size: 18px;
-  }
+    .modal-header{
+      background: none;
+      border: none;
+    }
+    .modal-footer{
+      background: none;
+      text-align: inherit;
+    }
+    .cover-image{
+      height: 400px;
+      width: 100%;background: url("../img/mother.jpg");
+      background-size: cover;
+      background-position: center center;
+    }
+    .modal-content{
+      padding: 40px;
+      z-index: 1;
+      background-color: #fff;
+    }
+    h2{
+      font-size: 45px;
+      margin-bottom: 40px;
+      color: $blue;
+    }
+    p{
+      font-size: 18px;
+    }
 
-  .btn{
-    font-family: $fontTitle;
-    font-size: 20px;
-    padding: 10px 40px;
-    border-radius: 3px;
-  }
+    .btn{
+      font-family: $fontTitle;
+      font-size: 20px;
+      padding: 10px 40px;
+      border-radius: 3px;
+      margin: 0;
+    }
 
-  //Modal positionning
-  .modal.in .modal-dialog{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    @include transform(translate(-50%,-50%));
+    //Modal positionning
+    .modal-dialog{
+      position: absolute;
+      margin: 0;
+      left: 50%;
+      top: 50%;
+      @include transform(translate(-50%,-50%));
+    }
   }
- }

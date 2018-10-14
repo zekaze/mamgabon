@@ -154,6 +154,31 @@
       }
     }
   }
+
+  #myModal{
+    .cover-image{
+      height: 200px;
+    }
+    .modal-content{
+      padding: 15px;
+    }
+    h2{
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    p{
+      font-size: 14px;
+    }
+
+    .btn{
+      font-family: $fontTitle;
+      font-size: 16px;
+    }
+
+    .modal-dialog{
+      width: 92%;
+    }
+  }
 }
 
 @media (max-width: 768px){
