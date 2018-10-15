@@ -46,3 +46,54 @@
       @include transform(translate(-50%,-50%));
     }
   }
+.modal.slide-modal{
+  .modal-dialog{
+    background-color: #fff;
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    top: 50%;
+    @include transform(translate(-50%,-50%));
+  }
+  .modal-xl{
+    width: 85%;
+  }
+  .flex-col.background-cover{
+    order: 1;
+    width: 50%;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .footer{
+    margin-top: 50px;
+  }
+
+  .flex-col.content{
+    width: 50%;
+    order: 2;
+    padding: 35px;
+
+    .modal-button{
+      font-family: $fontTitle;
+      font-size: 17px;
+      padding: 10px 20px;
+      border-radius: 3px;
+      margin: 0;
+      border: none;
+      color: #fff;
+      display: inline-block;
+      margin-bottom: 5px;
+      background-color: $blue;
+    }
+  }
+  button.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    width: 50px;
+    padding: 15px 0;
+    background-color: #fff;
+  }
+}

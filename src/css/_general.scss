@@ -496,3 +496,10 @@ a:focus{
     }
   }
 }
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}

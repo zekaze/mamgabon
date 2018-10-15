@@ -615,6 +615,12 @@ a:focus {
     color: #5c6468;
     font-family: "Open Sans", sans-serif; }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch; }
+
 header {
   margin-bottom: 30px;
   background-color: #fff;
@@ -1996,6 +2002,51 @@ div.zabuto_calendar .badge-event {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
 
+.modal.slide-modal .modal-dialog {
+  background-color: #fff;
+  position: absolute;
+  margin: 0;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+.modal.slide-modal .modal-xl {
+  width: 85%; }
+.modal.slide-modal .flex-col.background-cover {
+  order: 1;
+  width: 50%;
+  min-height: 400px;
+  background-size: cover;
+  background-position: center center; }
+.modal.slide-modal .footer {
+  margin-top: 50px; }
+.modal.slide-modal .flex-col.content {
+  width: 50%;
+  order: 2;
+  padding: 35px; }
+  .modal.slide-modal .flex-col.content .modal-button {
+    font-family: "deliusregular", sans-serif;
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin: 0;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 5px;
+    background-color: #89b1d5; }
+.modal.slide-modal button.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  width: 50px;
+  padding: 15px 0;
+  background-color: #fff; }
+
 :root {
   --font-size: 17px; }
 
@@ -2314,7 +2365,15 @@ div.zabuto_calendar .badge-event {
       #menu-mois li a {
         padding: 5px 15px;
         font-size: 11px;
-        display: inline-block; } }
+        display: inline-block; }
+
+  .modal.slide-modal .flex-row {
+    display: block; }
+  .modal.slide-modal .flex-col.background-cover {
+    width: 100%; }
+  .modal.slide-modal .flex-col.content {
+    width: 100%;
+    padding: 25px; } }
 @media (max-width: 640px) {
   #top_header {
     margin-bottom: 350px; }
@@ -2354,7 +2413,48 @@ div.zabuto_calendar .badge-event {
     display: block; }
     #search_result_evenements .liste-evenements .list-item,
     .evenement-mois .liste-evenements .list-item {
-      width: 100%; } }
+      width: 100%; }
+
+  #myModal .cover-image {
+    height: 200px;
+    width: 100%; }
+  #myModal .modal-content {
+    padding: 0; }
+  #myModal h2 {
+    font-size: 25px;
+    margin-bottom: 20px; }
+  #myModal p {
+    font-size: 14px; }
+  #myModal .btn {
+    font-size: 14px;
+    padding: 10px; }
+  #myModal modal-dialog {
+    left: 50%;
+    top: 5%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+  .modal.slide-modal .flex-row {
+    display: block; }
+  .modal.slide-modal .flex-col.background-cover {
+    width: 100%;
+    min-height: 200px; }
+  .modal.slide-modal .modal-xl {
+    width: 90%; }
+  .modal.slide-modal .flex-col.content {
+    width: 100%;
+    padding: 15px; }
+  .modal.slide-modal h2 {
+    font-size: 22px; }
+  .modal.slide-modal .modal-button {
+    font-size: 14px !important;
+    padding: 10px;
+    border-radius: 3px; }
+  .modal.slide-modal .footer {
+    margin-top: 25px; } }
 @media (max-width: 380px) {
   #top_header {
     margin-bottom: 300px; } }
