@@ -387,6 +387,35 @@
       font-size: 25px;
     }
   }
+  #myModal{
+
+    .cover-image{
+      height: 180px;
+    }
+    .modal-content{
+      padding: 15px;
+    }
+    h2{
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    p{
+      font-size: 14px;
+    }
+
+    .btn{
+      font-size: 14px;
+    }
+
+    //Modal positionning
+    .modal-dialog{
+      position: absolute;
+      margin: 0;
+      left: 50%;
+      top: 10%;
+      @include transform(translate(-50%,-5%));
+    }
+  }
 }
 
 @media (max-width: 480px) {

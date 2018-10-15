@@ -1970,24 +1970,24 @@ div.zabuto_calendar .badge-event {
     background: none;
     text-align: inherit; }
   #myModal .cover-image {
-    height: 400px;
+    height: 300px;
     width: 100%;
     background: url("../img/mother.jpg");
     background-size: cover;
     background-position: center center; }
   #myModal .modal-content {
-    padding: 40px;
+    padding: 20px;
     z-index: 1;
     background-color: #fff; }
   #myModal h2 {
-    font-size: 45px;
-    margin-bottom: 40px;
+    font-size: 38px;
+    margin-bottom: 25px;
     color: #89b1d5; }
   #myModal p {
-    font-size: 18px; }
+    font-size: 16px; }
   #myModal .btn {
     font-family: "deliusregular", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px 40px;
     border-radius: 3px;
     margin: 0; }
@@ -2387,7 +2387,29 @@ div.zabuto_calendar .badge-event {
     margin-bottom: 320px; }
 
   .section-title.left h2 {
-    font-size: 25px; } }
+    font-size: 25px; }
+
+  #myModal .cover-image {
+    height: 180px; }
+  #myModal .modal-content {
+    padding: 15px; }
+  #myModal h2 {
+    font-size: 20px;
+    margin-bottom: 15px; }
+  #myModal p {
+    font-size: 14px; }
+  #myModal .btn {
+    font-size: 14px; }
+  #myModal .modal-dialog {
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    top: 10%;
+    -webkit-transform: translate(-50%, -5%);
+    -moz-transform: translate(-50%, -5%);
+    -o-transform: translate(-50%, -5%);
+    -ms-transform: translate(-50%, -5%);
+    transform: translate(-50%, -5%); } }
 @media (max-width: 480px) {
   .slick .slide {
     margin: 0 4px; }
