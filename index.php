@@ -20,10 +20,9 @@
                     </div>
                     <img src="http://worcuga.com/wp-content/uploads/2015/03/single-mom11.jpg" alt="img">
                 </a>
-                <a href="article.php" class="slide">
+                <a href="#" class="slide modal-trigger" data-toggle="modal" data-target="#slide-modal-1">
                     <div class="slide-description">
-                        <p><span class="article-category">Soutien scolaire</span> Nonummy nibh euismod tincidunt ut
-                            laoreet dolore magna aliquam</p>
+                        <p><span class="article-category">Soutien scolaire</span> Modale Pop-Up</p>
                     </div>
                     <img src="https://cbssacramento.files.wordpress.com/2012/03/sacramento-theatre-kids-camp.jpg" alt="img">
                 </a>
@@ -32,7 +31,6 @@
             <span class="prev"><i class="fa fa-angle-left"></i></span>
             <span class="next"><i class="fa fa-angle-right"></i></span>
         </div>
-        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#slide-modal-1">Open Modal</button>
         <div id="slide-modal-1" class="modal slide-modal fade" role="dialog">
             <div class="modal-dialog modal-xl">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
