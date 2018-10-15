@@ -27,27 +27,22 @@
                 <div class="liste-etablissements">
                     <?php //Etablissement avec informations basiques;?>
 
+                    <h2>**** Informations de base ****</h2>
                     <div class="etablissement">
                         <div class="row">
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <div class="col-md-5">
-                                        <div class="img-frame">
-                                            <img src="http://logofaves.com/wp-content/uploads/2012/02/oak_m.jpg?9cf02b" class="img-responsive" alt="logo">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <h4>Académie de Danse Classique de Libreville</h4>
-                                        <div class="contact-info">Immaculée Conception près Géant CKdo, Bd Bessieux</div>
-                                        <div class="contact-info">info@emailadress.com</div>
-                                        <div class="info-row">
-                                            <span class="info-col">+241 06 03 03 40</span> <span class="info-col">+241 05 34 99 73</span>
-                                        </div>
-                                        <div class="contact-info"><a href="http://www.monsiteweb.com" target="_blank">www.monsiteweb.com</a></div>
-                                    </div>
+                            <div class="col-md-3">
+                                <div class="img-frame">
+                                    <img src="http://mamgabon.com/resources/assets2/img/default-img/mamgabon-default-picture-square.jpg" class="img-responsive" alt="logo">
                                 </div>
-                                <div class="contact-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut culpa deserunt ducimus in ipsa laboriosam libero minima nostrum perferendis, quae quasi repellat repudiandae sint soluta temporibus tenetur ut voluptate.
+                            </div>
+                            <div class="col-md-9">
+                                <h4>Académie de Danse Classique de Libreville</h4>
+                                <div class="contact-info">Immaculée Conception près Géant CKdo, Bd Bessieux</div>
+                                <div class="contact-info">info@emailadress.com</div>
+                                <div class="info-row">
+                                    <span class="info-col">+241 06 03 03 40</span> <span class="info-col">+241 05 34 99 73</span>
                                 </div>
+                                <div class="contact-info"><a href="http://www.monsiteweb.com" target="_blank">www.monsiteweb.com</a></div>
                                 <div class="prestations">
                                     <h5>Prestations</h5>
                                     <span class="tag">Prestation 1</span>
@@ -57,27 +52,47 @@
                                     <span class="tag">Prestation 5</span>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="popup-galery">
-                                    <a href="https://study.com/cimages/hub/How%20to%20Set%20Up%20Your%20Kindergarten%20Classroom%20Quickly.jpg" class="popup-link">
-                                        <img src="https://study.com/cimages/hub/How%20to%20Set%20Up%20Your%20Kindergarten%20Classroom%20Quickly.jpg" class="img-responsive"  alt="image">
-                                    </a>
-                                    <a href="http://thesevenlakesinsider.com/wp-content/uploads/11999032_675300185938715_7798995693630496085_n-777x437.jpg" class="popup-link">
-                                        <img src="http://thesevenlakesinsider.com/wp-content/uploads/11999032_675300185938715_7798995693630496085_n-777x437.jpg" class="img-responsive" alt="image">
-                                    </a>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
-                    <?php for($i = 0; $i < 10; $i++):?>
-                        <div class="etablissement">
+                    <h2>**** Informations de base + paragraphe descriptif ****</h2>
+                    <div class="etablissement">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="img-frame">
+                                    <img src="http://mamgabon.com/resources/assets2/img/default-img/mamgabon-default-picture-square.jpg" class="img-responsive" alt="logo">
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <h4>Académie de Danse Classique de Libreville</h4>
+                                <div class="contact-info">Immaculée Conception près Géant CKdo, Bd Bessieux</div>
+                                <div class="contact-info">info@emailadress.com</div>
+                                <div class="info-row">
+                                    <span class="info-col">+241 06 03 03 40</span> <span class="info-col">+241 05 34 99 73</span>
+                                </div>
+                                <div class="contact-info"><a href="http://www.monsiteweb.com" target="_blank">www.monsiteweb.com</a></div>
+                            </div>
+                        </div>
+                        <div class="contact-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut culpa deserunt ducimus in ipsa laboriosam libero minima nostrum perferendis, quae quasi repellat repudiandae sint soluta temporibus tenetur ut voluptate.
+                        </div>
+                        <div class="prestations">
+                            <h5>Prestations</h5>
+                            <span class="tag">Prestation 1</span>
+                            <span class="tag">Prestation 2</span>
+                            <span class="tag">Prestation 3</span>
+                            <span class="tag">Prestation 4</span>
+                            <span class="tag">Prestation 5</span>
+                        </div>
+                    </div>
+
+                    <h2>**** Formule premium ****</h2>
+                    <div class="etablissement">
                             <div class="row">
                                 <div class="col-md-8">
                                     <div class="row">
                                         <div class="col-md-5">
                                             <div class="img-frame">
-                                                <img src="http://logofaves.com/wp-content/uploads/2012/02/oak_m.jpg?9cf02b" class="img-responsive" alt="logo">
+                                                <img src="http://mamgabon.com/resources/assets2/img/default-img/mamgabon-default-picture-square.jpg" class="img-responsive" alt="logo">
                                             </div>
                                         </div>
                                         <div class="col-md-7">
@@ -113,7 +128,6 @@
                                 </div>
                             </div>
                         </div>
-                    <?php endfor;?>
 
                 </div>
                 <div class="pagination">
