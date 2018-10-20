@@ -13,12 +13,11 @@
                     </div>
                     <img src="https://i.pinimg.com/originals/20/c1/8c/20c18caa57e9077e4559ab35a93029e0.jpg" alt="img">
                 </a>
-                <a href="article.php" class="slide">
+                <a href="articles-with-slider.php" class="slide">
                     <div class="slide-description">
-                        <p><span class="article-category">For mommy</span> Nonummy nibh euismod tincidunt ut
-                            laoreet dolore magna aliquam</p>
+                        <p><span class="article-category">Alimentation</span> Exemple d'articles avec slideshow</p>
                     </div>
-                    <img src="http://worcuga.com/wp-content/uploads/2015/03/single-mom11.jpg" alt="img">
+                    <img src="https://media3.s-nbcnews.com/j/MSNBC/Components/Video/201808/tdy_food_klg_chicken_180828_1920x1080.today-inline-vid-featured-desktop.jpg" alt="img">
                 </a>
                 <a href="#" class="slide modal-trigger" data-toggle="modal" data-target="#slide-modal-1">
                     <div class="slide-description">
@@ -51,6 +50,9 @@
                 </div>
             </div>
         </div>
+</div>
+<div class="text-center">
+    <button data-toggle="modal" id="bouton-edito" data-target="#myModal">Voir l'édito du mois</button>
 </div>
 <?php include "assets/modal-welcome.php";?>
 <div class="section-title" data-animate="fadeInUp">
@@ -105,6 +107,36 @@
                 </div>
                 <a href="#" class="advert"><img src="https://pbs.twimg.com/media/DaAxHV7W0AAlmVW.jpg" alt="publicité"></a>
                 <a href="#" class="advert"><img src="https://static.wixstatic.com/media/b3741a_915c690a41144e1bb5e3a7ec45f5bebf~mv2.png/v1/fill/w_630,h_630,al_c,usm_0.66_1.00_0.01/b3741a_915c690a41144e1bb5e3a7ec45f5bebf~mv2.png" alt="publicité"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="newsletter-bar" data-animate="fadeInUp">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Inscrivez-vous à notre newsletter</h3>
+                <p>Inscrivez-vous à notre newsletter pour rester au courant de toutes nos nouveaux articles, conseils et événements</p>
+                <form action="" method="get">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label class="form-row">
+                                <input type="text" class="form-input" name="nom" placeholder="Votre nom" required>
+                            </label>
+                        </div>
+                        <div class="col-sm-5">
+                            <label class="form-row">
+                                <input type="email" class="form-input" name="email" placeholder="Votre adresse mail" required>
+                            </label>
+                        </div>
+                        <div class="col-sm-1">
+                            <div class="form-row">
+                                <button type="submit"><span>S'enregistrer</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

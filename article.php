@@ -57,6 +57,8 @@
                     <a href="#" class="tag">#Architecto deleniti</a>
                 </div>
 
+                <div class="sharethis-inline-share-buttons"></div>
+
                 <div class="article-suggestions">
                     <div class="section-title small" data-animate="fadeInUp">
                         <h3>Dans la même catégorie</h3>

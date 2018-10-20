@@ -1660,6 +1660,82 @@ div.zabuto_calendar .badge-event {
   padding: 10px 5px;
   border: solid 2px #ddd; }
 
+.article-slideshow {
+  position: relative; }
+  .article-slideshow .slide-image {
+    margin-bottom: 50px;
+    background-color: #f8f8f8;
+    position: relative; }
+    .article-slideshow .slide-image .slide-count {
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      padding: 5px 30px;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+      -o-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+      bottom: -30px; }
+    .article-slideshow .slide-image img {
+      display: block;
+      margin: 0 auto;
+      width: 90%; }
+  .article-slideshow .controls span {
+    cursor: pointer;
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: top;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    opacity: 0.8;
+    position: absolute;
+    color: #5c6468;
+    top: 40%;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+    .article-slideshow .controls span:hover {
+      opacity: 1;
+      background-color: #f39383;
+      color: #fff; }
+    .article-slideshow .controls span:after, .article-slideshow .controls span:before {
+      font-size: 40px;
+      font-family: FontAwesome, sans-serif; }
+  .article-slideshow .controls .prev {
+    left: 0; }
+    .article-slideshow .controls .prev:after {
+      content: '\f104';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+  .article-slideshow .controls .next {
+    right: 0;
+    background-color: #f39383;
+    color: #fff; }
+    .article-slideshow .controls .next:after {
+      content: '\f105';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+  .article-slideshow .buttons {
+    display: block;
+    background-color: red; }
+
 .sidebar .advert {
   display: block;
   margin: 15px 0; }
@@ -2381,7 +2457,16 @@ div.zabuto_calendar .badge-event {
   .articles.tiles {
     display: block; }
     .articles.tiles .article {
-      width: 100%; } }
+      width: 100%; }
+
+  .article-slideshow .slide-image {
+    margin-bottom: 50px; }
+  .article-slideshow .controls span {
+    width: 60px;
+    height: 60px;
+    top: 30%; }
+  .article-slideshow .controls:after, .article-slideshow .controls:before {
+    font-size: 25px; } }
 @media (max-width: 560px) {
   #top_header {
     margin-bottom: 320px; }
@@ -2476,7 +2561,14 @@ div.zabuto_calendar .badge-event {
     padding: 10px;
     border-radius: 3px; }
   .modal.slide-modal .footer {
-    margin-top: 25px; } }
+    margin-top: 25px; }
+
+  .article-slideshow .controls span {
+    width: 35px;
+    height: 35px;
+    top: 25%; }
+  .article-slideshow .controls:after, .article-slideshow .controls:before {
+    font-size: 18px; } }
 @media (max-width: 380px) {
   #top_header {
     margin-bottom: 300px; } }
