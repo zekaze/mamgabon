@@ -496,7 +496,12 @@ a:focus{
     }
   }
 }
-
+#bouton-edito{
+  display: inline-block;
+  margin: 40px 0;
+  padding: 20px;
+  background-color: $blue;
+}
 .flex-row{
   display: flex;
   flex-direction: row;

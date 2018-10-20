@@ -99,7 +99,7 @@ header{
     li{
       display: inline-block;
       vertical-align: top;
-      margin: 0 10px;
+      margin: 0 5px;
     }
   }
 
@@ -110,7 +110,7 @@ header{
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 8px;
     position: relative;
     @include transition(0.3s);
 
@@ -118,7 +118,7 @@ header{
     img{
       position: absolute;
       left: 50%;
-      padding: 15px;
+      padding: 15px 0;
       top: -82px;
       @include transition(0.3s);
       @include transform(translate(-50%,0));

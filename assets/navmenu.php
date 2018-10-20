@@ -84,6 +84,14 @@
                         <li><a href="articles.php">Articles</a></li>
                     </ul>
                 </li>
+                <li class="sub-menu"><span class="menu-item">BOUTIQUES <img src="src/img/boutiques.png" alt="Loisirs"></span>
+                    <ul>
+                        <li><a href="#">Sub menu 1</a></li>
+                        <li><a href="#">Sub menu 2</a></li>
+                        <li><a href="#">Sub menu 3</a></li>
+                        <li><a href="#">Sub menu 4</a></li>
+                    </ul>
+                </li>
                 <li class="sub-menu"><span class="menu-item">PARENTS <img src="src/img/parents.png" alt="Parents"></span>
                     <ul>
                         <li><a href="#">For mommy</a></li>

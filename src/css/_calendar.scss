@@ -47,6 +47,15 @@ div.zabuto_calendar {
     padding-bottom: 25px;
     border-bottom: solid 2px $orange;
     margin-bottom: 15px;
+    position: relative;
+  }
+  .event-count{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: rgba($gray, 0.5);
+    padding: 5px 10px;
+    color: #fff;
   }
   .event:last-child{
     margin: 0;
@@ -58,6 +67,7 @@ div.zabuto_calendar {
   .event_picture_frame{
     margin-bottom: 10px;
   }
+
   .event_location,
   .annonceur{
     font-style: italic;

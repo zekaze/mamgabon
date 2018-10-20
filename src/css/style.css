@@ -615,6 +615,12 @@ a:focus {
     color: #5c6468;
     font-family: "Open Sans", sans-serif; }
 
+#bouton-edito {
+  display: inline-block;
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #89b1d5; }
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -707,7 +713,7 @@ header {
   .nav-menu .main-menu li {
     display: inline-block;
     vertical-align: top;
-    margin: 0 10px; }
+    margin: 0 5px; }
   .nav-menu .menu-item {
     text-transform: uppercase;
     color: #5c6468;
@@ -715,7 +721,7 @@ header {
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 8px;
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -724,7 +730,7 @@ header {
     .nav-menu .menu-item img {
       position: absolute;
       left: 50%;
-      padding: 15px;
+      padding: 15px 0;
       top: -82px;
       -webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
@@ -1571,7 +1577,15 @@ div.zabuto_calendar .badge-event {
   .modal-content .event {
     padding-bottom: 25px;
     border-bottom: solid 2px #f39383;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    position: relative; }
+  .modal-content .event-count {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: rgba(92, 100, 104, 0.5);
+    padding: 5px 10px;
+    color: #fff; }
   .modal-content .event:last-child {
     margin: 0; }
   .modal-content .event_title {

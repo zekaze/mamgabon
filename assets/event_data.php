@@ -29,14 +29,14 @@ if(isset($_GET["event-data"]) && !empty($_GET["event-data"])){
 }
 
 $dates = array(
-    "2018-07-14" => array(
+    "2018-10-20" => array(
         array(
             "titre" => "Titre de l'événement 1",
             "ville" => "Libreville",
             "quartier" => "Angondje",
             "categorie" => "Cinéma",
             "lieu" => "L'Institut français du Gabon",
-            "photo_couverture" => "https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/30656512_1640560252718607_3635224169070276705_n.jpg?_nc_cat=0&oh=77374de791fbebb84b017074c2245163&oe=5B4FB868",
+            "photo_couverture" => "http://mamgabon.com/uploads/articles/5bc6f4b4480a0.jpg",
             "url" => "article.php"
         ),
         array(
@@ -45,18 +45,18 @@ $dates = array(
             "quartier" => "Angondje",
             "categorie" => "Concert",
             "lieu" => "L'Institut français du Gabon",
-            "photo_couverture" => "https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/31277589_1651529734954992_6658242169030714875_n.jpg?_nc_cat=0&oh=19dc7941e95d351f99d9c81380fe82aa&oe=5B95021D",
+            "photo_couverture" => "http://mamgabon.com/uploads/articles/5bc0b2d4372cb.jpg",
             "url" => "article.php"
         )
     ),
-    "2018-07-20" => array(
+    "2018-10-25" => array(
         array(
             "titre" => "Titre de l'événement 1",
             "ville" => "Libreville",
             "quartier" => "Angondje",
             "categorie" => "Exposition",
             "lieu" => "L'Institut français du Gabon",
-            "photo_couverture" => "https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/29186965_1610944632346836_3342431140360164448_n.jpg?_nc_cat=0&oh=9f8f46a7d12bd35b9e1fc1b7c7ad10d3&oe=5B9CD38D",
+            "photo_couverture" => "http://mamgabon.com/uploads/articles/5bc6f35e4ab59.jpg",
             "url" => "article.php"
         )
     )
@@ -87,6 +87,7 @@ foreach ($dates as $date => $events){
 
         $date_calendrier[$count]['body'] .= "<div class=\"event\">";
         $date_calendrier[$count]['body'] .= "<div class=\"article-category\">$categorie</div>";
+        $date_calendrier[$count]['body'] .= "<div class=\"event-count\">1 / 2</div>";
         $date_calendrier[$count]['body'] .= "<div class=\"event_title\">$titre</div>";
         $date_calendrier[$count]['body'] .= "<div class=\"event_location\">$quartier, $ville</div>";
         //if (client ==  premium, etc)
