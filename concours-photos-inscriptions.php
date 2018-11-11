@@ -47,75 +47,21 @@
 
 
                 </div>
-                <div class="module inscriptions">
-                    <div class="header">
-                        <h2 class="title text-center">Inscription</h2>
-                        <div class="inscription">
-                            Veuillez vous inscrire  pour pouvoir uploader votre photo. Cliquez<button id="regFormButton">ici pour vous inscrire.</button>
-                            <br>
-                            Déjà inscrit? Cliquez<button id="loginFormButton">ici pour vous identifier.</button>
-
-                            <div id="slick-forms">
-                                <div class="slide">
-                                    <form method="get" action="" id="registration-form">
-                                        <h3>S'inscrire</h3>
-                                        <div class="form-row">
-                                            <label>
-                                                <input class="form-input" type="text" name="" placeholder="Nom" required>
-                                            </label>
-                                        </div>
-                                        <div class="form-row">
-                                            <label>
-                                                <input class="form-input" type="email" name="" placeholder="Adresse mail" required>
-                                            </label>
-                                        </div>
-                                        <div class="form-row">
-                                            <label>
-                                                <input class="form-input" type="password" name="" placeholder="Mot de passe" required>
-                                            </label>
-                                        </div>
-                                        <div class="form-row">
-                                            <label>
-                                                <input type="checkbox" name="">
-                                                Cochez sur cette case si vous souhaitez recevoir notre newsletter à cette adresse
-                                            </label>
-
-                                        </div>
-                                        <button type="submit">S'inscrire</button>
-                                    </form>
-                                </div>
-                                <div class="slide img" style="background-image: url('https://image.shutterstock.com/z/stock-photo-close-up-portrait-of-surprised-african-kid-with-hand-on-face-little-girl-with-open-mouth-isolated-415812820.jpg')">
-                                    <div class="img">
-                                    </div>
-                                </div>
-
-                                <div class="slide">
-                                    <form method="get" action="" id="login-form">
-                                        <h3>S'identifier</h3>
-                                        <div class="form-row">
-                                            <label>
-                                                <input class="form-input" type="email" placeholder="Adresse mail" required>
-                                            </label>
-                                        </div>
-                                        <div class="form-row">
-                                            <label>
-                                                <input class="form-input" type="password" placeholder="Mot de passe" required>
-                                            </label>
-                                        </div>
-                                        <button type="submit">S'identifier</button>
-
-                                        <div style="padding: 15px 0">Mot de passe oublié? <a href="forgotten-password.php">Cliquez ici</a></div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="module formulaire-photos">
                     <h2>Choix de la photo</h2>
 
                     <form action="concours-photos-upload-success.php" enctype="multipart/form-data" id="formulaire-concours">
-                        <label for="image-form-field">Sélectionnez votre plus belle photo :)</label>
+                        <div class="row" style="margin-bottom: 10px">
+                            <div class="col-sm-6">
+                                <label for="input-name" class="hidden">Nom</label>
+                                <input type="text" id="input-name" placeholder="Votre nom" required>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="input-email" class="hidden">Email</label>
+                                <input type="text" id="input-email" placeholder="Adresse mail" required>
+                            </div>
+                        </div>
+                        <label id="image-form-field-label" for="image-form-field">Cliquez pour sélectionner votre plus belle photo :)</label>
                         <input type="file" id="image-form-field" name="photo-participant" accept="image/*" required >
                         <button type="submit" class="submit-button">Soumettre</button>
                         <button type="reset" class="reset-button">Annuler</button>

@@ -433,11 +433,7 @@ a:focus{
 }
 .error-message{
   display: block;
-  padding: 5px 0;
-  color: red;
-  font-style: italic;
-  font-size: 11px;
-  margin-bottom: 5px;
+  padding: 5px;
 }
 .no-result{
   padding: 40px 15px;
@@ -498,9 +494,22 @@ a:focus{
 }
 #bouton-edito{
   display: inline-block;
-  margin: 40px 0;
-  padding: 20px;
-  background-color: $blue;
+  padding: 10px 40px;
+  background: none;
+  color: $blue;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: $fontTitle;
+  border: solid 2px $light_gray;
+  @include animation(gradientFontColor 5s ease infinite alternate);
+  border-radius: 30px;
+  @include transition(0.5s);
+
+  &:hover{
+    background: #fff;
+    @include animation(gradientBackground 5s ease infinite alternate);
+
+  }
 }
 .flex-row{
   display: flex;

@@ -51,8 +51,8 @@
             </div>
         </div>
 </div>
-<div class="text-center">
-    <button data-toggle="modal" id="bouton-edito" data-target="#myModal">Voir l'édito du mois</button>
+<div class="text-center" style="margin: 50px 0">
+    <button data-toggle="modal" id="bouton-edito" data-target="#myModal">Voir l'édito du mois :)</button>
 </div>
 <?php include "assets/modal-welcome.php";?>
 <div class="section-title" data-animate="fadeInUp">
@@ -142,10 +142,10 @@
     </div>
 </div>
 <?php include "assets/footer.php";?>
-
+<!--
 <script>
     function showWelcomeModal() {
         $("#myModal").modal();
     }
     setTimeout(showWelcomeModal, 2000);
-</script>
+</script>-->

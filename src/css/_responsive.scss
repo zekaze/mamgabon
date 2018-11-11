@@ -546,10 +546,24 @@
   .article-slideshow{
 
     .controls{
+      display: none;
+      margin-bottom: 30px;
+
+      &.mobile-only{
+        overflow: hidden;
+        display: block;
+      }
       span{
-        width: 35px;
-        height: 35px;
-        top: 25%;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 3px;
+      }
+      .prev{
+        float: left;
+      }
+      .next{
+        float: right;
       }
       &:after,
       &:before{

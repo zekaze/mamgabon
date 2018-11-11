@@ -372,7 +372,7 @@ $(document).ready(function () {
 
     $(function () {
         var formulaire = $("#formulaire-concours"),
-            label = formulaire.find("label"),
+            label = formulaire.find("#image-form-field-label"),
             formField = formulaire.find("#image-form-field"),
             submitButton = formulaire.find(".submit-button"),
             resetButton = formulaire.find(".reset-button");
@@ -380,7 +380,7 @@ $(document).ready(function () {
         formField.change(function (e) {
             var fileName = e.target.files[0].name;
             if(e.target.files[0].length === 0){
-                label.text("Sélectionnez votre plus belle photo :)");
+                label.text("Cliquez pour sélectionner votre plus belle photo :)");
             }
             else {
                 label.text(fileName);
@@ -389,7 +389,7 @@ $(document).ready(function () {
         });
 
         resetButton.click(function () {
-            label.text("Sélectionnez votre plus belle photo :)");
+            label.text("Cliquez pour sélectionner votre plus belle photo :)");
             submitButton.css("opacity",0.2);
         })
     });

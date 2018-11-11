@@ -162,6 +162,19 @@
     border-color: rgba(243, 147, 131, 0.7); }
   100% {
     border-color: rgba(243, 147, 131, 0.7); } }
+@keyframes gradientFontColor {
+  0% {
+    color: rgba(137, 177, 213, 0.8);
+    border-color: rgba(137, 177, 213, 0.8); }
+  40% {
+    color: rgba(137, 177, 213, 0.8);
+    border-color: rgba(137, 177, 213, 0.8); }
+  60% {
+    color: rgba(243, 147, 131, 0.7);
+    border-color: rgba(243, 147, 131, 0.7); }
+  100% {
+    color: rgba(243, 147, 131, 0.7);
+    border-color: rgba(243, 147, 131, 0.7); } }
 *,
 *:focus {
   outline: none; }
@@ -565,11 +578,7 @@ a:focus {
 
 .error-message {
   display: block;
-  padding: 5px 0;
-  color: red;
-  font-style: italic;
-  font-size: 11px;
-  margin-bottom: 5px; }
+  padding: 5px; }
 
 .no-result {
   padding: 40px 15px;
@@ -617,9 +626,30 @@ a:focus {
 
 #bouton-edito {
   display: inline-block;
-  margin: 40px 0;
-  padding: 20px;
-  background-color: #89b1d5; }
+  padding: 10px 40px;
+  background: none;
+  color: #89b1d5;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: "deliusregular", sans-serif;
+  border: solid 2px #f2f2f2;
+  -webkit-animation: gradientFontColor 5s ease infinite alternate;
+  -moz-animation: gradientFontColor 5s ease infinite alternate;
+  -o-animation: gradientFontColor 5s ease infinite alternate;
+  -ms-animation: gradientFontColor 5s ease infinite alternate;
+  animation: gradientFontColor 5s ease infinite alternate;
+  border-radius: 30px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+  #bouton-edito:hover {
+    background: #fff;
+    -webkit-animation: gradientBackground 5s ease infinite alternate;
+    -moz-animation: gradientBackground 5s ease infinite alternate;
+    -o-animation: gradientBackground 5s ease infinite alternate;
+    -ms-animation: gradientBackground 5s ease infinite alternate;
+    animation: gradientBackground 5s ease infinite alternate; }
 
 .flex-row {
   display: flex;
@@ -1497,7 +1527,7 @@ footer {
     animation: floatingCloud_2 10s linear infinite alternate; }
   .formulaire-photos #image-form-field {
     display: none; }
-  .formulaire-photos label {
+  .formulaire-photos #image-form-field-label {
     font-weight: normal;
     display: block;
     font-family: "deliusregular", sans-serif;
@@ -1513,8 +1543,15 @@ footer {
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
-    .formulaire-photos label:hover {
+    .formulaire-photos #image-form-field-label:hover {
       background-color: #f2f2f2; }
+  .formulaire-photos #input-name,
+  .formulaire-photos #input-email {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: #5c6468; }
   .formulaire-photos button {
     border: none;
     padding: 10px 25px;
@@ -2577,12 +2614,23 @@ div.zabuto_calendar .badge-event {
   .modal.slide-modal .footer {
     margin-top: 25px; }
 
-  .article-slideshow .controls span {
-    width: 35px;
-    height: 35px;
-    top: 25%; }
-  .article-slideshow .controls:after, .article-slideshow .controls:before {
-    font-size: 18px; } }
+  .article-slideshow .controls {
+    display: none;
+    margin-bottom: 30px; }
+    .article-slideshow .controls.mobile-only {
+      overflow: hidden;
+      display: block; }
+    .article-slideshow .controls span {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      border-radius: 3px; }
+    .article-slideshow .controls .prev {
+      float: left; }
+    .article-slideshow .controls .next {
+      float: right; }
+    .article-slideshow .controls:after, .article-slideshow .controls:before {
+      font-size: 18px; } }
 @media (max-width: 380px) {
   #top_header {
     margin-bottom: 300px; } }

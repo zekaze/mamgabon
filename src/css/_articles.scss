@@ -472,7 +472,7 @@
   #image-form-field {
     display: none;
   }
-  label {
+  #image-form-field-label {
     font-weight: normal;
     display: block;
     font-family: $fontTitle;
@@ -490,6 +490,14 @@
       background-color: $light_gray;
     }
   }
+#input-name,
+#input-email{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: $gray;
+}
 
   button{
     border: none;
