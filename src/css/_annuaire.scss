@@ -21,7 +21,8 @@
     font-size: 15px;
     box-shadow: 0 0 5px rgba($gray,0.2),0 5px 5px $light_gray;
 
-    .contact-info{
+    .contact-info,
+    .image-frame{
       margin-bottom: 8px;
     }
     .info-col{
@@ -30,6 +31,9 @@
       &:last-child{
         margin-right: 0;
       }
+    }
+    .openings-info{
+      color: $orange;
     }
 
     .popup-galery{

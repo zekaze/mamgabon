@@ -26,8 +26,6 @@
                 </div>-->
                 <div class="liste-etablissements">
                     <?php //Etablissement avec informations basiques;?>
-
-                    <h2>**** Informations de base ****</h2>
                     <div class="etablissement">
                         <div class="row">
                             <div class="col-md-3">
@@ -54,8 +52,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <h2>**** Informations de base + paragraphe descriptif ****</h2>
                     <div class="etablissement">
                         <div class="row">
                             <div class="col-md-3">
@@ -71,10 +67,12 @@
                                     <span class="info-col">+241 06 03 03 40</span> <span class="info-col">+241 05 34 99 73</span>
                                 </div>
                                 <div class="contact-info"><a href="http://www.monsiteweb.com" target="_blank">www.monsiteweb.com</a></div>
+                                <div class="openings-info"><i class="fa fa-clock-o fa-lg"></i> Du lundi au vendredi</div>
                             </div>
                         </div>
                         <div class="contact-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut culpa deserunt ducimus in ipsa laboriosam libero minima nostrum perferendis, quae quasi repellat repudiandae sint soluta temporibus tenetur ut voluptate.
                         </div>
+
                         <div class="prestations">
                             <h5>Prestations</h5>
                             <span class="tag">Prestation 1</span>
@@ -84,8 +82,6 @@
                             <span class="tag">Prestation 5</span>
                         </div>
                     </div>
-
-                    <h2>**** Formule premium ****</h2>
                     <div class="etablissement">
                             <div class="row">
                                 <div class="col-md-8">
@@ -103,6 +99,7 @@
                                                 <span class="info-col">+241 06 03 03 40</span> <span class="info-col">+241 05 34 99 73</span>
                                             </div>
                                             <div class="contact-info"><a href="http://www.monsiteweb.com" target="_blank">www.monsiteweb.com</a></div>
+                                            <div class="openings-info"><i class="fa fa-clock-o fa-lg"></i> Du lundi au vendredi</div>
                                         </div>
                                     </div>
                                     <div class="contact-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut culpa deserunt ducimus in ipsa laboriosam libero minima nostrum perferendis, quae quasi repellat repudiandae sint soluta temporibus tenetur ut voluptate.

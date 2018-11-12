@@ -1855,13 +1855,16 @@ div.zabuto_calendar .badge-event {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   box-shadow: 0 0 5px rgba(92, 100, 104, 0.2), 0 5px 5px #f2f2f2; }
-  .liste-etablissements .etablissement .contact-info {
+  .liste-etablissements .etablissement .contact-info,
+  .liste-etablissements .etablissement .image-frame {
     margin-bottom: 8px; }
   .liste-etablissements .etablissement .info-col {
     display: inline-block;
     margin-right: 10px; }
     .liste-etablissements .etablissement .info-col:last-child {
       margin-right: 0; }
+  .liste-etablissements .etablissement .openings-info {
+    color: #f39383; }
   .liste-etablissements .etablissement .popup-galery a {
     display: block;
     position: relative;
