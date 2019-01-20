@@ -23,7 +23,10 @@ $(document).ready(function () {
         var self = $(this),
             button = self.find(".menu-item"),
             collapse = self.find("ul"),
+            megaMenu = self.find(".megamenu"),
+            megaMenuHeight = megaMenu.height(),
             maxHeight = collapse.height();
+
 
         button.click(function () {
             //console.log(maxHeight);
@@ -32,6 +35,7 @@ $(document).ready(function () {
             }
             else{
                 self.innerHeight(maxHeight + 70);
+                self.innerHeight(megaMenuHeight + 70);
             }
         });
     });
@@ -197,7 +201,9 @@ $(document).ready(function () {
         });
     }
 
-
+$("#form-section-2-trigger").click(function () {
+   $("#form-section-2").toggleClass("visible");
+});
 
     /*
     Minimize nav menu

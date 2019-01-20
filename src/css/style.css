@@ -175,6 +175,19 @@
   100% {
     color: rgba(243, 147, 131, 0.7);
     border-color: rgba(243, 147, 131, 0.7); } }
+@keyframes revealFormSection2 {
+  from {
+    -webkit-transform: translate(-100%, 0);
+    -moz-transform: translate(-100%, 0);
+    -o-transform: translate(-100%, 0);
+    -ms-transform: translate(-100%, 0);
+    transform: translate(-100%, 0); }
+  to {
+    -webkit-transform: translate(0%, 0);
+    -moz-transform: translate(0%, 0);
+    -o-transform: translate(0%, 0);
+    -ms-transform: translate(0%, 0);
+    transform: translate(0%, 0); } }
 *,
 *:focus {
   outline: none; }
@@ -731,19 +744,22 @@ header {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
-  .nav-menu .container {
-    width: auto; }
+  transition: all 0.3s ease-in-out;
+  /* .container{
+     width: auto;
+   }*/ }
   .nav-menu ul {
     list-style: none;
     margin: 0;
     padding: 0; }
     .nav-menu ul li {
       text-align: left; }
-  .nav-menu .main-menu li {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 5px; }
+  .nav-menu .main-menu {
+    position: relative; }
+    .nav-menu .main-menu li {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 5px; }
   .nav-menu .menu-item {
     text-transform: uppercase;
     color: #5c6468;
@@ -807,10 +823,82 @@ header {
         transition: all 0.3s ease-in-out; }
       .nav-menu .sub-menu li a:hover {
         border-color: #f39383; }
+  .nav-menu .sub-menu-lv2 {
+    position: relative;
+    width: 100%; }
   @media (min-width: 992px) {
     .nav-menu .sub-menu:hover > ul {
       display: block;
-      animation: navSlideDown 0.3s 1; } }
+      animation: navSlideDown 0.3s 1; }
+    .nav-menu .sub-menu-lv2 > ul {
+      display: block;
+      position: absolute;
+      right: 100%; } }
+
+.megamenu {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 25px 15px 15px 15px;
+  box-shadow: 0 0 3px #9aa8af; }
+
+.megamenu-parent {
+  position: initial !important; }
+
+@media (min-width: 992px) {
+  .megamenu-parent:hover > .megamenu {
+    animation: navSlideDown 0.3s 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start; } }
+.megamenu-col {
+  width: 30%; }
+
+.megamenu-image-link {
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding-bottom: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .megamenu-image-link:hover {
+    box-shadow: 0 3px #f39383; }
+  .megamenu-image-link img {
+    width: 100%;
+    margin-bottom: 15px; }
+  .megamenu-image-link .label {
+    color: #5c6468;
+    font-family: "deliusregular", sans-serif;
+    font-size: 18px;
+    font-weight: normal; }
+
+.sub-category-parent {
+  font-family: "deliusregular", sans-serif;
+  color: #5c6468;
+  font-size: 19px;
+  border-bottom: solid 1px #f39383;
+  padding-bottom: 5px;
+  margin-bottom: 5px; }
+
+.sub-category-children a {
+  display: block;
+  padding: 6px 0 5px;
+  color: #5c6468;
+  font-family: "Open Sans", sans-serif;
+  min-width: 250px;
+  border-bottom: solid 1px transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+.sub-category-children a:hover {
+  border-color: #f39383; }
 
 #navToggle {
   display: none;
@@ -1568,6 +1656,119 @@ footer {
     .formulaire-photos button.reset-button {
       background-color: #fff;
       color: #5c6468; }
+
+.formulaire-ateliers {
+  position: relative;
+  min-height: 300px;
+  margin: 30px 0 100px; }
+  .formulaire-ateliers h2 {
+    color: #f39383;
+    border-bottom: solid 2px #f2f2f2;
+    padding-bottom: 10px; }
+  .formulaire-ateliers .form-section-1,
+  .formulaire-ateliers .form-section-2 {
+    position: absolute;
+    z-index: 1;
+    min-height: 100%;
+    padding: 20px;
+    top: 60px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  .formulaire-ateliers .form-section-1 {
+    background-color: #f8f8f8;
+    width: 50%;
+    z-index: 2;
+    left: 0; }
+  .formulaire-ateliers .form-section-2 {
+    background-color: #f8f8f8;
+    border: solid 5px #f39383;
+    width: 50%;
+    display: none; }
+    .formulaire-ateliers .form-section-2 .button-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 15px; }
+      .formulaire-ateliers .form-section-2 .button-group button {
+        height: 40px;
+        width: 18%;
+        display: inline-block;
+        border: solid 2px #f39383;
+        background-color: #fff;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+        .formulaire-ateliers .form-section-2 .button-group button:hover {
+          border-color: #89b1d5; }
+        .formulaire-ateliers .form-section-2 .button-group button.active, .formulaire-ateliers .form-section-2 .button-group button.active:hover {
+          background-color: #f39383;
+          border-color: #f39383;
+          color: #fff; }
+  .formulaire-ateliers .details-enfants {
+    margin-bottom: 10px; }
+    .formulaire-ateliers .details-enfants .detail-enfant {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 15px 0;
+      border-bottom: solid 1px #e2e2e2; }
+    .formulaire-ateliers .details-enfants h5 {
+      font-weight: 700;
+      margin: 0; }
+    .formulaire-ateliers .details-enfants .select-input {
+      display: inline-block;
+      padding: 8px;
+      min-height: 30px;
+      border: solid 2px #c2c2c2; }
+      .formulaire-ateliers .details-enfants .select-input:first-child {
+        width: 30%; }
+      .formulaire-ateliers .details-enfants .select-input:last-child {
+        width: 65%; }
+  .formulaire-ateliers .form-section-2.visible {
+    display: block;
+    left: 50%;
+    -webkit-animation: revealFormSection2 0.5s linear;
+    -moz-animation: revealFormSection2 0.5s linear;
+    -o-animation: revealFormSection2 0.5s linear;
+    -ms-animation: revealFormSection2 0.5s linear;
+    animation: revealFormSection2 0.5s linear; }
+  .formulaire-ateliers h3 {
+    font-family: "deliusregular", sans-serif;
+    margin-top: 0; }
+  .formulaire-ateliers label {
+    display: block;
+    font-weight: normal; }
+  .formulaire-ateliers .form-input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border: none; }
+  .formulaire-ateliers #form-section-2-trigger {
+    position: relative;
+    background: #89b1d5;
+    display: block;
+    width: 100% !important;
+    padding: 8px;
+    border: none;
+    margin-top: 20px;
+    color: #fff; }
+    .formulaire-ateliers #form-section-2-trigger:after {
+      content: '\f105';
+      font-family: FontAwesome, sans-serif;
+      position: absolute;
+      right: 15px; }
+  .formulaire-ateliers button[type=submit] {
+    display: block;
+    width: 100%;
+    height: 35px;
+    border: none;
+    background-color: #f39383;
+    color: #fff;
+    margin-top: 20px; }
 
 #uploaded-photo img {
   display: block;
@@ -2503,7 +2704,24 @@ div.zabuto_calendar .badge-event {
     width: 100%; }
   .modal.slide-modal .flex-col.content {
     width: 100%;
-    padding: 25px; } }
+    padding: 25px; }
+
+  .formulaire-ateliers {
+    margin: 20px 0; }
+    .formulaire-ateliers .form-section-1,
+    .formulaire-ateliers .form-section-2 {
+      position: relative;
+      min-height: auto;
+      padding: 20px;
+      top: initial; }
+    .formulaire-ateliers .form-section-1 {
+      width: 100%; }
+    .formulaire-ateliers .form-section-2 {
+      width: 100%;
+      display: block;
+      border: none; }
+    .formulaire-ateliers #form-section-2-trigger {
+      display: none; } }
 @media (max-width: 640px) {
   #top_header {
     margin-bottom: 350px; }

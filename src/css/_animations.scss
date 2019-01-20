@@ -120,3 +120,11 @@
   }
 }
 
+@keyframes revealFormSection2 {
+  from{
+    @include transform(translate(-100%,0));
+  }
+  to{
+    @include transform(translate(0%,0));
+  }
+}

@@ -49,7 +49,7 @@
     <button id="navToggle" class="fa fa-bars fa-2x"></button>
 
     <nav id="main-menu" class="nav-menu">
-        <div class="container-fluid">
+        <div class="container">
             <ul class="main-menu">
                 <li><a href="index.php"><span class="menu-item active">ACCUEIL <img src="src/img/home.png" alt="Accueil"></span></a></li>
                 <li class="sub-menu"><span class="menu-item">EDUCATION <img src="src/img/education.png" alt="Education"></span>
@@ -79,6 +79,7 @@
                 <li class="sub-menu"><span class="menu-item">LOISIRS <img src="src/img/loisirs.png" alt="Loisirs"></span>
                     <ul>
                         <li><a href="#">Play spaces</a></li>
+                        <li><a href="ateliers.php">Ateliers</a></li>
                         <li class="sub-menu-lv2">
                             <span class="menu-label">Birthday Party Planning</span>
                             <ul>
@@ -92,13 +93,27 @@
                         <li><a href="articles.php">Articles</a></li>
                     </ul>
                 </li>
-                <li class="sub-menu"><span class="menu-item">BOUTIQUES <img src="src/img/boutiques.png" alt="Loisirs"></span>
-                    <ul>
-                        <li><a href="#">Sub menu 1</a></li>
-                        <li><a href="#">Sub menu 2</a></li>
-                        <li><a href="#">Sub menu 3</a></li>
-                        <li><a href="#">Sub menu 4</a></li>
-                    </ul>
+                <li class="sub-menu megamenu-parent"><span class="menu-item">BOUTIQUES <img src="src/img/boutiques.png" alt="Loisirs"></span>
+                    <div class="megamenu">
+                        <div class="megamenu-col">
+                            <a href="#" class="megamenu-image-link"><img src="https://pictures.digitalrev.com/image/upload/w_1400,c_fill,q_60/v1462266655/en5xxtno1tyautirprzk.jpg" alt="image" class=" img-responsive">
+                            <span class="label">Label</span></a>
+                        </div>
+
+                        <div class="megamenu-col">
+                            <a href="#" class="megamenu-image-link"><img src="https://pictures.digitalrev.com/image/upload/w_1400,c_fill,q_60/v1462266655/en5xxtno1tyautirprzk.jpg" alt="image" class=" img-responsive">
+                            <span class="label">Label</span></a>
+                        </div>
+
+                        <div class="megamenu-col">
+                            <div class="sub-category-parent">Resources for parents</div>
+                            <div class="sub-category-children">
+                                <a href="#">Sub item 1</a>
+                                <a href="#">Sub item 2</a>
+                                <a href="#">Sub item 3</a>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li class="sub-menu"><span class="menu-item">PARENTS <img src="src/img/parents.png" alt="Parents"></span>
                     <ul>

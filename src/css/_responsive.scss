@@ -12,7 +12,7 @@
   body{
     padding-bottom: 830px;
   }
-  //navbar ovveride
+  //navbar override
   .navbar-nav{
     float: none;
     text-align: center;
@@ -182,16 +182,12 @@
 }
 
 @media (max-width: 768px){
-
   body{
     padding-bottom: 430px;
   }
-
   #top_header{
     margin-bottom: 400px;
   }
-
-
   .lang_menu,
   .top_nav_bar.mobile-only .lang_menu{
     a{
@@ -201,12 +197,10 @@
       }
     }
   }
-
   .article-title{
     font-size: 30px;
     margin-bottom: 25px;
   }
-
   .hero-image{
     height: auto;
     overflow: visible;
@@ -218,7 +212,6 @@
       @include transform(translate(0,0));
     }
   }
-
   .section-title{
     h2, h3,
     h1{
@@ -266,7 +259,6 @@
       }
     }
   }
-
   .liste-etablissements{
     .etablissement{
 
@@ -277,7 +269,6 @@
       }
     }
   }
-
   #search_result_evenements,
   .evenement-mois{
     margin-top: 50px;
@@ -301,7 +292,6 @@
       }
     }
   }
-
   .carousel{
     .controls{
       span{
@@ -323,12 +313,10 @@
       }
     }
   }
-
   .grid-sizer,
   .grid-item{
     width: 33.333%;
   }
-
   #menu-mois{
     padding: 10px 50px 10px 5px;
     &.fixed{
@@ -347,8 +335,6 @@
       }
     }
   }
-
-
   .modal.slide-modal{
     .flex-row{
       display: block;
@@ -360,6 +346,27 @@
     .flex-col.content{
       width: 100%;
       padding: 25px;
+    }
+  }
+  .formulaire-ateliers{
+    margin: 20px 0;
+    .form-section-1,
+    .form-section-2{
+      position: relative;
+      min-height: auto;
+      padding: 20px;
+      top: initial;
+    }
+    .form-section-1{
+      width: 100%;
+    }
+    .form-section-2{
+      width: 100%;
+      display: block;
+      border: none;
+    }
+    #form-section-2-trigger{
+      display: none;
     }
   }
 }
