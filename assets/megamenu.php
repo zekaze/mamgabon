@@ -17,7 +17,7 @@
                 </ul>
             </li>
             <li class="link_space"></li>
-            <li><a href="#" class="search-toggle">Rechercher &nbsp; <i class="fa fa-search"></i></a></li>
+            <li><a href="#" class="search-toggle">Rechercher  <i class="fa fa-search"></i></a></li>
             <li class="link_space"></li>
             <li><a href="annonceurs.php">Espace annonceurs</a></li>
             <li><a href="contact.php">Contact</a></li>
@@ -76,52 +76,61 @@
                         <li><a href="articles.php">Articles</a></li>
                     </ul>
                 </li>
-                <li class="sub-menu"><span class="menu-item">LOISIRS <img src="src/img/loisirs.png" alt="Loisirs"></span>
+                <li class="sub-menu megamenu-parent"><span class="menu-item">LOISIRS <img src="src/img/loisirs.png" alt="Loisirs"></span>
+                    <div class="megamenu">
+                        <div class="megamenu-col">
+                            <a href="#" class="megamenu-image-link"><img src="src/img/play-spaces.jpg" alt="image" class=" img-responsive">
+                                <span class="label">Play spaces</span></a>
+                        </div>
+
+                        <div class="megamenu-col">
+                            <a href="#" class="megamenu-image-link"><img src="src/img/tourism.jpg" alt="image" class=" img-responsive">
+                                <span class="label">Tourism / Travel</span></a>
+                        </div>
+
+                        <div class="megamenu-col">
+                            <div class="sub-category-parent">Birthday Party Planning</div>
+                            <div class="sub-category-children">
+                                <a href="#">Party supplies</a>
+                                <a href="#">Event spaces</a>
+                                <a href="#">Cake</a>
+                                <a href="#">Extras</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="sub-menu"><span class="menu-item">BOUTIQUES <img src="src/img/boutiques.png" alt="Loisirs"></span>
                     <ul>
                         <li><a href="#">Play spaces</a></li>
                         <li><a href="ateliers.php">Ateliers</a></li>
-                        <li class="sub-menu-lv2">
-                            <span class="menu-label">Birthday Party Planning</span>
-                            <ul>
-                                <li><a href="#">Party Supplies</a></li>
-                                <li><a href="#">Party Supplies</a></li>
-                                <li><a href="#">Party Supplies</a></li>
-                                <li><a href="#">Party Supplies</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="#">Party Supplies</a></li>
+                        <li><a href="#">Party Supplies</a></li>
+                        <li><a href="#">Party Supplies</a></li>
+                        <li><a href="#">Party Supplies</a></li>
                         <li><a href="#">Tourism/Travel</a></li>
                         <li><a href="articles.php">Articles</a></li>
                     </ul>
                 </li>
-                <li class="sub-menu megamenu-parent"><span class="menu-item">BOUTIQUES <img src="src/img/boutiques.png" alt="Loisirs"></span>
+                <li class="sub-menu megamenu-parent"><span class="menu-item">PARENTS <img src="src/img/parents.png" alt="Parents"></span>
                     <div class="megamenu">
                         <div class="megamenu-col">
-                            <a href="#" class="megamenu-image-link"><img src="https://pictures.digitalrev.com/image/upload/w_1400,c_fill,q_60/v1462266655/en5xxtno1tyautirprzk.jpg" alt="image" class=" img-responsive">
-                            <span class="label">Label</span></a>
+                            <a href="#" class="megamenu-image-link"><img src="src/img/for-mommy.jpg" alt="image" class=" img-responsive">
+                                <span class="label">For mommy</span></a>
                         </div>
 
                         <div class="megamenu-col">
-                            <a href="#" class="megamenu-image-link"><img src="https://pictures.digitalrev.com/image/upload/w_1400,c_fill,q_60/v1462266655/en5xxtno1tyautirprzk.jpg" alt="image" class=" img-responsive">
-                            <span class="label">Label</span></a>
+                            <a href="#" class="megamenu-image-link"><img src="src/img/for-daddy.jpg" alt="image" class=" img-responsive">
+                                <span class="label">For daddy</span></a>
                         </div>
 
                         <div class="megamenu-col">
                             <div class="sub-category-parent">Resources for parents</div>
                             <div class="sub-category-children">
-                                <a href="#">Sub item 1</a>
-                                <a href="#">Sub item 2</a>
-                                <a href="#">Sub item 3</a>
+                                <a href="#">Financial resources</a>
+                                <a href="#">Lifestyle</a>
                             </div>
                         </div>
                     </div>
-                </li>
-                <li class="sub-menu"><span class="menu-item">PARENTS <img src="src/img/parents.png" alt="Parents"></span>
-                    <ul>
-                        <li><a href="#">For mommy</a></li>
-                        <li><a href="#">Daddy & Me</a></li>
-                        <li><a href="#">Ressources pour parents</a></li>
-                        <li><a href="articles.php">Articles</a></li>
-                    </ul>
                 </li>
                 <li class="sub-menu"><span class="menu-item">CARITATIVES <img src="src/img/caritatives.png" alt="Oeuvres caritatives"></span>
                     <ul>

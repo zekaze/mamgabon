@@ -2522,10 +2522,61 @@ div.zabuto_calendar .badge-event {
       -moz-transition: all 0.3s ease-in-out;
       -o-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out; }
-      .nav-menu .sub-menu ul {
+      .nav-menu .sub-menu ul, .nav-menu .sub-menu .megamenu {
         display: block;
         position: relative;
         background: none; }
+      .nav-menu .sub-menu .megamenu {
+        box-shadow: none;
+        padding: 0; }
+        .nav-menu .sub-menu .megamenu .megamenu-col {
+          width: 100%; }
+
+  .megamenu-image-link {
+    text-align: left;
+    padding: 6px 0 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .megamenu-image-link:hover {
+      box-shadow: none; }
+    .megamenu-image-link img {
+      display: none; }
+    .megamenu-image-link .label {
+      color: #5c6468;
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      padding: 6px 0 5px; }
+
+  .sub-category-parent {
+    font-family: "deliusregular", sans-serif;
+    color: #5c6468;
+    font-size: 16px;
+    border-bottom: solid 1px #f2f2f2;
+    padding: 6px 0 5px;
+    margin-bottom: 5px; }
+
+  .sub-category-children a {
+    display: block;
+    padding: 6px 0 5px 15px;
+    color: #5c6468;
+    font-family: "Open Sans", sans-serif;
+    min-width: 250px;
+    border-bottom: solid 1px transparent;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .sub-category-children a:before {
+      content: "\f105";
+      font-family: FontAwesome, sans-serif;
+      position: absolute;
+      left: 0;
+      color: #c3c3c3; }
+  .sub-category-children a:hover {
+    border-color: #f39383; }
 
   .nav-menu.visible {
     -webkit-transform: translate(100%, 0);
