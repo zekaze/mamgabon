@@ -490,13 +490,13 @@
       background-color: $light_gray;
     }
   }
-#input-name,
-#input-email{
+.photo-form-input{
   display: block;
   width: 100%;
   padding: 10px;
   border: none;
   color: $gray;
+  margin-bottom: 10px;
 }
 
   button{

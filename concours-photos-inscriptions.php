@@ -53,12 +53,22 @@
                     <form action="concours-photos-upload-success.php" enctype="multipart/form-data" id="formulaire-concours">
                         <div class="row" style="margin-bottom: 10px">
                             <div class="col-sm-6">
-                                <label for="input-name" class="hidden">Nom</label>
-                                <input type="text" id="input-name" placeholder="Votre nom" required>
+                                <label for="input-lname" class="hidden">Nom</label>
+                                <input type="text" class="photo-form-input" id="input-lname" placeholder="Votre nom" required>
                             </div>
                             <div class="col-sm-6">
+                                <label for="input-fname" class="hidden">Prénom</label>
+                                <input type="text" class="photo-form-input" id="input-fname" placeholder="Votre prénom" required>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10px">
+                            <div class="col-sm-6">
                                 <label for="input-email" class="hidden">Email</label>
-                                <input type="text" id="input-email" placeholder="Adresse mail" required>
+                                <input type="text" class="photo-form-input" id="input-email" placeholder="Adresse mail" required>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="input-tel" class="hidden">Nom</label>
+                                <input type="text" class="photo-form-input" id="input-tel" placeholder="Téléphone" required>
                             </div>
                         </div>
                         <label id="image-form-field-label" for="image-form-field">Cliquez pour sélectionner votre plus belle photo :)</label>

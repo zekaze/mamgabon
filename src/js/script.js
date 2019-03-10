@@ -121,13 +121,21 @@ $(document).ready(function () {
         ]
     });
 
-    $('.slick-articles').slick({
-        slidesToShow: 1,
-        autoplay: false,
-        infinite: false,
-        draggable: false,
-        nextArrow: slickNext,
-        prevArrow: slickPrev
+    $('.article-slideshow').each(function () {
+
+       var self = $(this),
+           slideshow = self.find(".slick-articles"),
+           slickPrev = self.find(".prev"),
+           slickNext = self.find(".next");
+
+       slideshow.slick({
+           slidesToShow: 1,
+           autoplay: false,
+           infinite: false,
+           draggable: false,
+           nextArrow: slickNext,
+           prevArrow: slickPrev
+       });
     });
 
     var $animation_elements = jQuery('*[data-animate]'),

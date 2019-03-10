@@ -25,6 +25,7 @@
                     nostrud exerci tation ullamcorper suscipit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, minus, possimus. Architecto deserunt doloremque eaque esse, expedita iure maxime nihil numquam odio possimus provident quam, quod ratione rem saepe voluptas!
 
                 <?php include "assets/article-slideshow.php";?>
+                <?php include "assets/article-slideshow.php";?>
 
             </div>
             <!--end of article body-->

@@ -1005,7 +1005,7 @@ header.fixed {
     header.fixed #logo_bar .slogan {
       display: none; }
     header.fixed #logo_bar img {
-      height: 100px; }
+      height: 120px; }
   header.fixed .nav-menu {
     margin-top: 0; }
     header.fixed .nav-menu .menu-item {
@@ -1633,13 +1633,13 @@ footer {
     transition: all 0.3s ease-in-out; }
     .formulaire-photos #image-form-field-label:hover {
       background-color: #f2f2f2; }
-  .formulaire-photos #input-name,
-  .formulaire-photos #input-email {
+  .formulaire-photos .photo-form-input {
     display: block;
     width: 100%;
     padding: 10px;
     border: none;
-    color: #5c6468; }
+    color: #5c6468;
+    margin-bottom: 10px; }
   .formulaire-photos button {
     border: none;
     padding: 10px 25px;
